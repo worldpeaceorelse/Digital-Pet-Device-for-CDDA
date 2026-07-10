@@ -1,0 +1,672 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_FLUSH",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_FLUSH_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_mess_count = 0"
+                ]
+              },
+              {
+                "math": [
+                  "n_potty_timer = 2"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_mess_count = n_mess_count"
+                ]
+              },
+              {
+                "u_message": "You clean up after your digital pet. It looks relieved!",
+                "type": "good"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TRAIN_ATK",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_TRAIN_ATK_ITEM",
+            "effect": [
+              {
+                "if": { "math": [ "n_stamina < 20" ] },
+                "then": [
+                  { "u_message": "Your pet is too tired to train! Wait for stamina to regenerate.", "type": "bad" },
+                  { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
+                ],
+                "else": [
+                  { "math": [ "n_pet_atk = n_pet_atk + 1" ] },
+                  { "math": [ "n_pet_hunger = n_pet_hunger - 10" ] },
+                  { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+                  { "math": [ "u_pet_atk = n_pet_atk" ] },
+                  { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
+                  { "math": [ "u_pet_stamina = n_stamina" ] },
+                  { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+                  {
+                    "set_string_var": "Your monster's attack increased! (ATK: <u_val:pet_atk>)",
+                    "target_var": { "u_val": "train_msg" },
+                    "parse_tags": true
+                  },
+                  { "u_message": { "u_val": "train_msg" } }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TRAIN_DEF",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_TRAIN_DEF_ITEM",
+            "effect": [
+              {
+                "if": { "math": [ "n_stamina < 20" ] },
+                "then": [
+                  { "u_message": "Your pet is too tired to train! Wait for stamina to regenerate.", "type": "bad" },
+                  { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
+                ],
+                "else": [
+                  { "math": [ "n_pet_def = n_pet_def + 1" ] },
+                  { "math": [ "n_pet_hunger = n_pet_hunger - 7" ] },
+                  { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+                  { "math": [ "u_pet_def = n_pet_def" ] },
+                  { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
+                  { "math": [ "u_pet_stamina = n_stamina" ] },
+                  { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+                  {
+                    "set_string_var": "Your monster's defense increased! (DEF: <u_val:pet_def>)",
+                    "target_var": { "u_val": "train_msg" },
+                    "parse_tags": true
+                  },
+                  { "u_message": { "u_val": "train_msg" } }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TRAIN_INT",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_TRAIN_INT_ITEM",
+            "effect": [
+              {
+                "if": { "math": [ "n_stamina < 20" ] },
+                "then": [
+                  { "u_message": "Your pet is too tired to train! Wait for stamina to regenerate.", "type": "bad" },
+                  { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
+                ],
+                "else": [
+                  { "math": [ "n_pet_int = n_pet_int + 1" ] },
+                  { "math": [ "n_pet_hunger = n_pet_hunger - 3" ] },
+                  { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+                  { "math": [ "u_pet_int = n_pet_int" ] },
+                  { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
+                  { "math": [ "u_pet_stamina = n_stamina" ] },
+                  { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+                  {
+                    "set_string_var": "Your monster's intelligence increased! (INT: <u_val:pet_int>)",
+                    "target_var": { "u_val": "train_msg" },
+                    "parse_tags": true
+                  },
+                  { "u_message": { "u_val": "train_msg" } }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TRAIN_AGI",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_TRAIN_AGI_ITEM",
+            "effect": [
+              {
+                "if": { "math": [ "n_stamina < 20" ] },
+                "then": [
+                  { "u_message": "Your pet is too tired to train! Wait for stamina to regenerate.", "type": "bad" },
+                  { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
+                ],
+                "else": [
+                  { "math": [ "n_pet_agi = n_pet_agi + 1" ] },
+                  { "math": [ "n_pet_hunger = n_pet_hunger - 5" ] },
+                  { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+                  { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
+                  { "math": [ "u_pet_stamina = n_stamina" ] },
+                  { "math": [ "u_pet_agi = n_pet_agi" ] },
+                  { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+                  {
+                    "set_string_var": "Your monster's agility increased! (AGI: <u_val:pet_agi>)",
+                    "target_var": { "u_val": "train_msg" },
+                    "parse_tags": true
+                  },
+                  { "u_message": { "u_val": "train_msg" } }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TRAIN_LUCK",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_TRAIN_LUCK_ITEM",
+            "effect": [
+              {
+                "if": { "math": [ "n_stamina < 20" ] },
+                "then": [
+                  { "u_message": "Your pet is too tired to train! Wait for stamina to regenerate.", "type": "bad" },
+                  { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
+                ],
+                "else": [
+                  { "math": [ "n_pet_luck = n_pet_luck + 1" ] },
+                  { "math": [ "n_pet_hunger = n_pet_hunger - 1" ] },
+                  { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+                  { "math": [ "u_pet_luck = n_pet_luck" ] },
+                  { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
+                  { "math": [ "u_pet_stamina = n_stamina" ] },
+                  { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+                  {
+                    "set_string_var": "Your monster's luck increased! (LUCK: <u_val:pet_luck>)",
+                    "target_var": { "u_val": "train_msg" },
+                    "parse_tags": true
+                  },
+                  { "u_message": { "u_val": "train_msg" } }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_FEED",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_FEED_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_pet_hunger = n_pet_hunger + 10"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_happiness = n_pet_happiness + 1"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_hunger_num = n_pet_hunger"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_happy_num = n_pet_happiness"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_weight = n_pet_weight + 2"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 90"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Well fed!",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 76"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Satisfied",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 51"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Peckish",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Starving",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger < 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Near death",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 90"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Ecstatic!",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 76"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Happy",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 51"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Content",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Lonely",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness < 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Miserable",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "u_message": "You fed your digital pet. It looks happy!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_PLAY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_PLAY_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_pet_happiness = n_pet_happiness + 15"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_hunger = n_pet_hunger - 5"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_hunger_num = n_pet_hunger"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_happy_num = n_pet_happiness"
+                ]
+              },
+              {
+                "math": [
+                  "n_pet_weight = max(n_pet_weight - 1, 0)"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 90"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Well fed!",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 76"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Satisfied",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 51"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Peckish",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger >= 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Starving",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_hunger < 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Near death",
+                  "target_var": {
+                    "u_val": "pet_hunger_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 90"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Ecstatic!",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 76"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Happy",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 51"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Content",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness >= 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Lonely",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_pet_happiness < 21"
+                  ]
+                },
+                "then": {
+                  "set_string_var": "Miserable",
+                  "target_var": {
+                    "u_val": "pet_happy_desc"
+                  }
+                }
+              },
+              {
+                "u_message": "You play with your digital pet. It's having a great time!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

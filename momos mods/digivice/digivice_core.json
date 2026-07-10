@@ -1,0 +1,196 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_OPEN_MENU",
+    "effect": [
+      { "math": [ "u_selected_pet_uid = n_pet_uid" ] },
+      { "math": [ "u_pet_stage = n_pet_stage" ] },
+      { "math": [ "u_pet_atk = n_pet_atk" ] },
+      { "math": [ "u_pet_def = n_pet_def" ] },
+      { "math": [ "u_pet_int = n_pet_int" ] },
+      { "math": [ "u_pet_agi = n_pet_agi" ] },
+	  { "math": [ "u_pet_weight = n_pet_weight" ] },
+{ "math": [ "u_pet_stamina = n_stamina" ] },
+{ "math": [ "u_pet_max_stamina = n_max_stamina" ] },
+{ "math": [ "u_pet_mess_count = n_mess_count" ] },
+{ "math": [ "u_pet_care_mistakes = n_care_mistakes" ] },
+      { "math": [ "u_tournament_wins = u_tournament_wins" ] },
+      { "math": [ "u_tournament_losses = u_tournament_losses" ] },
+      { "math": [ "u_tournament_championships = u_tournament_championships" ] },
+      { "math": [ "u_pet_luck = n_pet_luck" ] },
+      { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+      { "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS" },
+      { "open_dialogue": { "topic": "DIGIVICE_MAIN_MENU" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_HUNGER_STATUS",
+    "effect": [
+      { "math": [ "u_pet_hunger_num = n_pet_hunger" ] },
+      {
+        "if": { "math": [ "n_pet_hunger >= 90" ] },
+        "then": { "set_string_var": "Well fed!", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 76" ] },
+            { "math": [ "n_pet_hunger < 90" ] }
+          ]
+        },
+        "then": { "set_string_var": "Satisfied", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 51" ] },
+            { "math": [ "n_pet_hunger < 76" ] }
+          ]
+        },
+        "then": { "set_string_var": "Peckish", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 21" ] },
+            { "math": [ "n_pet_hunger < 51" ] }
+          ]
+        },
+        "then": { "set_string_var": "Starving", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": { "math": [ "n_pet_hunger < 21" ] },
+        "then": { "set_string_var": "Near death", "target_var": { "u_val": "pet_hunger_desc" } }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_HAPPY_STATUS",
+    "effect": [
+      { "math": [ "u_pet_happy_num = n_pet_happiness" ] },
+      {
+        "if": { "math": [ "n_pet_happiness >= 90" ] },
+        "then": { "set_string_var": "Ecstatic!", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 76" ] },
+            { "math": [ "n_pet_happiness < 90" ] }
+          ]
+        },
+        "then": { "set_string_var": "Happy", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 51" ] },
+            { "math": [ "n_pet_happiness < 76" ] }
+          ]
+        },
+        "then": { "set_string_var": "Content", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 21" ] },
+            { "math": [ "n_pet_happiness < 51" ] }
+          ]
+        },
+        "then": { "set_string_var": "Lonely", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": { "math": [ "n_pet_happiness < 21" ] },
+        "then": { "set_string_var": "Miserable", "target_var": { "u_val": "pet_happy_desc" } }
+      }
+    ]
+  },
+  {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_TICK_ITEM",
+  "effect": [
+    { "math": [ "n_pet_hunger = n_pet_hunger - 10" ] },
+    { "math": [ "n_pet_happiness = n_pet_happiness - 5" ] },
+    { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+    { "math": [ "n_pet_happiness = clamp(n_pet_happiness, 0, 100)" ] },
+
+    { "math": [ "n_potty_timer = n_potty_timer - 1" ] },
+    {
+      "if": { "math": [ "n_potty_timer <= 0" ] },
+      "then": [
+        { "math": [ "n_mess_count = n_mess_count + 1" ] },
+        { "math": [ "n_potty_timer = 2" ] },
+        {
+          "if": { "math": [ "n_mess_count > 4" ] },
+          "then": [
+            { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] },
+            { "math": [ "n_mess_count = 4" ] }
+          ]
+        }
+      ]
+    },
+
+    { "math": [ "n_stamina = min(n_stamina + 10, n_max_stamina)" ] },
+
+    {
+      "if": { "math": [ "n_pet_hunger < 20" ] },
+      "then": { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] }
+    },
+    {
+      "if": { "math": [ "n_pet_happiness < 20" ] },
+      "then": { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] }
+    },
+
+    {
+      "if": {
+        "and": [
+          { "math": [ "n_pet_hunger < 10" ] },
+          { "math": [ "n_pet_happiness < 10" ] }
+        ]
+      },
+      "then": { "math": [ "n_pet_death_timer = n_pet_death_timer + 1" ] },
+      "else": { "math": [ "n_pet_death_timer = 0" ] }
+    },
+    { "math": [ "n_pet_death_timer = min(n_pet_death_timer, 24)" ] },
+    {
+      "if": { "math": [ "n_pet_death_timer >= 24" ] },
+      "then": [
+        { "u_message": "Your digital pet has died from days of neglect...", "type": "bad" },
+        { "transform_item": "vpetmonster01_egg" }
+      ]
+    },
+    { "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE" }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_TICK_RECURRING",
+  "recurrence": 3600,
+  "global": false,
+  "effect": [
+    {
+      "u_run_inv_eocs": "all",
+      "search_data": [ { "flags": [ "DIGIVICE" ] } ],
+      "true_eocs": [ "EOC_DIGIVICE_TICK_ITEM" ]
+    }
+  ]
+},
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_COUNTER",
+    "effect": [
+      { "math": [ "global_pet_counter = 1" ] }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_ON_GAME_START",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [
+      { "run_eocs": "EOC_DIGIVICE_INIT_COUNTER" }
+    ]
+  }
+]

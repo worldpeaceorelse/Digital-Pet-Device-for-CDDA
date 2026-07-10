@@ -1,0 +1,535 @@
+[
+  {
+    "id": "vpetmonster01_egg",
+    "type": "ITEM",
+    "category": "other",
+    "name": { "str": "digital pet (egg)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Displayed on the screen is an digital egg! It's pulsing with life. Something is growing inside... Press 'a' to interact.",
+    "weight": "70 g",
+    "volume": "35 ml",
+    "longest_side": "7 cm",
+    "price": "70 USD",
+    "price_postapoc": "150 USD",
+    "material": [ "plastic" ],
+    "symbol": "0",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Choose an egg!",
+        "description": "There are many different eggs to choose from! ♥ ",
+        "effect_on_conditions": [ "EOC_DIGIVICE_SELECT_EGG" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_base",
+    "type": "ITEM",
+    "category": "other",
+    "name": { "str": "digital pet device" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Press 'a' to interact.",
+    "weight": "70 g",
+    "volume": "35 ml",
+    "longest_side": "7 cm",
+    "price": "70 USD",
+    "price_postapoc": "150 USD",
+    "material": [ "plastic" ],
+    "symbol": "0",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01t",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet device" },
+    "description": "Your pet has evolved into a stronger form!",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Terramon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a rocky, earth-toned monster with a sturdy shell and a gentle, loyal nature.",
+    "symbol": "d",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_navy",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Crescentmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a wise, owl-like creature with crescent moon markings and calm, knowing eyes.",
+    "symbol": "d",
+    "color": "blue",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_black",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Obsidianmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a shadowy, sleek beast with a smooth, metallic body and a cool, confident presence.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_brick",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Rampagemon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a muscular, dinosaur-like monster with brick-colored scales and a fiery, unstoppable will.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_navy_english",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Elegantmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an elegant, aristocratic monster wearing a tiny monocle, speaking in riddles and proper etiquette.",
+    "symbol": "d",
+    "color": "light_blue",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Angelmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a pure white, angelic creature with soft feathers and a warm, healing glow about it.",
+    "symbol": "d",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_metal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Mechamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cyborg monster with gleaming silver armor and a core that hums with high-tech energy.",
+    "symbol": "d",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_dino",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Primalmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a primordial, reptilian monster with jagged teeth and a primal instinct for the hunt.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_diagonal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Voltmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a zippy, electric creature with jittery movements and an infectious, hyperactive energy.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_graffiti",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Punkmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a punk rock monster with a spiked collar, its body covered in wild, animated splashes of color.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_fiery",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Blazemon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a passionate, phoenix-like monster wreathed in digital flames, its crest burning bright.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_lunar",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Selamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a serene, rabbit-like monster with a silver moon symbol on its forehead, calm and elusive.",
+    "symbol": "d",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_logo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Streamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a sleek, futuristic monster with sharp, angular data-stream patterns etched into its form.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_pixel",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Pixelmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute, chubby monster with a pixelated heart on its chest, overflowing with affection.",
+    "symbol": "d",
+    "color": "pink",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_tiedye",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Trippymon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a free-spirited, hippy monster with shifting rainbow patterns and a mellow, happy-go-lucky vibe.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_neon",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Neonmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a glowing, aggressive beast that pulses with a furious, blinding red light.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_darkcamo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Stealthmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a mysterious, tactical creature that seems to vanish into the shadows, its form barely visible.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_glow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Lumimon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a ghostly, ethereal being that emits a soft, gentle light from within, leaving a trail of sparkles.",
+    "symbol": "d",
+    "color": "cyan",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_trans_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Crystalamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a crystalline monster made of clear, green data, its body refracting light into rainbows.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_trans_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Aquamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a fluid, aquatic monster that ripples and flows like water, constantly shifting its shape.",
+    "symbol": "d",
+    "color": "cyan",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_purple_ice",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Frostmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cold, stoic monster with ice-like spikes and a deep, frosty purple hue, exuding chill.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_graffiti_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Splattermon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an expressive, artistic monster covered in energetic, animated graffiti tags.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_paw",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Loyalmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a loyal, wolf-like monster with soft digital fur and a deep, protective instinct.",
+    "symbol": "d",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_golden",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Blademon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a holy, knightly monster wielding shimmering golden blades, swift and righteous.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_trans_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Embermon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a warm, cozy monster like a living campfire, its body a flickering, semi-transparent orange.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_trans_neon",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Zapmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a radical, energetic monster with a bright, glowing green form that looks full of electric life.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  }
+]
