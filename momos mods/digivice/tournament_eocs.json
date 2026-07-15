@@ -16,26 +16,33 @@
     "id": "EOC_DIGIVICE_TOURNAMENT_NEXT_ROUND",
     "effect": [
       {
-        "if": { "math": [ "u_tournament_level <= 100" ] },
+        "if": { "math": [ "u_pet_stamina < 20" ] },
         "then": [
-          { "math": [ "u_tournament_level_str = u_tournament_level" ] },
-          { "run_eocs": "EOC_DIGIVICE_TOURNAMENT_GENERATE_OPPONENT" }
+          { "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.", "type": "bad" },
+          { "open_dialogue": { "topic": "DIGIVICE_BATTLE_MENU" } }
         ],
         "else": [
-          { "math": [ "u_tournament_championships = u_tournament_championships + 1" ] },
-          { "set_string_var": "CHAMPION!", "target_var": { "u_val": "battle_result" } },
-          { "set_string_var": "Your monster defeated ALL 100 opponents and is the TOURNAMENT CHAMPION!\nAll stats boosted!",
-            "target_var": { "u_val": "battle_msg" }
-          },
-          { "math": [ "u_pet_atk = u_pet_atk + 5" ] },
-          { "math": [ "u_pet_def = u_pet_def + 5" ] },
-          { "math": [ "u_pet_int = u_pet_int + 5" ] },
-          { "math": [ "u_pet_agi = u_pet_agi + 5" ] },
-          { "math": [ "u_pet_luck = u_pet_luck + 5" ] },
-          { "math": [ "u_pet_happiness = 100" ] },
-          { "math": [ "u_pet_evolve_progress = u_pet_evolve_progress + 50" ] },
-          { "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE" },
-          { "open_dialogue": { "topic": "DIGIVICE_TOURNAMENT_RESULT" } }
+          {
+            "if": { "math": [ "u_tournament_level <= 100" ] },
+            "then": [
+              { "math": [ "u_tournament_level_str = u_tournament_level" ] },
+              { "run_eocs": "EOC_DIGIVICE_TOURNAMENT_GENERATE_OPPONENT" }
+            ],
+            "else": [
+              { "math": [ "u_tournament_championships = u_tournament_championships + 1" ] },
+              { "set_string_var": "CHAMPION!", "target_var": { "u_val": "battle_result" } },
+              { "set_string_var": "Your monster defeated ALL 100 opponents and is the TOURNAMENT CHAMPION!\nAll stats boosted!", "target_var": { "u_val": "battle_msg" } },
+              { "math": [ "u_pet_atk = u_pet_atk + 5" ] },
+              { "math": [ "u_pet_def = u_pet_def + 5" ] },
+              { "math": [ "u_pet_int = u_pet_int + 5" ] },
+              { "math": [ "u_pet_agi = u_pet_agi + 5" ] },
+              { "math": [ "u_pet_luck = u_pet_luck + 5" ] },
+              { "math": [ "u_pet_happiness = 100" ] },
+              { "math": [ "u_pet_evolve_progress = u_pet_evolve_progress + 50" ] },
+              { "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE" },
+              { "open_dialogue": { "topic": "DIGIVICE_TOURNAMENT_RESULT" } }
+            ]
+          }
         ]
       }
     ]
@@ -105,7 +112,9 @@
           { "u_message": "Tournament Level <u_val:tournament_level_str> - VICTORY over <u_val:tournament_opponent_name>!", "type": "good" },
           { "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS" },
           { "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE" },
-          { "run_eocs": "EOC_DIGIVICE_TOURNAMENT_NEXT_ROUND" }
+          { "set_string_var": "VICTORY!", "target_var": { "u_val": "battle_result" } },
+          { "set_string_var": "Your monster defeated <u_val:tournament_opponent_name> at Level <u_val:tournament_level_str>!", "target_var": { "u_val": "battle_msg" }, "parse_tags": true },
+          { "open_dialogue": { "topic": "DIGIVICE_TOURNAMENT_ROUND_WIN" } }
         ],
         "else": [
           { "math": [ "u_tournament_losses = u_tournament_losses + 1" ] },

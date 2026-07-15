@@ -4,7 +4,7 @@
     "type": "ITEM",
     "category": "other",
     "name": { "str": "digital pet (egg)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Displayed on the screen is an digital egg! It's pulsing with life. Something is growing inside... Press 'a' to interact.",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Displayed on the screen is an digital egg! Maybe raising this will fill the void inside... Press 'a' to activate.",
     "weight": "70 g",
     "volume": "35 ml",
     "longest_side": "7 cm",
@@ -13,7 +13,7 @@
     "material": [ "plastic" ],
     "symbol": "0",
     "color": "white",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -28,7 +28,7 @@
     "type": "ITEM",
     "category": "other",
     "name": { "str": "digital pet device" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Press 'a' to interact.",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. Press 'a' to activate.",
     "weight": "70 g",
     "volume": "35 ml",
     "longest_side": "7 cm",
@@ -36,25 +36,7 @@
     "price_postapoc": "150 USD",
     "material": [ "plastic" ],
     "symbol": "0",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
-    "use_action": [
-      {
-        "type": "effect_on_conditions",
-        "menu_text": "Interact with digital pet",
-        "description": "Open the digivice menu",
-        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
-      }
-    ]
-  },
-  {
-    "id": "vpetmonster01t",
-    "type": "ITEM",
-    "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet device" },
-    "description": "Your pet has evolved into a stronger form!",
-    "symbol": "D",
-    "color": "red",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -68,11 +50,11 @@
     "id": "vpetmonster01_brown",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Terramon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a rocky, earth-toned monster with a sturdy shell and a gentle, loyal nature.",
+    "name": { "str": "digital pet (Biomon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a smiling plant-like monster with a thick green stalk body and a purple flower for a face.",
     "symbol": "d",
     "color": "brown",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -83,14 +65,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_navy",
+    "id": "vpetmonster01_yellow",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Crescentmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a wise, owl-like creature with crescent moon markings and calm, knowing eyes.",
+    "name": { "str": "digital pet (Teemomon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a slobbering, puppy-like creature with wild, playful eyes.",
     "symbol": "d",
     "color": "blue",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -104,11 +86,29 @@
     "id": "vpetmonster01_black",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Obsidianmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a shadowy, sleek beast with a smooth, metallic body and a cool, confident presence.",
+    "name": { "str": "digital pet (Grackenmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a black monster with cute horns that curve inward toward each other.",
     "symbol": "d",
     "color": "dark_gray",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+    {
+    "id": "vpetmonster01_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Kreckmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a lean and hungry-looking dog-like monster with twisted red flesh. He's flashing a wild grin!",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -126,7 +126,7 @@
     "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a muscular, dinosaur-like monster with brick-colored scales and a fiery, unstoppable will.",
     "symbol": "d",
     "color": "red",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -137,14 +137,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_navy_english",
+    "id": "vpetmonster01_green_brown",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Elegantmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an elegant, aristocratic monster wearing a tiny monocle, speaking in riddles and proper etiquette.",
+    "name": { "str": "digital pet (Fungalmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a eukaryotic organism, speaking in riddles and proper etiquette.",
     "symbol": "d",
     "color": "light_blue",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -158,11 +158,11 @@
     "id": "vpetmonster01_white",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Angelmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a pure white, angelic creature with soft feathers and a warm, healing glow about it.",
+    "name": { "str": "digital pet (Momomon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a white and black, angelic creature with long whikers and a warm, healing glow.",
     "symbol": "d",
     "color": "white",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -180,7 +180,7 @@
     "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cyborg monster with gleaming silver armor and a core that hums with high-tech energy.",
     "symbol": "d",
     "color": "light_gray",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -194,11 +194,11 @@
     "id": "vpetmonster01_dino",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Primalmon)" },
+    "name": { "str": "digital pet (Feralmon)" },
     "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a primordial, reptilian monster with jagged teeth and a primal instinct for the hunt.",
     "symbol": "d",
     "color": "green",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -212,11 +212,11 @@
     "id": "vpetmonster01_diagonal",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Voltmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a zippy, electric creature with jittery movements and an infectious, hyperactive energy.",
+    "name": { "str": "digital pet (Slimemon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a black gel-like creature with a crazed expression and an infectious, hyperactive energy.",
     "symbol": "d",
     "color": "yellow",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -230,11 +230,11 @@
     "id": "vpetmonster01_graffiti",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Punkmon)" },
+    "name": { "str": "digital pet (Anarchymon)" },
     "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a punk rock monster with a spiked collar, its body covered in wild, animated splashes of color.",
     "symbol": "d",
     "color": "magenta",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -248,11 +248,11 @@
     "id": "vpetmonster01_fiery",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Blazemon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a passionate, phoenix-like monster wreathed in digital flames, its crest burning bright.",
+    "name": { "str": "digital pet (Scorchedmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an anguished, phoenix-like monster writhing in digital flames, its crest burning brightly.",
     "symbol": "d",
     "color": "red",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -266,11 +266,11 @@
     "id": "vpetmonster01_lunar",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Selamon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a serene, rabbit-like monster with a silver moon symbol on its forehead, calm and elusive.",
+    "name": { "str": "digital pet (Blankmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute doll-like monster with no eyes, it's nature calm and elusive.",
     "symbol": "d",
     "color": "white",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -281,14 +281,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_logo",
+    "id": "vpetmonster01_flesh",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Streamon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a sleek, futuristic monster with sharp, angular data-stream patterns etched into its form.",
+    "name": { "str": "digital pet (Corpsemon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a dead-eyed, flesh-like monster baring it's jagged teeth!",
     "symbol": "d",
     "color": "dark_gray",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -299,14 +299,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_pixel",
+    "id": "vpetmonster01_hearts",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Pixelmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute, chubby monster with a pixelated heart on its chest, overflowing with affection.",
+    "name": { "str": "digital pet (Pulmonarymon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute, chubby monster with a cracked pixelated heart on its chest, overflowing with affection.",
     "symbol": "d",
     "color": "pink",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -320,11 +320,11 @@
     "id": "vpetmonster01_tiedye",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Trippymon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a free-spirited, hippy monster with shifting rainbow patterns and a mellow, happy-go-lucky vibe.",
+    "name": { "str": "digital pet (Delirumon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a free-spirited, ghost-like monster with shifting rainbow patterns and a mellow, happy-go-lucky vibe.",
     "symbol": "d",
     "color": "magenta",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -335,14 +335,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_neon",
+    "id": "vpetmonster01_skull",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Neonmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a glowing, aggressive beast that pulses with a furious, blinding red light.",
+    "name": { "str": "digital pet (Skelemon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute chibi-style skeleton.",
     "symbol": "d",
     "color": "red",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -356,11 +356,11 @@
     "id": "vpetmonster01_darkcamo",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Stealthmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a mysterious, tactical creature that seems to vanish into the shadows, its form barely visible.",
+    "name": { "str": "digital pet (Spectremon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a mysterious creature that seems to vanish into the shadows, its form barely visible.",
     "symbol": "d",
     "color": "dark_gray",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -371,14 +371,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_glow",
+    "id": "vpetmonster01_pink",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Lumimon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a ghostly, ethereal being that emits a soft, gentle light from within, leaving a trail of sparkles.",
+    "name": { "str": "digital pet (Polypmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an inexplicible monster that is covered with abnormal tissue growth.",
     "symbol": "d",
     "color": "cyan",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -389,14 +389,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_trans_green",
+    "id": "vpetmonster01_sapphire",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Crystalamon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a crystalline monster made of clear, green data, its body refracting light into rainbows.",
+    "name": { "str": "digital pet (Dehydramon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a slender, sick-looking monster made of clear, blue data, its body refracting light into a digitalized gradient.",
     "symbol": "d",
     "color": "green",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -407,14 +407,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_trans_blue",
+    "id": "vpetmonster01_amaranth",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Aquamon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a fluid, aquatic monster that ripples and flows like water, constantly shifting its shape.",
+    "name": { "str": "digital pet (Marlossmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute monster with a body like a red-pink berry.",
     "symbol": "d",
     "color": "cyan",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -425,14 +425,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_purple_ice",
+    "id": "vpetmonster01_purple",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Frostmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cold, stoic monster with ice-like spikes and a deep, frosty purple hue, exuding chill.",
+    "name": { "str": "digital pet (Putridmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cold, stoic monster with his internal organs exposed, smiling and giving a thumbs up!",
     "symbol": "d",
     "color": "magenta",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -443,14 +443,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_graffiti_orange",
+    "id": "vpetmonster01_orange",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
     "name": { "str": "digital pet (Splattermon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an expressive, artistic monster covered in energetic, animated graffiti tags.",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an expressive monster covered in black and orange slime.",
     "symbol": "d",
     "color": "yellow",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -461,14 +461,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_paw",
+    "id": "vpetmonster01_electric_blue",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Loyalmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a loyal, wolf-like monster with soft digital fur and a deep, protective instinct.",
+    "name": { "str": "digital pet (Zappermon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a glowing blue, photonic-bodied monster striking a cool pose.",
     "symbol": "d",
     "color": "brown",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -482,11 +482,11 @@
     "id": "vpetmonster01_golden",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Blademon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a holy, knightly monster wielding shimmering golden blades, swift and righteous.",
+    "name": { "str": "digital pet (Monolithmon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an obelisk-like monster.",
     "symbol": "d",
     "color": "yellow",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -497,14 +497,14 @@
     ]
   },
   {
-    "id": "vpetmonster01_trans_orange",
+    "id": "vpetmonster01_magenta",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Embermon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a warm, cozy monster like a living campfire, its body a flickering, semi-transparent orange.",
+    "name": { "str": "digital pet (Visceramon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a smiling pink and oozing monster, with a body shaped like a human intestinal organ.",
     "symbol": "d",
     "color": "yellow",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
@@ -515,14 +515,950 @@
     ]
   },
   {
-    "id": "vpetmonster01_trans_neon",
+    "id": "vpetmonster01_cobweb",
     "type": "ITEM",
     "copy-from": "vpetmonster01_base",
-    "name": { "str": "digital pet (Zapmon)" },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a radical, energetic monster with a bright, glowing green form that looks full of electric life.",
+    "name": { "str": "digital pet (Larvamon)" },
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a featureless white grub.",
     "symbol": "d",
     "color": "green",
-    "flags": [ "NO_REPAIR", "DIGIVICE" ],
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE", "DIGIVICE_BABY" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_rotting_marsh_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Zombimon)" },
+    "description": "A shambling, undead digital beast with a hunger for data.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_light_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Migomon)" },
+    "description": "A pale alien entity from beyond the screen.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_oxidized_copper",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (UltraKreckmon)" },
+    "description": "An ancient creature of rust and corrosion.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_bleached_bone",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (MechaSkelemon)" },
+    "description": "A bony apparition that rattles when it moves.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_spore_violet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Fungalmon)" },
+    "description": "A spore-covered monstrosity spreading digital decay.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_toxic_lime",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Toxmon)" },
+    "description": "A toxic sludge of corrupted code.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_pandemic_yellow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Virumon)" },
+    "description": "A viral entity that replicates itself.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_infected_magenta",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Contagmon)" },
+    "description": "An infectious plague given form.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_pustule_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Blistermon)" },
+    "description": "A bubbling, oozing mass of digital pus.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_dried_crimson",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Scabmon)" },
+    "description": "A crusty, scarred warrior.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_calcified_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Crustmon)" },
+    "description": "A calcified ancient with impenetrable skin.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_ruby_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Gemmon)" },
+    "description": "A radiant jewel of pure data.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_garnet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Carbunclemon)" },
+    "description": "A deep red gem that pulses with power.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_iridescent_pearl",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Opalmon)" },
+    "description": "A shifting opalescent beauty.",
+    "symbol": "D",
+    "color": "light_blue",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_jade_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Jadeitemon)" },
+    "description": "A smooth jade idol.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_amethyst_purple",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Amethystmon)" },
+    "description": "A regal purple crystal.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_golden_topaz",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Topazmon)" },
+    "description": "A golden gem that glows warmly.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_sapphire_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Sapphiremon)" },
+    "description": "A deep blue sapphire of wisdom.",
+    "symbol": "D",
+    "color": "blue",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_vermilion",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Rubymon)" },
+    "description": "A fiery ruby with a passionate core.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_olive_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Peridotmon)" },
+    "description": "A pale green gem of nature.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_smog_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Smogmon)" },
+    "description": "A foul cloud of industrial haze.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_mist_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Hazeemon)" },
+    "description": "A misty phantom that obscures vision.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_foggy_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Fogmon)" },
+    "description": "A dense fog that chills to the bone.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_vapor_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Mistmon)" },
+    "description": "A vapor that dances in the air.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_stratus_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Cirrusmon)" },
+    "description": "A wispy cloud creature.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_stormy_black",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Nimbusmon)" },
+    "description": "A stormcloud of wrath.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_aqua_marine",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Dropletmon)" },
+    "description": "A liquid embodiment of water.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_hurricane_teal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Tempestmon)" },
+    "description": "A swirling hurricane of chaos.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_spiral_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Cyclonemon)" },
+    "description": "A spiraling vortex of wind.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_twister_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Whirlwindmon)" },
+    "description": "A dust devil of fury.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_cursed_violet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Hexmon)" },
+    "description": "A cursed figure wreathed in dark magic.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_arcane_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Spellmon)" },
+    "description": "An arcane scholar of the digital realm.",
+    "symbol": "D",
+    "color": "blue",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_charm_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Charmsmon)" },
+    "description": "A charming trickster with a winning smile.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_ceremonial_gold",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Ritualmon)" },
+    "description": "A ceremonial being of ancient rites.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_shadow_indigo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Occultmon)" },
+    "description": "A shadowy figure from forbidden texts.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_prophetic_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Seermon)" },
+    "description": "A prophetic eye that sees all.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_doom_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Omenmon)" },
+    "description": "A harbinger of doom and disaster.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_destiny_bronze",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Fatemon)" },
+    "description": "A weaver of destiny.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_metal_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Droidmon)" },
+    "description": "A sleek robotic construct.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_cyber_cyan",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Cyborgmon)" },
+    "description": "A fusion of flesh and machine.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_microchip_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Micromon)" },
+    "description": "A tiny but mighty microchip.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_data_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Terabytemon)" },
+    "description": "A massive data storage creature.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_binary_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Logmon)" },
+    "description": "A creature of pure binary code.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_cubic_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Voxelmon)" },
+    "description": "A blocky, cubic creature.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_petal_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Bloommon)" },
+    "description": "A flower that blossoms with data.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_briar_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Thornmon)" },
+    "description": "A prickly thorny beast.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_earth_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Rootmon)" },
+    "description": "An ancient rooted entity.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_tree_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Barkmon)" },
+    "description": "A woody, bark-covered form.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_amber_yellow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Sapmon)" },
+    "description": "A sticky, sweet creature.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_golden_dust",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Pollenmon)" },
+    "description": "A cloud of golden pollen.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_shining_pearl",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Gleammon)" },
+    "description": "A shining pearl of light.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [ "EOC_DIGIVICE_OPEN_MENU" ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_dusk_purple",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_base",
+    "name": { "str": "digital pet (Twilimon)" },
+    "description": "A creature of twilight and dusk.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [ "NO_REPAIR", "DIGIVICE", "DIGIVICE_BASE" ],
     "use_action": [
       {
         "type": "effect_on_conditions",

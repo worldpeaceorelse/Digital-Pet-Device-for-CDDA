@@ -14,13 +14,46 @@
 { "math": [ "u_pet_max_stamina = n_max_stamina" ] },
 { "math": [ "u_pet_mess_count = n_mess_count" ] },
 { "math": [ "u_pet_care_mistakes = n_care_mistakes" ] },
-      { "math": [ "u_tournament_wins = u_tournament_wins" ] },
-      { "math": [ "u_tournament_losses = u_tournament_losses" ] },
-      { "math": [ "u_tournament_championships = u_tournament_championships" ] },
+      { "math": [ "u_tournament_wins = n_tournament_wins" ] },
+      { "math": [ "u_tournament_losses = n_tournament_losses" ] },
+      { "math": [ "u_tournament_championships = n_tournament_championships" ] },
       { "math": [ "u_pet_luck = n_pet_luck" ] },
+	      { "set_string_var": "<npc_val:pet_name>", "target_var": { "u_val": "pet_name_display" }, "parse_tags": true },
+    { "set_string_var": "<npc_val:pet_variant>", "target_var": { "u_val": "pet_variant_display" }, "parse_tags": true },
       { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
       { "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS" },
       { "open_dialogue": { "topic": "DIGIVICE_MAIN_MENU" } }
+    ]
+  },
+  {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_FORCE_CLOSE_ALL",
+  "effect": [
+    { "open_dialogue": { "topic": "TALK_DONE" } }
+  ]
+},
+ {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_ITEM",
+    "effect": [
+      { "math": [ "n_pet_hunger = 100" ] },
+      { "math": [ "n_pet_happiness = 50" ] },
+      { "math": [ "n_pet_stage = 0" ] },
+      { "math": [ "n_pet_death_timer = 0" ] },
+      { "math": [ "n_pet_evolve_progress = 0" ] },
+	  { "math": [ "n_care_mistakes = 0" ] },
+{ "math": [ "n_battle_loss_streak = 0" ] },
+{ "math": [ "n_pet_weight = 5" ] },
+{ "math": [ "n_stamina = 100" ] },
+{ "math": [ "n_max_stamina = 100" ] },
+{ "math": [ "n_potty_timer = 2" ] },
+{ "math": [ "n_mess_count = 0" ] },
+      { "math": [ "n_pet_atk = 1" ] },
+      { "math": [ "n_pet_def = 1" ] },
+      { "math": [ "n_pet_int = 1" ] },
+      { "math": [ "n_pet_agi = 1" ] },
+      { "math": [ "n_pet_luck = 1" ] },
+      { "u_message": "Your new digital companion awakens! Take care of it.", "type": "good" }
     ]
   },
   {
@@ -184,6 +217,33 @@
       { "math": [ "global_pet_counter = 1" ] }
     ]
   },
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_DEBUG_FORCE_ADULT",
+  "effect": [
+    {
+      "u_run_inv_eocs": "random",
+      "search_data": [ { "flags": [ "DIGIVICE_BABY" ] } ],
+      "true_eocs": [
+        {
+          "id": "EOC_DEBUG_ADULT_INNER",
+          "effect": [
+            { "math": [ "n_pet_stage = 5" ] },
+            { "math": [ "n_pet_evolve_progress = 0" ] },
+            { "u_message": "Forcing evolution to adulthood...", "type": "good" },
+            { "run_eocs": "EOC_DIGIVICE_TYPE_DISTRIBUTOR", "beta_talker": "npc" }
+          ]
+        }
+      ],
+      "false_eocs": [
+        {
+          "id": "EOC_DEBUG_NO_BABY",
+          "effect": { "u_message": "No baby Digivice found to evolve.", "type": "bad" }
+        }
+      ]
+    }
+  ]
+},
   {
     "type": "effect_on_condition",
     "id": "EOC_DIGIVICE_INIT_ON_GAME_START",

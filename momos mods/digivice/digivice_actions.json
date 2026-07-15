@@ -283,74 +283,73 @@
       }
     ]
   },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_DIGIVICE_FEED",
-    "effect": [
-      {
-        "u_run_inv_eocs": "all",
-        "search_data": [
-          {
-            "condition": {
-              "math": [
-                "n_pet_uid == u_selected_pet_uid"
-              ]
-            }
+ {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_FEED",
+  "effect": [
+    {
+      "u_run_inv_eocs": "all",
+      "search_data": [
+        {
+          "condition": {
+            "math": [
+              "n_pet_uid == u_selected_pet_uid"
+            ]
           }
-        ],
-        "true_eocs": [
-          {
-            "id": "EOC_DIGIVICE_FEED_ITEM",
-            "effect": [
-              {
+        }
+      ],
+      "true_eocs": [
+        {
+          "id": "EOC_DIGIVICE_FEED_ITEM",
+          "effect": [
+            {
+              "math": [
+                "n_pet_hunger = n_pet_hunger + 10"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_happiness = n_pet_happiness + 1"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
+              ]
+            },
+            {
+              "math": [
+                "u_pet_hunger_num = n_pet_hunger"
+              ]
+            },
+            {
+              "math": [
+                "u_pet_happy_num = n_pet_happiness"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_weight = n_pet_weight + 2"
+              ]
+            },
+            {
+              "if": {
                 "math": [
-                  "n_pet_hunger = n_pet_hunger + 10"
+                  "n_pet_hunger >= 90"
                 ]
               },
-              {
-                "math": [
-                  "n_pet_happiness = n_pet_happiness + 1"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
-                ]
-              },
-              {
-                "math": [
-                  "u_pet_hunger_num = n_pet_hunger"
-                ]
-              },
-              {
-                "math": [
-                  "u_pet_happy_num = n_pet_happiness"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_weight = n_pet_weight + 2"
-                ]
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 90"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Well fed!",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
+              "then": {
+                "set_string_var": "Well fed!",
+                "target_var": {
+                  "u_val": "pet_hunger_desc"
                 }
               },
-              {
+              "else": {
                 "if": {
                   "math": [
                     "n_pet_hunger >= 76"
@@ -361,61 +360,54 @@
                   "target_var": {
                     "u_val": "pet_hunger_desc"
                   }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 51"
-                  ]
                 },
-                "then": {
-                  "set_string_var": "Peckish",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
+                "else": {
+                  "if": {
+                    "math": [
+                      "n_pet_hunger >= 51"
+                    ]
+                  },
+                  "then": {
+                    "set_string_var": "Peckish",
+                    "target_var": {
+                      "u_val": "pet_hunger_desc"
+                    }
+                  },
+                  "else": {
+                    "if": {
+                      "math": [
+                        "n_pet_hunger >= 21"
+                      ]
+                    },
+                    "then": {
+                      "set_string_var": "Starving",
+                      "target_var": {
+                        "u_val": "pet_hunger_desc"
+                      }
+                    },
+                    "else": {
+                      "set_string_var": "Near death",
+                      "target_var": {
+                        "u_val": "pet_hunger_desc"
+                      }
+                    }
                   }
                 }
+              }
+            },
+            {
+              "if": {
+                "math": [
+                  "n_pet_happiness >= 90"
+                ]
               },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Starving",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
+              "then": {
+                "set_string_var": "Ecstatic!",
+                "target_var": {
+                  "u_val": "pet_happy_desc"
                 }
               },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger < 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Near death",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 90"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Ecstatic!",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
+              "else": {
                 "if": {
                   "math": [
                     "n_pet_happiness >= 76"
@@ -426,124 +418,117 @@
                   "target_var": {
                     "u_val": "pet_happy_desc"
                   }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 51"
-                  ]
                 },
-                "then": {
-                  "set_string_var": "Content",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
+                "else": {
+                  "if": {
+                    "math": [
+                      "n_pet_happiness >= 51"
+                    ]
+                  },
+                  "then": {
+                    "set_string_var": "Content",
+                    "target_var": {
+                      "u_val": "pet_happy_desc"
+                    }
+                  },
+                  "else": {
+                    "if": {
+                      "math": [
+                        "n_pet_happiness >= 21"
+                      ]
+                    },
+                    "then": {
+                      "set_string_var": "Lonely",
+                      "target_var": {
+                        "u_val": "pet_happy_desc"
+                      }
+                    },
+                    "else": {
+                      "set_string_var": "Miserable",
+                      "target_var": {
+                        "u_val": "pet_happy_desc"
+                      }
+                    }
                   }
                 }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Lonely",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness < 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Miserable",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
-                "u_message": "You fed your digital pet. It looks happy!"
               }
+            },
+            {
+              "u_message": "You fed your digital pet. It looks happy!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+  {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_PLAY",
+  "effect": [
+    {
+      "u_run_inv_eocs": "all",
+      "search_data": [
+        {
+          "condition": {
+            "math": [
+              "n_pet_uid == u_selected_pet_uid"
             ]
           }
-        ]
-      }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "EOC_DIGIVICE_PLAY",
-    "effect": [
-      {
-        "u_run_inv_eocs": "all",
-        "search_data": [
-          {
-            "condition": {
+        }
+      ],
+      "true_eocs": [
+        {
+          "id": "EOC_DIGIVICE_PLAY_ITEM",
+          "effect": [
+            {
               "math": [
-                "n_pet_uid == u_selected_pet_uid"
+                "n_pet_happiness = n_pet_happiness + 15"
               ]
-            }
-          }
-        ],
-        "true_eocs": [
-          {
-            "id": "EOC_DIGIVICE_PLAY_ITEM",
-            "effect": [
-              {
+            },
+            {
+              "math": [
+                "n_pet_hunger = n_pet_hunger - 5"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
+              ]
+            },
+            {
+              "math": [
+                "u_pet_hunger_num = n_pet_hunger"
+              ]
+            },
+            {
+              "math": [
+                "u_pet_happy_num = n_pet_happiness"
+              ]
+            },
+            {
+              "math": [
+                "n_pet_weight = max(n_pet_weight - 1, 0)"
+              ]
+            },
+            {
+              "if": {
                 "math": [
-                  "n_pet_happiness = n_pet_happiness + 15"
+                  "n_pet_hunger >= 90"
                 ]
               },
-              {
-                "math": [
-                  "n_pet_hunger = n_pet_hunger - 5"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_happiness = clamp(n_pet_happiness, 0, 100)"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_hunger = clamp(n_pet_hunger, 0, 100)"
-                ]
-              },
-              {
-                "math": [
-                  "u_pet_hunger_num = n_pet_hunger"
-                ]
-              },
-              {
-                "math": [
-                  "u_pet_happy_num = n_pet_happiness"
-                ]
-              },
-              {
-                "math": [
-                  "n_pet_weight = max(n_pet_weight - 1, 0)"
-                ]
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 90"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Well fed!",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
+              "then": {
+                "set_string_var": "Well fed!",
+                "target_var": {
+                  "u_val": "pet_hunger_desc"
                 }
               },
-              {
+              "else": {
                 "if": {
                   "math": [
                     "n_pet_hunger >= 76"
@@ -554,61 +539,54 @@
                   "target_var": {
                     "u_val": "pet_hunger_desc"
                   }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 51"
-                  ]
                 },
-                "then": {
-                  "set_string_var": "Peckish",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
+                "else": {
+                  "if": {
+                    "math": [
+                      "n_pet_hunger >= 51"
+                    ]
+                  },
+                  "then": {
+                    "set_string_var": "Peckish",
+                    "target_var": {
+                      "u_val": "pet_hunger_desc"
+                    }
+                  },
+                  "else": {
+                    "if": {
+                      "math": [
+                        "n_pet_hunger >= 21"
+                      ]
+                    },
+                    "then": {
+                      "set_string_var": "Starving",
+                      "target_var": {
+                        "u_val": "pet_hunger_desc"
+                      }
+                    },
+                    "else": {
+                      "set_string_var": "Near death",
+                      "target_var": {
+                        "u_val": "pet_hunger_desc"
+                      }
+                    }
                   }
                 }
+              }
+            },
+            {
+              "if": {
+                "math": [
+                  "n_pet_happiness >= 90"
+                ]
               },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger >= 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Starving",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
+              "then": {
+                "set_string_var": "Ecstatic!",
+                "target_var": {
+                  "u_val": "pet_happy_desc"
                 }
               },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_hunger < 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Near death",
-                  "target_var": {
-                    "u_val": "pet_hunger_desc"
-                  }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 90"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Ecstatic!",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
+              "else": {
                 "if": {
                   "math": [
                     "n_pet_happiness >= 76"
@@ -619,54 +597,48 @@
                   "target_var": {
                     "u_val": "pet_happy_desc"
                   }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 51"
-                  ]
                 },
-                "then": {
-                  "set_string_var": "Content",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
+                "else": {
+                  "if": {
+                    "math": [
+                      "n_pet_happiness >= 51"
+                    ]
+                  },
+                  "then": {
+                    "set_string_var": "Content",
+                    "target_var": {
+                      "u_val": "pet_happy_desc"
+                    }
+                  },
+                  "else": {
+                    "if": {
+                      "math": [
+                        "n_pet_happiness >= 21"
+                      ]
+                    },
+                    "then": {
+                      "set_string_var": "Lonely",
+                      "target_var": {
+                        "u_val": "pet_happy_desc"
+                      }
+                    },
+                    "else": {
+                      "set_string_var": "Miserable",
+                      "target_var": {
+                        "u_val": "pet_happy_desc"
+                      }
+                    }
                   }
                 }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness >= 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Lonely",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
-                "if": {
-                  "math": [
-                    "n_pet_happiness < 21"
-                  ]
-                },
-                "then": {
-                  "set_string_var": "Miserable",
-                  "target_var": {
-                    "u_val": "pet_happy_desc"
-                  }
-                }
-              },
-              {
-                "u_message": "You play with your digital pet. It's having a great time!"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "u_message": "You play with your digital pet. It's having a great time!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ]

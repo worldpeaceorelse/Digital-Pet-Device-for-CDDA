@@ -455,16 +455,12 @@
         },
         "then": [
           { "set_string_var": "VICTORY!", "target_var": { "u_val": "battle_result" } },
-          { "set_string_var": "Your monster wins the battle!",
-            "target_var": { "u_val": "battle_msg" }
-          },
+          { "set_string_var": "Your monster wins the battle!", "target_var": { "u_val": "battle_msg" } },
           { "math": [ "n_battle_loss_streak = 0" ] },
           {
             "u_run_inv_eocs": "all",
             "search_data": [
-              {
-                "condition": { "math": [ "n_pet_uid == u_selected_pet_uid" ] }
-              }
+              { "condition": { "math": [ "n_pet_uid == u_selected_pet_uid" ] } }
             ],
             "true_eocs": [
               {
@@ -495,9 +491,7 @@
         ],
         "else": [
           { "set_string_var": "DEFEAT!", "target_var": { "u_val": "battle_result" } },
-          { "set_string_var": "Your monster was defeated...",
-            "target_var": { "u_val": "battle_msg" }
-          },
+          { "set_string_var": "Your monster was defeated...", "target_var": { "u_val": "battle_msg" } },
           { "math": [ "n_battle_loss_streak = n_battle_loss_streak + 1" ] },
           {
             "if": { "math": [ "n_battle_loss_streak >= 3" ] },
@@ -510,9 +504,7 @@
           {
             "u_run_inv_eocs": "all",
             "search_data": [
-              {
-                "condition": { "math": [ "n_pet_uid == u_selected_pet_uid" ] }
-              }
+              { "condition": { "math": [ "n_pet_uid == u_selected_pet_uid" ] } }
             ],
             "true_eocs": [
               {

@@ -2,5 +2,110 @@
   {
     "type": "json_flag",
     "id": "DIGIVICE"
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_BABY",
+    "info": "This is a baby Digivice. It can evolve into an adult form when conditions are met."
+  },
+    {
+    "type": "json_flag",
+    "id": "DIGIVICE_BASE",
+    "info": "This Digivice belongs to the red model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_RED_AND_BLACK",
+    "info": "This Digivice belongs to the red-and-black model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_GREEN_AND_WHITE",
+    "info": "This Digivice belongs to the neon-green-and-white model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_MIGOMON_EDITION",
+    "info": "This Digivice belongs to the Migomon Edition model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_BLUE",
+    "info": "This Digivice belongs to the blue model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_YELLOW",
+    "info": "This Digivice belongs to the yellow model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_MECHAMOMOMON_EDITION",
+    "info": "This Digivice belongs to the Mechamomomon Edition model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_MAGENTA",
+    "info": "This Digivice belongs to the magenta model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_ZOMBIMON_EDITION",
+    "info": "This Digivice belongs to the Zombimon Edition model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_STRAWBERRY",
+    "info": "This Digivice belongs to the strawberry model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_DUSK",
+    "info": "This Digivice belongs to the dusk model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_PRIMAL_RED",
+    "info": "This Digivice belongs to the Primal Red model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_ZOMBIMON_MOVIE",
+    "info": "This Digivice belongs to the Zombimon Movie model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_LUNAR_ECLIPSE",
+    "info": "This Digivice belongs to the Lunar Eclipse model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_CRYSTAL_WAVE",
+    "info": "This Digivice belongs to the Crystal Wave model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_PRIMAL_ORANGE",
+    "info": "This Digivice belongs to the Primal Orange model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_MOSAIC",
+    "info": "This Digivice belongs to the Mosaic model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_COTTON_CANDY",
+    "info": "This Digivice belongs to the Cotton Candy model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_EMERALD_WAVE",
+    "info": "This Digivice belongs to the Emerald Wave model series."
+  },
+  {
+    "type": "json_flag",
+    "id": "DIGIVICE_SOLAR_FLARE",
+    "info": "This Digivice belongs to the Solar Flare model series."
   }
 ]
