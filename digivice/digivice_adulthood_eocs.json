@@ -1,0 +1,347 @@
+[
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_INIT_ADULT",
+  "effect": [
+    { "math": [ "n_pet_stage = 5" ] },
+    { "math": [ "n_pet_death_timer = 0" ] },
+    { "math": [ "n_pet_evolve_progress = 0" ] },
+    { "u_message": "Your digital pet has reached its adult form!", "type": "good" }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_EVOLVE_TO_ADULT",
+  "effect": [
+    { "run_eocs": "EOC_DIGIVICE_EVOLVE_BRANCH", "beta_talker": "npc" }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_EVOLVE_BRANCH",
+  "effect": [
+    {
+      "if": { "math": [ "n_pet_weight < 30" ] },
+      "then": {
+        "if": { "math": [ "n_pet_weight <= 25" ] },
+        "then": {
+          "if": { "math": [ "n_pet_weight <= 15" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_MICROMON", "beta_talker": "npc" },
+          "else": {
+            "if": { "math": [ "n_pet_weight <= 20" ] },
+            "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_LOGMON", "beta_talker": "npc" },
+            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_VOXELMON", "beta_talker": "npc" }
+          }
+        },
+        "else": {
+          "if": { "math": [ "n_pet_weight <= 28" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SAPMON", "beta_talker": "npc" },
+          "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_POLLENMON", "beta_talker": "npc" }
+        }
+      }
+    },
+    {
+      "if": { "math": [ "n_pet_weight > 80" ] },
+      "then": {
+        "if": { "math": [ "n_pet_weight <= 85" ] },
+        "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TERABYTEMON", "beta_talker": "npc" },
+        "else": {
+          "if": { "math": [ "n_pet_weight <= 90" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CRUSTMON", "beta_talker": "npc" },
+          "else": {
+            "if": { "math": [ "n_pet_weight <= 95" ] },
+            "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CRUSTMON", "beta_talker": "npc" },
+            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CRUSTMON", "beta_talker": "npc" }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "and": [
+          { "math": [ "n_pet_weight >= 30" ] },
+          { "math": [ "n_pet_weight <= 80" ] }
+        ]
+      },
+      "then": {
+        "if": { "math": [ "n_care_mistakes == 0" ] },
+        "then": {
+          "if": { "math": [ "n_pet_weight <= 44" ] },
+          "then": {
+            "if": { "math": [ "n_pet_weight <= 42" ] },
+            "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GLEAMMON", "beta_talker": "npc" },
+            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GLEAMMON", "beta_talker": "npc" }
+          },
+          "else": {
+            "if": { "math": [ "n_pet_weight <= 49" ] },
+            "then": {
+              "if": { "math": [ "n_pet_weight <= 47" ] },
+              "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_OPALMON", "beta_talker": "npc" },
+              "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_OPALMON", "beta_talker": "npc" }
+            },
+            "else": {
+              "if": { "math": [ "n_pet_weight <= 54" ] },
+              "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SAPPHIREMON", "beta_talker": "npc" },
+              "else": {
+                "if": { "math": [ "n_pet_weight <= 59" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SAPPHIREMON", "beta_talker": "npc" },
+                "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SAPPHIREMON", "beta_talker": "npc" }
+              }
+            }
+          }
+        },
+        "else": {
+          "if": { "math": [ "n_care_mistakes <= 2" ] },
+          "then": {
+            "if": { "math": [ "n_pet_weight <= 43" ] },
+            "then": {
+              "if": { "math": [ "n_pet_weight <= 41" ] },
+              "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CYCLONEMON", "beta_talker": "npc" },
+              "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CYCLONEMON", "beta_talker": "npc" }
+            },
+            "else": {
+              "if": { "math": [ "n_pet_weight <= 47" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 45" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TOPAZMON", "beta_talker": "npc" },
+                "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TOPAZMON", "beta_talker": "npc" }
+              },
+              "else": {
+                "if": { "math": [ "n_pet_weight <= 51" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 49" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TEMPESTMON", "beta_talker": "npc" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_AMETHYSTMON", "beta_talker": "npc" }
+                },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 56" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 54" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_JADEITEMON", "beta_talker": "npc" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_JADEITEMON", "beta_talker": "npc" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 60" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_JADEITEMON", "beta_talker": "npc" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CRUSTMON", "beta_talker": "npc" }
+                  }
+                }
+              }
+            }
+          },
+          "else": {
+            "if": { "math": [ "n_care_mistakes <= 4" ] },
+            "then": {
+              "if": { "math": [ "n_pet_weight <= 38" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 36" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_MISTMON", "beta_talker": "npc" },
+                "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_DROPLETMON", "beta_talker": "npc" }
+              },
+              "else": {
+                "if": { "math": [ "n_pet_weight <= 42" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 40" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_HAZEEMON", "beta_talker": "npc" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_HAZEEMON", "beta_talker": "npc" }
+                },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 46" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 44" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SMOGMON", "beta_talker": "npc" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SMOGMON", "beta_talker": "npc" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 50" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 48" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_DROIDMON", "beta_talker": "npc" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_DROIDMON", "beta_talker": "npc" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 55" ] },
+                      "then": {
+                        "if": { "math": [ "n_pet_weight <= 53" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_BARKMON", "beta_talker": "npc" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SMOGMON", "beta_talker": "npc" }
+                      },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 60" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ROOTMON", "beta_talker": "npc" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ROOTMON", "beta_talker": "npc" }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "else": {
+              "if": { "math": [ "n_care_mistakes <= 7" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 38" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 36" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SEERMON", "beta_talker": "npc" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SEERMON", "beta_talker": "npc" }
+                },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 42" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 40" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_RITUALMON", "beta_talker": "npc" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_RITUALMON", "beta_talker": "npc" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 46" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 44" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_HEXMON", "beta_talker": "npc" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CHARMSMON", "beta_talker": "npc" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 50" ] },
+                      "then": {
+                        "if": { "math": [ "n_pet_weight <= 48" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SPELLMON", "beta_talker": "npc" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_OCCULTMON", "beta_talker": "npc" }
+                      },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 55" ] },
+                        "then": {
+                          "if": { "math": [ "n_pet_weight <= 53" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FATEMON", "beta_talker": "npc" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TWILIMON", "beta_talker": "npc" }
+                        },
+                        "else": {
+                          "if": { "math": [ "n_pet_weight <= 60" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_OMENMON", "beta_talker": "npc" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FOGMON", "beta_talker": "npc" }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "else": {
+                "if": { "math": [ "n_care_mistakes >= 8" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 34" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SKELEMON", "beta_talker": "npc" },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 39" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 37" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ZOMBIMON", "beta_talker": "npc" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_MIGOMON", "beta_talker": "npc" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 44" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_KRECKMON", "beta_talker": "npc" },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 49" ] },
+                        "then": {
+                          "if": { "math": [ "n_pet_weight <= 47" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GEMMON", "beta_talker": "npc" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CARBUNCLEMON", "beta_talker": "npc" }
+                        },
+                        "else": {
+                          "if": { "math": [ "n_pet_weight <= 54" ] },
+                          "then": {
+                            "if": { "math": [ "n_pet_weight <= 52" ] },
+                            "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALMON", "beta_talker": "npc" },
+                            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TOXMON", "beta_talker": "npc" }
+                          },
+                          "else": {
+                            "if": { "math": [ "n_pet_weight <= 59" ] },
+                            "then": {
+                              "if": { "math": [ "n_pet_weight <= 57" ] },
+                              "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_VIRUMON", "beta_talker": "npc" },
+                              "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CONTAGMON", "beta_talker": "npc" }
+                            },
+                            "else": {
+                              "if": { "math": [ "n_pet_weight <= 69" ] },
+                              "then": {
+                                "if": { "math": [ "n_pet_weight <= 64" ] },
+                                "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_BLISTERMON", "beta_talker": "npc" },
+                                "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SCABMON", "beta_talker": "npc" }
+                              },
+                              "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CRUSTMON", "beta_talker": "npc" }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_CHECK_EVOLVE",
+  "effect": [
+    {
+      "u_run_inv_eocs": "random",
+      "search_data": [ { "flags": [ "DIGIVICE_BABY" ] } ],
+      "true_eocs": [ "EOC_DIGIVICE_CHECK_EVOLVE_BRANCH" ],
+      "false_eocs": [ "EOC_DIGIVICE_NO_BABY_FOR_CHECK" ]
+    }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_CHECK_EVOLVE_BRANCH",
+  "effect": [
+    {
+      "if": { "math": [ "n_pet_stage < 5" ] },
+      "then": [
+        { "math": [ "n_pet_evolve_progress = n_pet_evolve_progress + 1" ] },
+        {
+          "if": {
+            "and": [
+              { "math": [ "n_pet_hunger >= 70" ] },
+              { "math": [ "n_pet_happiness >= 70" ] }
+            ]
+          },
+          "then": { "math": [ "n_pet_evolve_progress = n_pet_evolve_progress + 2" ] }
+        },
+        {
+          "if": {
+            "or": [
+              { "math": [ "n_pet_hunger < 10" ] },
+              { "math": [ "n_pet_happiness < 10" ] }
+            ]
+          },
+          "then": { "math": [ "n_pet_evolve_progress = n_pet_evolve_progress - 1" ] }
+        },
+        { "math": [ "n_pet_evolve_progress = max(n_pet_evolve_progress, 0)" ] },
+        {
+          "if": { "math": [ "n_pet_evolve_progress >= 100" ] },
+          "then": [
+            { "math": [ "n_pet_stage = n_pet_stage + 1" ] },
+            { "math": [ "n_pet_evolve_progress = 0" ] },
+            {
+              "if": { "math": [ "n_pet_stage < 5" ] },
+              "then": [
+                { "u_message": "Your digital pet is growing stronger!", "type": "good" }
+              ],
+              "else": { "run_eocs": "EOC_DIGIVICE_TYPE_DISTRIBUTOR", "beta_talker": "npc" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_NO_BABY_FOR_CHECK",
+  "effect": { "u_message": "No baby Digivice to check.", "type": "info" }
+}
+      ]

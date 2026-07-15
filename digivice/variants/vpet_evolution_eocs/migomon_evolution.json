@@ -1,0 +1,258 @@
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_TO_ADULT",
+  "effect": [
+    {
+      "if": { "math": [ "n_pet_weight < 30" ] },
+      "then": {
+        "if": { "math": [ "n_pet_weight <= 25" ] },
+        "then": {
+          "if": { "math": [ "n_pet_weight <= 15" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_MICROMON" },
+          "else": {
+            "if": { "math": [ "n_pet_weight <= 20" ] },
+            "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_LOGMON" },
+            "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_VOXELMON" }
+          }
+        },
+        "else": {
+          "if": { "math": [ "n_pet_weight <= 28" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SAPMON" },
+          "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_POLLENMON" }
+        }
+      },
+      "else": {
+        "if": { "math": [ "n_pet_weight > 80" ] },
+        "then": {
+          "if": { "math": [ "n_pet_weight <= 85" ] },
+          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TERABYTEMON" },
+          "else": {
+            "if": { "math": [ "n_pet_weight <= 90" ] },
+            "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CRUSTMON" },
+            "else": {
+              "if": { "math": [ "n_pet_weight <= 95" ] },
+              "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CRUSTMON" },
+              "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CRUSTMON" }
+            }
+          }
+        },
+        "else": {
+          "if": { "math": [ "n_care_mistakes == 0" ] },
+          "then": {
+            "if": { "math": [ "n_pet_weight <= 44" ] },
+            "then": {
+              "if": { "math": [ "n_pet_weight <= 42" ] },
+              "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_GLEAMMON" },
+              "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_GLEAMMON" }
+            },
+            "else": {
+              "if": { "math": [ "n_pet_weight <= 49" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 47" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_OPALMON" },
+                "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_OPALMON" }
+              },
+              "else": {
+                "if": { "math": [ "n_pet_weight <= 54" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SAPPHIREMON" },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 59" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SAPPHIREMON" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SAPPHIREMON" }
+                }
+              }
+            }
+          },
+          "else": {
+            "if": { "math": [ "n_care_mistakes <= 2" ] },
+            "then": {
+              "if": { "math": [ "n_pet_weight <= 43" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 41" ] },
+                "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CYCLONEMON" },
+                "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CYCLONEMON" }
+              },
+              "else": {
+                "if": { "math": [ "n_pet_weight <= 47" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 45" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TOPAZMON" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TOPAZMON" }
+                },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 51" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 49" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TEMPESTMON" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_AMETHYSTMON" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 56" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 54" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_JADEITEMON" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_JADEITEMON" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 60" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_JADEITEMON" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CRUSTMON" }
+                    }
+                  }
+                }
+              }
+            },
+            "else": {
+              "if": { "math": [ "n_care_mistakes <= 4" ] },
+              "then": {
+                "if": { "math": [ "n_pet_weight <= 38" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 36" ] },
+                  "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_MISTMON" },
+                  "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_DROPLETMON" }
+                },
+                "else": {
+                  "if": { "math": [ "n_pet_weight <= 42" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 40" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_HAZEEMON" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_HAZEEMON" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 46" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 44" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SMOGMON" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SMOGMON" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 50" ] },
+                      "then": {
+                        "if": { "math": [ "n_pet_weight <= 48" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_DROIDMON" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_DROIDMON" }
+                      },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 55" ] },
+                        "then": {
+                          "if": { "math": [ "n_pet_weight <= 53" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_BARKMON" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SMOGMON" }
+                        },
+                        "else": {
+                          "if": { "math": [ "n_pet_weight <= 60" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_ROOTMON" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_ROOTMON" }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "else": {
+                "if": { "math": [ "n_care_mistakes <= 7" ] },
+                "then": {
+                  "if": { "math": [ "n_pet_weight <= 38" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 36" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SEERMON" },
+                    "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SEERMON" }
+                  },
+                  "else": {
+                    "if": { "math": [ "n_pet_weight <= 42" ] },
+                    "then": {
+                      "if": { "math": [ "n_pet_weight <= 40" ] },
+                      "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_RITUALMON" },
+                      "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_RITUALMON" }
+                    },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 46" ] },
+                      "then": {
+                        "if": { "math": [ "n_pet_weight <= 44" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_HEXMON" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CHARMSMON" }
+                      },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 50" ] },
+                        "then": {
+                          "if": { "math": [ "n_pet_weight <= 48" ] },
+                          "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SPELLMON" },
+                          "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_OCCULTMON" }
+                        },
+                        "else": {
+                          "if": { "math": [ "n_pet_weight <= 55" ] },
+                          "then": {
+                            "if": { "math": [ "n_pet_weight <= 53" ] },
+                            "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_FATEMON" },
+                            "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TWILIMON" }
+                          },
+                          "else": {
+                            "if": { "math": [ "n_pet_weight <= 60" ] },
+                            "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_OMENMON" },
+                            "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_FOGMON" }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "else": {
+                  "if": { "math": [ "n_care_mistakes >= 8" ] },
+                  "then": {
+                    "if": { "math": [ "n_pet_weight <= 34" ] },
+                    "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SKELEMON" },
+                    "else": {
+                      "if": { "math": [ "n_pet_weight <= 39" ] },
+                      "then": {
+                        "if": { "math": [ "n_pet_weight <= 37" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_ZOMBIMON" },
+                        "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_MIGOMON" }
+                      },
+                      "else": {
+                        "if": { "math": [ "n_pet_weight <= 44" ] },
+                        "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_KRECKMON" },
+                        "else": {
+                          "if": { "math": [ "n_pet_weight <= 49" ] },
+                          "then": {
+                            "if": { "math": [ "n_pet_weight <= 47" ] },
+                            "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_GEMMON" },
+                            "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CARBUNCLEMON" }
+                          },
+                          "else": {
+                            "if": { "math": [ "n_pet_weight <= 54" ] },
+                            "then": {
+                              "if": { "math": [ "n_pet_weight <= 52" ] },
+                              "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_FUNGALMON" },
+                              "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_TOXMON" }
+                            },
+                            "else": {
+                              "if": { "math": [ "n_pet_weight <= 59" ] },
+                              "then": {
+                                "if": { "math": [ "n_pet_weight <= 57" ] },
+                                "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_VIRUMON" },
+                                "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CONTAGMON" }
+                              },
+                              "else": {
+                                "if": { "math": [ "n_pet_weight <= 69" ] },
+                                "then": {
+                                  "if": { "math": [ "n_pet_weight <= 64" ] },
+                                  "then": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_BLISTERMON" },
+                                  "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_SCABMON" }
+                                },
+                                "else": { "run_eocs": "EOC_DIGIVICE_MIGOMON_EDITION_EVOLVE_ADULT_CRUSTMON" }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+},
