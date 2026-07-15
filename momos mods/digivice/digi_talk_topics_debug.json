@@ -2,7 +2,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_MAIN_MENU",
-    "dynamic_line": "Your <u_val:pet_name_display> is currently:\nHunger: <u_val:pet_hunger_desc> (<u_val:pet_hunger_num>/100)\nHappiness: <u_val:pet_happy_desc> (<u_val:pet_happy_num>/100)\nEvolution Stage: <u_val:pet_stage>\nATK: <u_val:pet_atk>  DEF: <u_val:pet_def>  INT: <u_val:pet_int>\nAGI: <u_val:pet_agi>  LUCK: <u_val:pet_luck>\nWeight: <u_val:pet_weight>kg  Stamina: <u_val:pet_stamina>/<u_val:pet_max_stamina>\nMesses: <u_val:pet_mess_count>/4 ",
+    "dynamic_line": "Your <u_val:pet_name_display> is currently:\nHunger: <u_val:pet_hunger_desc> (<u_val:pet_hunger_num>/100)\nHappiness: <u_val:pet_happy_desc> (<u_val:pet_happy_num>/100)\nEvolution Progress: <u_val:pet_evolve_progress>/100",
     "responses": [
       {
         "text": "Feed your monster!",
@@ -24,13 +24,18 @@
         "effect": { "run_eocs": "EOC_DIGIVICE_FLUSH" }
       },
       {
+        "text": "Scold your monster!",
+        "topic": "DIGIVICE_MAIN_MENU",
+        "effect": { "run_eocs": "EOC_DIGIVICE_SCOLD" }
+      },
+      {
         "text": "Battle!",
         "topic": "DIGIVICE_BATTLE_MENU"
       },
-	  {
-  "text": "Debug options",
-  "topic": "DIGIVICE_DEBUG_MENU"
-},
+      {
+        "text": "Debug options",
+        "topic": "DIGIVICE_DEBUG_MENU"
+      },
       {
         "text": "Never mind",
         "topic": "TALK_DONE"
@@ -38,25 +43,25 @@
     ]
   },
   {
-  "type": "talk_topic",
-  "id": "DIGIVICE_DEBUG_MENU",
-  "dynamic_line": "--- Debug Options ---\nUse these to test evolution.",
-  "responses": [
-    {
-      "text": "Force adulthood (evolve now)",
-      "topic": "DIGIVICE_DEBUG_MENU",
-      "effect": { "run_eocs": "EOC_DIGIVICE_DEBUG_FORCE_ADULT" }
-    },
-    {
-      "text": "Go back",
-      "topic": "DIGIVICE_MAIN_MENU"
-    }
-  ]
-},
+    "type": "talk_topic",
+    "id": "DIGIVICE_DEBUG_MENU",
+    "dynamic_line": "--- Debug Options ---\nUse these to test evolution.",
+    "responses": [
+      {
+        "text": "Force adulthood (evolve now)",
+        "topic": "DIGIVICE_DEBUG_MENU",
+        "effect": { "run_eocs": "EOC_DIGIVICE_DEBUG_FORCE_ADULT" }
+      },
+      {
+        "text": "Go back",
+        "topic": "DIGIVICE_MAIN_MENU"
+      }
+    ]
+  },
   {
     "type": "talk_topic",
     "id": "DIGIVICE_TRAIN_MENU",
-    "dynamic_line": "You are training your monster.\nCurrent Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nEach training costs 5 hunger.",
+    "dynamic_line": "You are training your monster.\nCurrent Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nEach training session costs 10 stamina and some hunger.",
     "responses": [
       {
         "text": "Train Attack (+1 ATK)",
@@ -92,7 +97,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_BATTLE_MENU",
-    "dynamic_line": "Your monster is ready for battle!\nCurrent Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\nStamina: <u_val:pet_stamina>/<u_val:pet_max_stamina>\nWhat would you like to do?",
+    "dynamic_line": "Your monster is ready for battle!\nCurrent Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\nStamina: <u_val:pet_stamina>/100",
     "responses": [
       {
         "text": "Fight a 1v1 battle",
@@ -129,7 +134,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_BATTLE_RESULT",
-    "dynamic_line": "<u_val:battle_result>\n<u_val:battle_msg>\n\nYour Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nOpponent Stats:\nATK: <u_val:battle_opponent_atk>\nDEF: <u_val:battle_opponent_def>\nINT: <u_val:battle_opponent_int>\nAGI: <u_val:battle_opponent_agi>\nLUCK: <u_val:battle_opponent_luck>\nHunger: <u_val:pet_hunger_desc> (<u_val:pet_hunger_num>/100)\nHappiness: <u_val:pet_happy_desc> (<u_val:pet_happy_num>/100)",
+    "dynamic_line": "<u_val:battle_result>\n<u_val:battle_msg>\n\nYour Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nOpponent Stats:\nATK: <u_val:battle_opponent_atk>\nDEF: <u_val:battle_opponent_def>\nINT: <u_val:battle_opponent_int>\nAGI: <u_val:battle_opponent_agi>\nLUCK: <u_val:battle_opponent_luck>",
     "responses": [
       { "text": "Continue", "topic": "TALK_DONE" }
     ]
@@ -137,7 +142,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_TOURNAMENT_START",
-    "dynamic_line": "Welcome to the TOURNAMENT!\n\nCurrent Progress: Level <u_val:tournament_level_str>/100\nWins: <u_val:tournament_wins>  Losses: <u_val:tournament_losses>\nChampionships: <u_val:tournament_championships>\n\nYour monster will face 100 opponents, one at a time.\nDefeat = eliminated. Victory = advance!\n\nCurrent Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>",
+    "dynamic_line": "Welcome to the TOURNAMENT!\n\nCurrent Progress: Level <u_val:tournament_level_str>/100\nWins: <u_val:tournament_wins>  Losses: <u_val:tournament_losses>\nChampionships: <u_val:tournament_championships>",
     "responses": [
       {
         "text": "Resume tournament",
@@ -159,7 +164,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_TOURNAMENT_ROUND_WIN",
-    "dynamic_line": "ROUND VICTORY!\n\n<u_val:battle_msg>\n\nLevel Reached: <u_val:tournament_level_str>/100\nOpponent: <u_val:tournament_opponent_name>\n\nYour Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nCareer Record:\nWins: <u_val:tournament_wins>\nLosses: <u_val:tournament_losses>\nChampionships: <u_val:tournament_championships>",
+    "dynamic_line": "ROUND VICTORY!\n\n<u_val:battle_msg>\n\nLevel Reached: <u_val:tournament_level_str>/100\nOpponent: <u_val:tournament_opponent_name>\n\nYour Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>",
     "responses": [
       {
         "text": "Continue to next round",
@@ -175,7 +180,7 @@
   {
     "type": "talk_topic",
     "id": "DIGIVICE_TOURNAMENT_RESULT",
-    "dynamic_line": "TOURNAMENT STATUS\n\n<u_val:battle_result>\n<u_val:battle_msg>\n\nOpponent: <u_val:tournament_opponent_name>\nLevel Reached: <u_val:tournament_level_str>/100\n\nCareer Record:\nWins: <u_val:tournament_wins>\nLosses: <u_val:tournament_losses>\nChampionships: <u_val:tournament_championships>\n\nYour Stats:\nATK: <u_val:pet_atk>\nDEF: <u_val:pet_def>\nINT: <u_val:pet_int>\nAGI: <u_val:pet_agi>\nLUCK: <u_val:pet_luck>\n\nHunger: <u_val:pet_hunger_desc> (<u_val:pet_hunger_num>/100)\nHappiness: <u_val:pet_happy_desc> (<u_val:pet_happy_num>/100)",
+    "dynamic_line": "TOURNAMENT STATUS\n\n<u_val:battle_result>\n<u_val:battle_msg>\n\nOpponent: <u_val:tournament_opponent_name>\nLevel Reached: <u_val:tournament_level_str>/100\n\nCareer Record:\nWins: <u_val:tournament_wins>\nLosses: <u_val:tournament_losses>\nChampionships: <u_val:tournament_championships>",
     "responses": [
       { "text": "Continue", "topic": "TALK_DONE" }
     ]
