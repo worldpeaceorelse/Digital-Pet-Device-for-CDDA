@@ -106,7 +106,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Sproutmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -120,7 +120,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Blistermon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -134,7 +134,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Grackenmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -148,7 +148,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Kreckmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -162,7 +162,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Survivormon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -176,7 +176,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Fungalmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -190,7 +190,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into an Eyemon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -204,7 +204,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Zomborgmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -218,7 +218,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Feralmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -232,7 +232,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Slimeymon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -246,7 +246,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into an Anarchymon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -260,7 +260,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Scorchedmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -274,7 +274,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Blankmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -288,7 +288,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Corpsemon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -302,7 +302,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Pulmonarymon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -312,11 +312,11 @@
     "effect": [
       { "set_string_var": "tiedye", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_tiedye" },
-      { "set_string_var": "Deleriumon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Delirumon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Delirumon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -330,7 +330,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Skelemon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -344,7 +344,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Shadowmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -358,7 +358,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Polypmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -372,7 +372,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Crayfishmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -386,7 +386,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Marlossmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -400,7 +400,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Putridmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -414,7 +414,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Seweranhamon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -428,7 +428,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Zappermon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -442,7 +442,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Monolithmon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -456,7 +456,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Visceramon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   },
@@ -470,7 +470,7 @@
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
-      { "u_message": "Your egg glows warmly and hatches into a new digital companion!", "type": "good" },
+      { "u_message": "Your egg glows warmly and hatches into a Larvamon!", "type": "good" },
       { "run_eocs": "EOC_DIGIVICE_INIT_ITEM" }
     ]
   }
