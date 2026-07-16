@@ -102,7 +102,7 @@
     "effect": [
       { "set_string_var": "brown", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_brown" },
-      { "set_string_var": "Biomon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Sproutmon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -116,7 +116,7 @@
     "effect": [
       { "set_string_var": "yellow", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_yellow" },
-      { "set_string_var": "Teemomon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Blistermon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -158,7 +158,7 @@
     "effect": [
       { "set_string_var": "brick", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_brick" },
-      { "set_string_var": "Rampagemon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Survivormon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -186,7 +186,7 @@
     "effect": [
       { "set_string_var": "white", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_white" },
-      { "set_string_var": "Momomon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Eyemon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -200,7 +200,7 @@
     "effect": [
       { "set_string_var": "metal", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_metal" },
-      { "set_string_var": "Shrapnelmon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Zomborgmon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -340,7 +340,7 @@
     "effect": [
       { "set_string_var": "darkcamo", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_darkcamo" },
-      { "set_string_var": "Spectremon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Shadowmon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -368,7 +368,7 @@
     "effect": [
       { "set_string_var": "sapphire", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_sapphire" },
-      { "set_string_var": "Dehydramon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Crayfishmon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -382,7 +382,7 @@
     "effect": [
       { "set_string_var": "amaranth", "target_var": { "npc_val": "egg_color" } },
       { "transform_item": "vpetmonster01_amaranth" },
-      { "set_string_var": "Aquamon", "target_var": { "npc_val": "pet_name" } },
+      { "set_string_var": "Marlossmon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
@@ -409,8 +409,8 @@
     "id": "EOC_DIGIVICE_LIGHT_BLUE",
     "effect": [
       { "set_string_var": "light_blue", "target_var": { "npc_val": "egg_color" } },
-      { "transform_item": "vpetmonster01_orange" },
-      { "set_string_var": "Splattermon", "target_var": { "npc_val": "pet_name" } },
+      { "transform_item": "vpetmonster01_light_blue" },
+      { "set_string_var": "Seweranhamon", "target_var": { "npc_val": "pet_name" } },
       { "set_string_var": "base", "target_var": { "npc_val": "pet_variant" } },
         { "math": [ "n_pet_uid = global_pet_counter" ] },
       { "math": [ "global_pet_counter = global_pet_counter + 1" ] },
