@@ -155,10 +155,6 @@
         "topic": "DIGIVICE_COMPENDIUM"
       },
       {
-        "text": "Debug options",
-        "topic": "DIGIVICE_DEBUG_MENU"
-      },
-      {
         "text": "Never mind",
         "topic": "TALK_DONE"
       }
