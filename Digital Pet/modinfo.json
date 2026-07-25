@@ -3,5 +3,9 @@
     "type": "MOD_INFO",
     "id": "zombivice_mod",
     "name": "Digital Pet Devices for Cataclysm"
+    "authors": [ "World Peace Now...Or Else! aka MomosThrall"  ],
+    "description": "Adds digital pet devices (Zombivices) to the world of CDDA. Raise, train, battle, and evolve virtual monsters. Includes 27 egg lineages, 165 unique forms, NPC traders, arena battles, tournaments, merch items, and a full compendium tracking system.",
+    "category": "content",
+    "dependencies": [ "dda" ]
   }
 ]
