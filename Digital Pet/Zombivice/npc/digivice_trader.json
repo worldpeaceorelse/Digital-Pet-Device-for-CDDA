@@ -7,7 +7,7 @@
     "attitude": 0,
     "mission": "SHOPKEEP",
     "chat": "TALK_DIGIVICE_TRADER",
-    "faction": "digivice_depot",
+    "faction": "zombivice_depot",
     "gender": "male"
   },
   {
@@ -15,7 +15,7 @@
     "type": "talk_topic",
     "dynamic_line": [
       "Data looks up from a mess of wires and cracked screens, eyes lighting up. \"Oh! A live one! Come, come \u00e2\u20ac\u201d you've got the look of someone who hasn't met a Zpet before. I can always tell.\"",
-      "\"Welcome to the Digivice Depot!\" Data announces, gesturing at a wall of colorful plastic eggs and handheld devices. \"Last working Zpet operation on the continent. Probably the world. Definitely this county.\"",
+      "\"Welcome to the Zombivice Depot!\" Data announces, gesturing at a wall of colorful plastic eggs and handheld devices. \"Last working Zpet operation on the continent. Probably the world. Definitely this county.\"",
       "Data grins. \"New face! You want to see what I've got?\" He gestures at a wall of gleaming gadgets. \"Zpets \u00e2\u20ac\u201d digital companions. Raisable, evolvable, battle-ready. Before the cataclysm they were just toys. Now?\" He taps his temple. \"They're a reason to get up in the morning.\""
     ],
     "speaker_effect": {

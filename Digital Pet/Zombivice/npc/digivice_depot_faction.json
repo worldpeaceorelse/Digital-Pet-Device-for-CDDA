@@ -1,8 +1,8 @@
 [
   {
     "type": "faction",
-    "id": "digivice_depot",
-    "name": "Digivice Depot",
+    "id": "zombivice_depot",
+    "name": "Zombivice Depot",
     "likes_u": 50,
     "respects_u": 50,
     "known_by_u": true,
@@ -40,6 +40,6 @@
       }
     },
     "mon_faction": "player",
-    "description": "Data's one-man operation \u2014 the Digivice Depot. A small stall in the refugee center dealing in Zombimon eggs, merchandise, and Zpoint vouchers."
+    "description": "Data's one-man operation \u2014 the Zombivice Depot. A small stall in the refugee center dealing in Zombimon eggs, merchandise, and Zpoint vouchers."
   }
 ]
