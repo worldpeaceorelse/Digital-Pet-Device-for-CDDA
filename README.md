@@ -52,7 +52,7 @@ Virtual Pet Tamer profession — starts with a random egg from the first 5 model
 ### Compendium & Achievements
 - Built-in compendium tracks all 165 forms with descriptions
 <img width="1276" height="720" alt="compendium" src="https://github.com/user-attachments/assets/90aa8e34-111c-4b44-aa82-d06ce1039c7c" />
-- 17 achievements: evolution milestones, battle records, collections, and economy goals
+- 17 achievements: evolution milestones, battle records and collection goals
 <img width="334" height="119" alt="achievements" src="https://github.com/user-attachments/assets/f0bb7c93-cd25-46ad-a7e9-384e9470144c" />
 
 
