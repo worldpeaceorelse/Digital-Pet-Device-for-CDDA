@@ -32,6 +32,9 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 
 <img width="761" height="636" alt="dataslocation" src="https://github.com/user-attachments/assets/30260725-2e46-486c-b20f-7bd28653ff44" />
 
+This is the where Data is located at the Refugee Center. The dining area specifically. Moved from the loading dock area where he kept getting slaughtered.
+
+
 - **Brutus, Vex, Jinx, Grimes** — Zombivice maniacs that you can battle.
 - **Random encounters** — Roadstop NPCs offering random battles.
 
