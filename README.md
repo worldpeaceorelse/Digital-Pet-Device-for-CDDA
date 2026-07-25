@@ -13,7 +13,7 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 
 ### Battle & Tournaments
 - 10 difficulty tiers with scaling opponent stats
-- Stat-total ratio determines win chance (margins matter)
+- Level up your mons stats (ATK, DEF, INT, AGI, LCK) 
 - Tournament ladder: 100 levels with championship titles
 - Stat gains on victory, consequences on loss streaks
 - Battle against NPC maniacs with unique mega forms
