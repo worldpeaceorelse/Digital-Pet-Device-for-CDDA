@@ -23,13 +23,15 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 - Tournament ladder: 100 levels with championship titles
 - Stat gains on victory, consequences on loss streaks
 - Battle against NPC maniacs with unique mega forms
-<img width="361" height="302" alt="batllewin" src="https://github.com/user-attachments/assets/3dd6fbcc-47e4-4240-b6f5-e1c162e50e37" /> <img width="377" height="259" alt="tourny" src="https://github.com/user-attachments/assets/af9ada8a-36da-40f4-bf78-aa25484340e1" />
 
-
+<img width="361" height="302" alt="batllewin" src="https://github.com/user-attachments/assets/3dd6fbcc-47e4-4240-b6f5-e1c162e50e37" />
+<img width="377" height="259" alt="tourny" src="https://github.com/user-attachments/assets/af9ada8a-36da-40f4-bf78-aa25484340e1" />
 
 ### NPCs
 - **Data** — Shopkeeper in the refugee center. Sells eggs, merch, and exchanges Zpoints for vouchers.
+
 <img width="761" height="636" alt="dataslocation" src="https://github.com/user-attachments/assets/30260725-2e46-486c-b20f-7bd28653ff44" />
+
 - **Brutus, Vex, Jinx, Grimes** — Zombivice maniacs that you can battle.
 - **Random encounters** — Roadstop NPCs offering random battles.
 
