@@ -19,9 +19,9 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 - Battle against NPC maniacs with unique mega forms
 
 ### NPCs
-- **Data** — Shopkeeper in the refugee center. Sells eggs, merch, and exchanges Zpoints for vouchers. Knows rumors about old warehouses and a secret R&D lab.
-- **Brutus, Vex, Jinx, Grimes** — Arena maniacs with unique megas and personalities.
-- **Wanderers** — Roadstop NPCs offering random battles.
+- **Data** — Shopkeeper in the refugee center. Sells eggs, merch, and exchanges Zpoints for vouchers.
+- **Brutus, Vex, Jinx, Grimes** — Zombivice maniacs that you can battle.
+- **Random encounters** — Roadstop NPCs offering random battles.
 
 ### Merch & Items
 35 Zombimon-branded items: plushies, clothing, food, toys, collectibles, and a functional water blaster. Light-up sneakers with battery-powered LED glow.
