@@ -913,10 +913,6 @@
         "prob": 35
       },
       {
-        "item": "zombimon_water_gun",
-        "prob": 30
-      },
-      {
         "item": "zombimon_sneakers",
         "prob": 15
       },
@@ -1160,7 +1156,6 @@
       { "item": "zombimon_puzzle" },
       { "item": "zombimon_yoyo" },
       { "item": "zombimon_frisbee" },
-      { "item": "zombimon_water_gun" },
       { "item": "zombimon_sneakers" },
       { "item": "zombimon_cereal" },
       { "item": "zombimon_gummies" },
