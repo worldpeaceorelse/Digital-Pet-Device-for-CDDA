@@ -5,7 +5,9 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 ## Features
 
 ### Pet Raising
-- 27 egg lineages with branching evolution trees (165 forms)
+- 5 starting eggs
+- 27 egg lineages total with branching evolution trees (165 forms)
+- Unlock new eggs by meeting certain conditions
 - Real-time pet simulation: hunger, happiness, stamina, sleep, weight, cleanliness
 - Evolution driven by care quality, weight, and stat thresholds
 - Virus infection with quarantine recovery mechanic
