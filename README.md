@@ -38,7 +38,7 @@ This is the where Data is located at the Refugee Center. The dining area specifi
 - **Brutus, Vex, Jinx, Grimes** — Zombivice maniacs that you can battle.
 - **Random encounters** — Roadstop NPCs offering random battles.
 
-- ### Followers
+### Followers
 - If you're holding a zPet then an option will appear in the dialogue window with any of your followers where you can ask them to raise your virtual pet for you!
 - Followers will maintain your pet for you and give it back to you once you're ready to care for it again.
 - You can give any of your followers their own vPet. They will raise it on their own and battle you with it.
