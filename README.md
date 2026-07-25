@@ -28,7 +28,7 @@ Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle
 <img width="377" height="259" alt="tourny" src="https://github.com/user-attachments/assets/af9ada8a-36da-40f4-bf78-aa25484340e1" />
 
 ### NPCs
-- **Data** — Shopkeeper in the refugee center. Sells eggs, merch, and exchanges Zpoints for vouchers.
+- **Data** — Shopkeeper in the refugee center. Sells virtual pet devices, merch, and exchanges Zpoints for vouchers.
 
 <img width="761" height="636" alt="dataslocation" src="https://github.com/user-attachments/assets/30260725-2e46-486c-b20f-7bd28653ff44" />
 
