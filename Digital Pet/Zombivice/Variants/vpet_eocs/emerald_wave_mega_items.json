@@ -1,0 +1,2326 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_plague_vector",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Plaguevectormon)"
+    },
+    "description": "A skittering horde of diseased vermin united into a single malignant intelligence.",
+    "symbol": "X",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_rat_king",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Ratkingmon)"
+    },
+    "description": "A tangled mass of fused rodents writhing as one foul entity.",
+    "symbol": "Z",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_triffid",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Triffidmon)"
+    },
+    "description": "A towering plantoid horror with razor-sharp petals that thirst for blood.",
+    "symbol": "F",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_biollante",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Biollantemon)"
+    },
+    "description": "A massive bloom of carnivorous flora, its pollen dissolves flesh on contact.",
+    "symbol": "F",
+    "color": "light_green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_vine_beast",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Vinebeastmon)"
+    },
+    "description": "A writhing mass of sentient vines that strangles anything within reach.",
+    "symbol": "T",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_kraken",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Krakemon)"
+    },
+    "description": "A colossal cephalopod from the abyss, its tentacles can crush steel.",
+    "symbol": "S",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_scylla",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Scyllamon)"
+    },
+    "description": "A six-headed serpentine nightmare that strikes from every angle at once.",
+    "symbol": "S",
+    "color": "light_blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_hydra",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Hydramon)"
+    },
+    "description": "A regenerating horror that grows two heads for every one lost in battle.",
+    "symbol": "S",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_amalgamation",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Amalgamationmon)"
+    },
+    "description": "A brutish fusion of flesh and malice, a patchwork horror of unmatched strength.",
+    "symbol": "A",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_daitya",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Daityamon)"
+    },
+    "description": "A towering demonic giant whose roar shatters bone and glass alike.",
+    "symbol": "A",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_hekatonkheire",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Hekatonkheiremon)"
+    },
+    "description": "A hundred-armed abomination that delivers an endless barrage of devastating blows.",
+    "symbol": "A",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_barghest",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Barghestmon)"
+    },
+    "description": "A spectral hound the size of a horse, its bite rends the soul itself.",
+    "symbol": "C",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_jabberwock",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Jabberwockmon)"
+    },
+    "description": "A vorpal beast that burbles with menace, its claws can cleave through dimensions.",
+    "symbol": "C",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_dark_wyrm",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Darkwyrmmon)"
+    },
+    "description": "An ancient subterranean leviathan that tunnels through solid rock like water.",
+    "symbol": "C",
+    "color": "black",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_juggernaut",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletaljuggernautmon)"
+    },
+    "description": "A colossal walking fortress of bone, unstoppable and utterly relentless.",
+    "symbol": "Z",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_reaper",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletalreapermon)"
+    },
+    "description": "A grim reaper of bone, its scythe collects souls with every swing.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_executioner",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletalexecutionermon)"
+    },
+    "description": "A massive skeleton wielding a great cleaver, delivering final judgment.",
+    "symbol": "Z",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_fungal_spire",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fungalspiremon)"
+    },
+    "description": "A massive fungal tower that releases clouds of mind-altering spores.",
+    "symbol": "F",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_fungal_hulk",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fungalhulkmon)"
+    },
+    "description": "A shambling mountain of fungal matter that crushes everything in its path.",
+    "symbol": "F",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_fungal_juggernaut",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fungaljuggernautmon)"
+    },
+    "description": "An immense fungal abomination armored in chitinous growths and deadly spores.",
+    "symbol": "F",
+    "color": "light_green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_amigara_horror",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Amigarahorrorrmon)"
+    },
+    "description": "A being of impossible geometry that compels you to come closer and stare.",
+    "symbol": "A",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_eigenspectre",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Eigenspectremon)"
+    },
+    "description": "A shimmering phantom from another dimension, its touch erases matter.",
+    "symbol": "A",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_impossible_shape",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Impossibleshapemon)"
+    },
+    "description": "An unfolded impossibility that defies physics, driving witnesses to madness.",
+    "symbol": "A",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zomborg_devourer",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zomborgdevourermon)"
+    },
+    "description": "A cybernetic zombie engine of consumption, devouring all in its path.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_hulk",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombiehulkmon)"
+    },
+    "description": "A titanic undead behemoth whose fists crater concrete and crumple cars.",
+    "symbol": "Z",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_brute",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombiebrutemon)"
+    },
+    "description": "A muscle-bound corpse engineered for maximum carnage and minimum restraint.",
+    "symbol": "Z",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_flesh_raptor",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fleshrapormon)"
+    },
+    "description": "A sinewy predator of raw flesh that tears through crowds with savage speed.",
+    "symbol": "F",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_flesh_construct",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fleshconstructmon)"
+    },
+    "description": "A patchwork giant of stitched flesh and rebar, animated by pure spite.",
+    "symbol": "F",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_fleshy_shambler",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fleshyshamblermon)"
+    },
+    "description": "A lurching mountain of meat that leaves a bloody trail everywhere it walks.",
+    "symbol": "F",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_graboid",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Graboidmon)"
+    },
+    "description": "A colossal underground predator that erupts from below to swallow prey whole.",
+    "symbol": "S",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_abyssal_terror",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Protoplasmon)"
+    },
+    "description": "A nightmarish leviathan from the darkest depths, where light has never reached.",
+    "symbol": "S",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_jawed_terror",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Oozebeastmon)"
+    },
+    "description": "A maw large enough to swallow boats, lined with teeth like daggers.",
+    "symbol": "S",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_migo_myrmidon",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Migomyrmidonmon)"
+    },
+    "description": "A towering alien soldier, its chitinous body bristles with organic weaponry.",
+    "symbol": "A",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_migo_surgeon",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Migosurgeonmon)"
+    },
+    "description": "An alien vivisectionist whose appendages are custom tools for dismantling life.",
+    "symbol": "A",
+    "color": "light_red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_phase_shrike",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Phaseshrikemon)"
+    },
+    "description": "A flickering avian horror that phases through solid matter to impale its prey.",
+    "symbol": "A",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_fiend",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Fiendmon)"
+    },
+    "description": "A demonic entity wreathed in hellfire, its gaze promises eternal torment.",
+    "symbol": "Z",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_ancient_red_dragon",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Ancientreddragonmon)"
+    },
+    "description": "An ancient scaled tyrant whose fiery breath can reduce cities to ash.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_scorched_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Scorchedzombiemon)"
+    },
+    "description": "A charred undead warrior wreathed in smoldering embers and vengeful flame.",
+    "symbol": "Z",
+    "color": "light_red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_absence",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Absencemon)"
+    },
+    "description": "A walking void where a being should be. Looking at it makes you forget yourself.",
+    "symbol": "A",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_titan_spectre",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Titanspectremon)"
+    },
+    "description": "A colossal spectral entity whose very presence warps the fabric of reality.",
+    "symbol": "A",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_unfolded_impossibility",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Unfoldedimpossibilitymon)"
+    },
+    "description": "A thing that should not exist, unfolding in directions your mind cannot follow.",
+    "symbol": "A",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_abomination",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Abominationmon)"
+    },
+    "description": "A writhing fusion of every conceivable horror, constantly shifting and regenerating.",
+    "symbol": "A",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_daitya_devourer",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Daityadevourermon)"
+    },
+    "description": "A demonic giant whose endless hunger drives it to consume everything in sight.",
+    "symbol": "A",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_melded_task_force",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Meldedtaskforcemon)"
+    },
+    "description": "A fused mass of soldiers and equipment, a single horrifying combat organism.",
+    "symbol": "A",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_necromancer",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombienecromancermon)"
+    },
+    "description": "A deathly sorcerer that raises fallen foes to fight alongside it endlessly.",
+    "symbol": "Z",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_lich",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombielichmon)"
+    },
+    "description": "An undying lich whose phylactery pulses with dark energy, cheating death forever.",
+    "symbol": "Z",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_master",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombiemastermon)"
+    },
+    "description": "A commanding undead intelligence that controls legions of lesser corpses.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_predator",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombiepredatormon)"
+    },
+    "description": "A stealthy undead hunter that stalks its prey with inhuman patience and precision.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zombie_strider",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Zombiestridermon)"
+    },
+    "description": "A long-limbed corpse that moves with unnerving, spider-like grace across any terrain.",
+    "symbol": "Z",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_hunter_killer_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Hunterkillerzombiemon)"
+    },
+    "description": "A tireless automated undead weapon system, designed to eliminate all life forms.",
+    "symbol": "Z",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_hulk",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletalhulkmon)"
+    },
+    "description": "A colossal bone giant that smashes through walls and crushes foes underfoot.",
+    "symbol": "Z",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_master",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletalmastermon)"
+    },
+    "description": "A bone-wielding overlord that commands armies of the dead with silent gestures.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_skeletal_shocker",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Skeletalshockermon)"
+    },
+    "description": "A skeleton crackling with necrotic lightning, electrocuting all who come near.",
+    "symbol": "Z",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_nether_horror",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Netherhorrormon)"
+    },
+    "description": "A being from beyond the veil, its form is an insult to the laws of nature.",
+    "symbol": "A",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_phase_skulker",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Phaseskulkermon)"
+    },
+    "description": "A sneaking horror that flickers between dimensions, striking from nowhere.",
+    "symbol": "A",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_shadow_leaper",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Shadowleapermon)"
+    },
+    "description": "A creature of living shadow that pounces from darkness with lethal precision.",
+    "symbol": "A",
+    "color": "black",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_migo_slaver",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Migoslavermon)"
+    },
+    "description": "An alien master that captures and enslaves lesser beings with psionic control.",
+    "symbol": "A",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_yrax_quadraphract",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Yraxquadraphractmon)"
+    },
+    "description": "A four-faced crystalline entity that surveys all dimensions simultaneously.",
+    "symbol": "A",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_yrax_trifacet",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Yraxtrifacetmon)"
+    },
+    "description": "A three-faced crystalline horror that sees past, present, and future at once.",
+    "symbol": "A",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_vortex",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Vortexmon)"
+    },
+    "description": "A swirling dimensional rift that pulls everything nearby into the void beyond.",
+    "symbol": "S",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_leviathan",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Leviathanmon)"
+    },
+    "description": "A sea monster of biblical proportions, its passage creates tsunamis.",
+    "symbol": "S",
+    "color": "light_blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_kraken_sea",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Krakenmon)"
+    },
+    "description": "The undisputed apex predator of the abyss, no depth is beyond its reach.",
+    "symbol": "S",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_marloss_zealot",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Marlosszealotmon)"
+    },
+    "description": "A fanatical servant of the mycus, spreading its fungal gospel through violence.",
+    "symbol": "F",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_triffid_queen",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Triffidqueenmon)"
+    },
+    "description": "The mother of all triffids, a colossal bloom that commands the entire grove.",
+    "symbol": "F",
+    "color": "light_green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_triffid_heart",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Triffidheartmon)"
+    },
+    "description": "The pulsing core of the triffid hive mind, coordinating every vine and petal.",
+    "symbol": "F",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_bloated_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Gasbagmon)"
+    },
+    "description": "A grotesquely swollen corpse ready to burst with caustic bile and fury.",
+    "symbol": "Z",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_acidic_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Acidiczombiemon)"
+    },
+    "description": "A zombie whose very touch melts flesh and corrodes metal with digestive enzymes.",
+    "symbol": "Z",
+    "color": "light_green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_corrosive_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Corrosivezombiemon)"
+    },
+    "description": "An undead oozing with potent acid that dissolves anything it shambles across.",
+    "symbol": "Z",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_plaguebearer",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Plaguebearermon)"
+    },
+    "description": "A walking vector of pestilence, spreading disease and rot with every shambling step.",
+    "symbol": "Z",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_necromancer_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Necromancerzombiemon)"
+    },
+    "description": "A dark priest of undeath that whispers to the dead, compelling them to rise.",
+    "symbol": "Z",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_summoner_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Summonerzombiemon)"
+    },
+    "description": "A corpse that channels nether energies to summon horrors from beyond reality.",
+    "symbol": "Z",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_shocker_brute",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Shockerbrutemon)"
+    },
+    "description": "A heavily muscled zombie wreathed in arcs of high-voltage electricity.",
+    "symbol": "Z",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_bioelectric_zombie_frog",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Electrofrogmon)"
+    },
+    "description": "A mutant amphibian corpse that generates enough current to stun a crowd.",
+    "symbol": "Z",
+    "color": "light_blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_zapper_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Overloadmon)"
+    },
+    "description": "A crackling undead that shoots bolts of lightning from its outstretched arms.",
+    "symbol": "Z",
+    "color": "light_cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_advanced_fleshborg",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Advancedfleshborgmon)"
+    },
+    "description": "A terrifying fusion of organic tissue and deadly machine, a cyborg of pure carnage.",
+    "symbol": "A",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_advanced_plantborg",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Advancedplantborgmon)"
+    },
+    "description": "A biomechanical plant hybrid with steel vines and organic plasma cannons.",
+    "symbol": "A",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_prototype_cyborg",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Prototypecyborgmon)"
+    },
+    "description": "An experimental combat cyborg bristling with bleeding-edge weapons systems.",
+    "symbol": "A",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_boomer_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Boomerzombiemon)"
+    },
+    "description": "A bloated corpse that detonates into a shower of caustic gore when provoked.",
+    "symbol": "Z",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_spitter_zombie",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Bombardiermon)"
+    },
+    "description": "A zombie that projectile-vomits corrosive bile with surprising accuracy.",
+    "symbol": "Z",
+    "color": "light_green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_tearjerker",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Tearjerkermon)"
+    },
+    "description": "A weeping horror whose tears are acidic, dissolving all who approach to comfort it.",
+    "symbol": "Z",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_wyrd_spider",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Wyrdspidermon)"
+    },
+    "description": "A massive spectral spider that weaves webs of pure nightmare, trapping souls.",
+    "symbol": "s",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_deathtrap_spider",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Deathtrapmon)"
+    },
+    "description": "A cunning arachnid that constructs deadly trapdoors to ambush unsuspecting prey.",
+    "symbol": "s",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brutal_black_death_widow",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Blackdeathwidowmon)"
+    },
+    "description": "A jet-black spider whose venom can fell even the mightiest of foes in seconds.",
+    "symbol": "s",
+    "color": "black",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_MEGA",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

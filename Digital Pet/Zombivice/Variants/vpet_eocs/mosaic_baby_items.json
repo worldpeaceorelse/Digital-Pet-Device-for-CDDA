@@ -1,0 +1,758 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_sproutmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Sproutmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Sproutmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_crawlermon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Crawlermon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Crawlermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_grackenmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Grackenmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Grackenmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_kreckmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Kreckmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Kreckmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_survivormon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Survivormon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Survivormon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_sporemon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Sporemon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Sporemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_eyemon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Eyemon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Eyemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_scrapmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Scrapmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Scrapmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_feralmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Feralmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Feralmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_microslimemon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Microslimemon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Microslimemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_manhackmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Manhackmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Manhackmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_scorchedmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Scorchedmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Scorchedmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_blankmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Blankmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Blankmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_fleshcocoonmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Fleshcocoonmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Fleshcocoonmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_pulmonarymon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Pulmonarymon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Pulmonarymon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_anklebitermon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Anklebitermon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Anklebitermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_skelemon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Skelemon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Skelemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_shadowmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Shadowmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Shadowmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_polypmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Polypmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Polypmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_crayfishmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Crayfishmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Crayfishmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_marlossmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Marlossmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Marlossmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_brainlessmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Brainlessmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Brainlessmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_seweranhamon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Seweranhamon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Seweranhamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_zappermon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Zappermon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Zappermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_monolithmon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Monolithmon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Monolithmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_snotgobblermon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Snotgobblermon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Snotgobblermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_mosaic_larvamon",
+    "type": "ITEM",
+    "name": {
+      "str": "mosaic digital pet (Larvamon)"
+    },
+    "description": "A mosaic styled digital companion. This one is Larvamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_MOSAIC",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

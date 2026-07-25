@@ -1,0 +1,86 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_strawberry_venom_green",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Spittermon)"
+    },
+    "description": "A venom-spitting reptilian creature.",
+    "symbol": "S",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_YOUNG_ADULT",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_strawberry_parasite_brown",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Dermatikmon)"
+    },
+    "description": "A parasitic burrowing insect.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_YOUNG_ADULT",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_strawberry_webbing_grey",
+    "type": "ITEM",
+    "name": {
+      "str": "digital pet (Spideermon)"
+    },
+    "description": "A web-slinging spider creature.",
+    "symbol": "S",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_YOUNG_ADULT",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,758 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_sproutmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Sproutmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Sproutmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_crawlermon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Crawlermon)"
+    },
+    "description": "A yellow styled digital companion. This one is Crawlermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_grackenmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Grackenmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Grackenmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_kreckmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Kreckmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Kreckmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_survivormon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Survivormon)"
+    },
+    "description": "A yellow styled digital companion. This one is Survivormon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_sporemon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Sporemon)"
+    },
+    "description": "A yellow styled digital companion. This one is Sporemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_eyemon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Eyemon)"
+    },
+    "description": "A yellow styled digital companion. This one is Eyemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_scrapmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Scrapmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Scrapmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_feralmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Feralmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Feralmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_microslimemon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Microslimemon)"
+    },
+    "description": "A yellow styled digital companion. This one is Microslimemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_manhackmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Manhackmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Manhackmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_scorchedmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Scorchedmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Scorchedmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_blankmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Blankmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Blankmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_fleshcocoonmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Fleshcocoonmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Fleshcocoonmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_pulmonarymon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Pulmonarymon)"
+    },
+    "description": "A yellow styled digital companion. This one is Pulmonarymon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_anklebitermon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Anklebitermon)"
+    },
+    "description": "A yellow styled digital companion. This one is Anklebitermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_skelemon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Skelemon)"
+    },
+    "description": "A yellow styled digital companion. This one is Skelemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_shadowmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Shadowmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Shadowmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_polypmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Polypmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Polypmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_crayfishmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Crayfishmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Crayfishmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_marlossmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Marlossmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Marlossmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_brainlessmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Brainlessmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Brainlessmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_seweranhamon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Seweranhamon)"
+    },
+    "description": "A yellow styled digital companion. This one is Seweranhamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_zappermon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Zappermon)"
+    },
+    "description": "A yellow styled digital companion. This one is Zappermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_monolithmon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Monolithmon)"
+    },
+    "description": "A yellow styled digital companion. This one is Monolithmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_snotgobblermon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Snotgobblermon)"
+    },
+    "description": "A yellow styled digital companion. This one is Snotgobblermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_yellow_larvamon",
+    "type": "ITEM",
+    "name": {
+      "str": "yellow digital pet (Larvamon)"
+    },
+    "description": "A yellow styled digital companion. This one is Larvamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_YELLOW",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

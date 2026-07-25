@@ -1,0 +1,758 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_sproutmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Sproutmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Sproutmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_crawlermon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Crawlermon)"
+    },
+    "description": "A dusk styled digital companion. This one is Crawlermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_grackenmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Grackenmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Grackenmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_kreckmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Kreckmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Kreckmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_survivormon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Survivormon)"
+    },
+    "description": "A dusk styled digital companion. This one is Survivormon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_sporemon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Sporemon)"
+    },
+    "description": "A dusk styled digital companion. This one is Sporemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_eyemon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Eyemon)"
+    },
+    "description": "A dusk styled digital companion. This one is Eyemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_scrapmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Scrapmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Scrapmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_feralmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Feralmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Feralmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_microslimemon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Microslimemon)"
+    },
+    "description": "A dusk styled digital companion. This one is Microslimemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_manhackmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Manhackmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Manhackmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_scorchedmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Scorchedmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Scorchedmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_blankmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Blankmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Blankmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_fleshcocoonmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Fleshcocoonmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Fleshcocoonmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_pulmonarymon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Pulmonarymon)"
+    },
+    "description": "A dusk styled digital companion. This one is Pulmonarymon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_anklebitermon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Anklebitermon)"
+    },
+    "description": "A dusk styled digital companion. This one is Anklebitermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_skelemon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Skelemon)"
+    },
+    "description": "A dusk styled digital companion. This one is Skelemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_shadowmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Shadowmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Shadowmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_polypmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Polypmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Polypmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_crayfishmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Crayfishmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Crayfishmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_marlossmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Marlossmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Marlossmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_brainlessmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Brainlessmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Brainlessmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_seweranhamon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Seweranhamon)"
+    },
+    "description": "A dusk styled digital companion. This one is Seweranhamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_zappermon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Zappermon)"
+    },
+    "description": "A dusk styled digital companion. This one is Zappermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_monolithmon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Monolithmon)"
+    },
+    "description": "A dusk styled digital companion. This one is Monolithmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_snotgobblermon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Snotgobblermon)"
+    },
+    "description": "A dusk styled digital companion. This one is Snotgobblermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_dusk_larvamon",
+    "type": "ITEM",
+    "name": {
+      "str": "dusk digital pet (Larvamon)"
+    },
+    "description": "A dusk styled digital companion. This one is Larvamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_DUSK",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

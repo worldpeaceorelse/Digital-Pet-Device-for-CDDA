@@ -1,0 +1,758 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_sproutmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Sproutmon)"
+    },
+    "description": "A blue styled digital companion. This one is Sproutmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_crawlermon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Crawlermon)"
+    },
+    "description": "A blue styled digital companion. This one is Crawlermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_grackenmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Grackenmon)"
+    },
+    "description": "A blue styled digital companion. This one is Grackenmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_kreckmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Kreckmon)"
+    },
+    "description": "A blue styled digital companion. This one is Kreckmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_survivormon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Survivormon)"
+    },
+    "description": "A blue styled digital companion. This one is Survivormon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_sporemon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Sporemon)"
+    },
+    "description": "A blue styled digital companion. This one is Sporemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_eyemon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Eyemon)"
+    },
+    "description": "A blue styled digital companion. This one is Eyemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_scrapmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Scrapmon)"
+    },
+    "description": "A blue styled digital companion. This one is Scrapmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_feralmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Feralmon)"
+    },
+    "description": "A blue styled digital companion. This one is Feralmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_microslimemon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Microslimemon)"
+    },
+    "description": "A blue styled digital companion. This one is Microslimemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_manhackmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Manhackmon)"
+    },
+    "description": "A blue styled digital companion. This one is Manhackmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_scorchedmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Scorchedmon)"
+    },
+    "description": "A blue styled digital companion. This one is Scorchedmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_blankmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Blankmon)"
+    },
+    "description": "A blue styled digital companion. This one is Blankmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_fleshcocoonmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Fleshcocoonmon)"
+    },
+    "description": "A blue styled digital companion. This one is Fleshcocoonmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_pulmonarymon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Pulmonarymon)"
+    },
+    "description": "A blue styled digital companion. This one is Pulmonarymon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_anklebitermon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Anklebitermon)"
+    },
+    "description": "A blue styled digital companion. This one is Anklebitermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_skelemon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Skelemon)"
+    },
+    "description": "A blue styled digital companion. This one is Skelemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_shadowmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Shadowmon)"
+    },
+    "description": "A blue styled digital companion. This one is Shadowmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_polypmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Polypmon)"
+    },
+    "description": "A blue styled digital companion. This one is Polypmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_crayfishmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Crayfishmon)"
+    },
+    "description": "A blue styled digital companion. This one is Crayfishmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_marlossmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Marlossmon)"
+    },
+    "description": "A blue styled digital companion. This one is Marlossmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_brainlessmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Brainlessmon)"
+    },
+    "description": "A blue styled digital companion. This one is Brainlessmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_seweranhamon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Seweranhamon)"
+    },
+    "description": "A blue styled digital companion. This one is Seweranhamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_zappermon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Zappermon)"
+    },
+    "description": "A blue styled digital companion. This one is Zappermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_monolithmon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Monolithmon)"
+    },
+    "description": "A blue styled digital companion. This one is Monolithmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_snotgobblermon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Snotgobblermon)"
+    },
+    "description": "A blue styled digital companion. This one is Snotgobblermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_blue_larvamon",
+    "type": "ITEM",
+    "name": {
+      "str": "blue digital pet (Larvamon)"
+    },
+    "description": "A blue styled digital companion. This one is Larvamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_BLUE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

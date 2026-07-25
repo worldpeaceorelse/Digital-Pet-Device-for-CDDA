@@ -1,0 +1,2251 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_MEGA_EVOLVE_BRANCH_PRIMAL_RED",
+    "effect": [
+      {
+        "if": {
+          "math": [
+            "n_care_mistakes >= 8"
+          ]
+        },
+        "then": {
+          "if": {
+            "math": [
+              "n_pet_weight < 50"
+            ]
+          },
+          "then": [
+            {
+              "transform_item": "vpetmonster01_primal_red_brutal_plague_vector"
+            },
+            {
+              "set_string_var": "Plaguevectormon",
+              "target_var": {
+                "npc_val": "pet_name"
+              }
+            },
+            {
+              "math": [
+                "global_comp_mega_plaguevectormon = 1"
+              ]
+            },
+            {
+              "u_message": "Your digital pet has mega-evolved into Plaguevectormon!",
+              "type": "good"
+            }
+          ],
+          "else": [
+            {
+              "transform_item": "vpetmonster01_primal_red_brutal_rat_king"
+            },
+            {
+              "set_string_var": "Ratkingmon",
+              "target_var": {
+                "npc_val": "pet_name"
+              }
+            },
+            {
+              "math": [
+                "global_comp_mega_ratkingmon = 1"
+              ]
+            },
+            {
+              "u_message": "Your digital pet has mega-evolved into Ratkingmon!",
+              "type": "good"
+            }
+          ]
+        },
+        "else": [
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 1"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_triffid"
+                },
+                {
+                  "set_string_var": "Triffidmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_triffidmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Triffidmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_biollante"
+                  },
+                  {
+                    "set_string_var": "Biollantemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_biollantemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Biollantemon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_vine_beast"
+                  },
+                  {
+                    "set_string_var": "Vinebeastmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_vinebeastmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Vinebeastmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 2"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_kraken"
+                },
+                {
+                  "set_string_var": "Krakemon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_krakemon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Krakemon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_scylla"
+                  },
+                  {
+                    "set_string_var": "Scyllamon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_scyllamon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Scyllamon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_hydra"
+                  },
+                  {
+                    "set_string_var": "Hydramon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_hydramon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Hydramon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 3"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_amalgamation"
+                },
+                {
+                  "set_string_var": "Amalgamationmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_amalgamationmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Amalgamationmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_daitya"
+                  },
+                  {
+                    "set_string_var": "Daityamon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_daityamon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Daityamon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_hekatonkheire"
+                  },
+                  {
+                    "set_string_var": "Hekatonkheiremon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_hekatonkheiremon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Hekatonkheiremon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 4"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_barghest"
+                },
+                {
+                  "set_string_var": "Barghestmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_barghestmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Barghestmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_jabberwock"
+                  },
+                  {
+                    "set_string_var": "Jabberwockmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_jabberwockmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Jabberwockmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_dark_wyrm"
+                  },
+                  {
+                    "set_string_var": "Darkwyrmmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_darkwyrmmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Darkwyrmmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 5"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_skeletal_juggernaut"
+                },
+                {
+                  "set_string_var": "Skeletaljuggernautmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_skeletaljuggernautmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Skeletaljuggernautmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_skeletal_reaper"
+                  },
+                  {
+                    "set_string_var": "Skeletalreapermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_skeletalreapermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Skeletalreapermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_skeletal_executioner"
+                  },
+                  {
+                    "set_string_var": "Skeletalexecutionermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_skeletalexecutionermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Skeletalexecutionermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 6"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_fungal_spire"
+                },
+                {
+                  "set_string_var": "Fungalspiremon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_fungalspiremon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Fungalspiremon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_fungal_hulk"
+                  },
+                  {
+                    "set_string_var": "Fungalhulkmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_fungalhulkmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Fungalhulkmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_fungal_juggernaut"
+                  },
+                  {
+                    "set_string_var": "Fungaljuggernautmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_fungaljuggernautmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Fungaljuggernautmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 7"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_amigara_horror"
+                },
+                {
+                  "set_string_var": "Amigarahorrorrmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_amigarahorrorrmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Amigarahorrorrmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_eigenspectre"
+                  },
+                  {
+                    "set_string_var": "Eigenspectremon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_eigenspectremon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Eigenspectremon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_impossible_shape"
+                  },
+                  {
+                    "set_string_var": "Impossibleshapemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_impossibleshapemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Impossibleshapemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 8"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_zomborg_devourer"
+                },
+                {
+                  "set_string_var": "Zomborgdevourermon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_zomborgdevourermon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Zomborgdevourermon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zombie_hulk"
+                  },
+                  {
+                    "set_string_var": "Zombiehulkmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zombiehulkmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Zombiehulkmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zombie_brute"
+                  },
+                  {
+                    "set_string_var": "Zombiebrutemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zombiebrutemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Zombiebrutemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 9"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_flesh_raptor"
+                },
+                {
+                  "set_string_var": "Fleshrapormon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_fleshrapormon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Fleshrapormon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_flesh_construct"
+                  },
+                  {
+                    "set_string_var": "Fleshconstructmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_fleshconstructmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Fleshconstructmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_fleshy_shambler"
+                  },
+                  {
+                    "set_string_var": "Fleshyshamblermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_fleshyshamblermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Fleshyshamblermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 10"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_graboid"
+                },
+                {
+                  "set_string_var": "Graboidmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_graboidmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Graboidmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_abyssal_terror"
+                  },
+                  {
+                    "set_string_var": "Protoplasmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_abyssalterrormon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Protoplasmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_jawed_terror"
+                  },
+                  {
+                    "set_string_var": "Oozebeastmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_jawedterrormon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Oozebeastmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 11"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_migo_myrmidon"
+                },
+                {
+                  "set_string_var": "Migomyrmidonmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_migomyrmidonmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Migomyrmidonmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_migo_surgeon"
+                  },
+                  {
+                    "set_string_var": "Migosurgeonmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_migosurgeonmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Migosurgeonmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_phase_shrike"
+                  },
+                  {
+                    "set_string_var": "Phaseshrikemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_phaseshrikemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Phaseshrikemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 12"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_fiend"
+                },
+                {
+                  "set_string_var": "Fiendmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_fiendmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Fiendmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_ancient_red_dragon"
+                  },
+                  {
+                    "set_string_var": "Ancientreddragonmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_ancientreddragonmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Ancientreddragonmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_scorched_zombie"
+                  },
+                  {
+                    "set_string_var": "Scorchedzombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_scorchedzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Scorchedzombiemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 13"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_absence"
+                },
+                {
+                  "set_string_var": "Absencemon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_absencemon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Absencemon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_titan_spectre"
+                  },
+                  {
+                    "set_string_var": "Titanspectremon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_titanspectremon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Titanspectremon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_unfolded_impossibility"
+                  },
+                  {
+                    "set_string_var": "Unfoldedimpossibilitymon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_unfoldedimpossibilitymon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Unfoldedimpossibilitymon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 14"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_abomination"
+                },
+                {
+                  "set_string_var": "Abominationmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_abominationmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Abominationmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_daitya_devourer"
+                  },
+                  {
+                    "set_string_var": "Daityadevourermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_daityadevourermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Daityadevourermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_melded_task_force"
+                  },
+                  {
+                    "set_string_var": "Meldedtaskforcemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_meldedtaskforcemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Meldedtaskforcemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 15"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_zombie_necromancer"
+                },
+                {
+                  "set_string_var": "Zombienecromancermon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_zombienecromancermon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Zombienecromancermon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zombie_lich"
+                  },
+                  {
+                    "set_string_var": "Zombielichmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zombielichmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Zombielichmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zombie_master"
+                  },
+                  {
+                    "set_string_var": "Zombiemastermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zombiemastermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Zombiemastermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 16"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_zombie_predator"
+                },
+                {
+                  "set_string_var": "Zombiepredatormon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_zombiepredatormon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Zombiepredatormon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zombie_strider"
+                  },
+                  {
+                    "set_string_var": "Zombiestridermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zombiestridermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Zombiestridermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_hunter_killer_zombie"
+                  },
+                  {
+                    "set_string_var": "Hunterkillerzombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_hunterkillerzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Hunterkillerzombiemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 17"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_skeletal_hulk"
+                },
+                {
+                  "set_string_var": "Skeletalhulkmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_skeletalhulkmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Skeletalhulkmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_skeletal_master"
+                  },
+                  {
+                    "set_string_var": "Skeletalmastermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_skeletalmastermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Skeletalmastermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_skeletal_shocker"
+                  },
+                  {
+                    "set_string_var": "Skeletalshockermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_skeletalshockermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Skeletalshockermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 18"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_nether_horror"
+                },
+                {
+                  "set_string_var": "Netherhorrormon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_netherhorrormon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Netherhorrormon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_phase_skulker"
+                  },
+                  {
+                    "set_string_var": "Phaseskulkermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_phaseskulkermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Phaseskulkermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_shadow_leaper"
+                  },
+                  {
+                    "set_string_var": "Shadowleapermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_shadowleapermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Shadowleapermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 19"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_migo_slaver"
+                },
+                {
+                  "set_string_var": "Migoslavermon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_migoslavermon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Migoslavermon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_yrax_quadraphract"
+                  },
+                  {
+                    "set_string_var": "Yraxquadraphractmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_yraxquadraphractmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Yraxquadraphractmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_yrax_trifacet"
+                  },
+                  {
+                    "set_string_var": "Yraxtrifacetmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_yraxtrifacetmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Yraxtrifacetmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 20"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_vortex"
+                },
+                {
+                  "set_string_var": "Vortexmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_vortexmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Vortexmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_leviathan"
+                  },
+                  {
+                    "set_string_var": "Leviathanmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_leviathanmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Leviathanmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_kraken_sea"
+                  },
+                  {
+                    "set_string_var": "Krakenmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_krakenmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Krakenmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 21"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_marloss_zealot"
+                },
+                {
+                  "set_string_var": "Marlosszealotmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_marlosszealotmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Marlosszealotmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_triffid_queen"
+                  },
+                  {
+                    "set_string_var": "Triffidqueenmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_triffidqueenmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Triffidqueenmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_triffid_heart"
+                  },
+                  {
+                    "set_string_var": "Triffidheartmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_triffidheartmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Triffidheartmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 22"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_bloated_zombie"
+                },
+                {
+                  "set_string_var": "Gasbagmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_bloatedzombiemon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Gasbagmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_acidic_zombie"
+                  },
+                  {
+                    "set_string_var": "Acidiczombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_acidiczombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Acidiczombiemon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_corrosive_zombie"
+                  },
+                  {
+                    "set_string_var": "Corrosivezombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_corrosivezombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Corrosivezombiemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 23"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_plaguebearer"
+                },
+                {
+                  "set_string_var": "Plaguebearermon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_plaguebearermon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Plaguebearermon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_necromancer_zombie"
+                  },
+                  {
+                    "set_string_var": "Necromancerzombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_necromancerzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Necromancerzombiemon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_summoner_zombie"
+                  },
+                  {
+                    "set_string_var": "Summonerzombiemon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_summonerzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Summonerzombiemon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 24"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_shocker_brute"
+                },
+                {
+                  "set_string_var": "Shockerbrutemon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_shockerbrutemon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Shockerbrutemon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_bioelectric_zombie_frog"
+                  },
+                  {
+                    "set_string_var": "Electrofrogmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_bioelectriczombiefrogmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Electrofrogmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_zapper_zombie"
+                  },
+                  {
+                    "set_string_var": "Overloadmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_zapperzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Overloadmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 25"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_advanced_fleshborg"
+                },
+                {
+                  "set_string_var": "Advancedfleshborgmon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_advancedfleshborgmon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Advancedfleshborgmon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_advanced_plantborg"
+                  },
+                  {
+                    "set_string_var": "Advancedplantborgmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_advancedplantborgmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Advancedplantborgmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_prototype_cyborg"
+                  },
+                  {
+                    "set_string_var": "Prototypecyborgmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_prototypecyborgmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Prototypecyborgmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 26"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_boomer_zombie"
+                },
+                {
+                  "set_string_var": "Boomerzombiemon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_boomerzombiemon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Boomerzombiemon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_spitter_zombie"
+                  },
+                  {
+                    "set_string_var": "Bombardiermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_spitterzombiemon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Bombardiermon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_tearjerker"
+                  },
+                  {
+                    "set_string_var": "Tearjerkermon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_tearjerkermon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Tearjerkermon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 27"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 34"
+                ]
+              },
+              "then": [
+                {
+                  "transform_item": "vpetmonster01_primal_red_brutal_wyrd_spider"
+                },
+                {
+                  "set_string_var": "Wyrdspidermon",
+                  "target_var": {
+                    "npc_val": "pet_name"
+                  }
+                },
+                {
+                  "math": [
+                    "global_comp_mega_wyrdspidermon = 1"
+                  ]
+                },
+                {
+                  "u_message": "Your digital pet has mega-evolved into Wyrdspidermon!",
+                  "type": "good"
+                }
+              ],
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 67"
+                  ]
+                },
+                "then": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_deathtrap_spider"
+                  },
+                  {
+                    "set_string_var": "Deathtrapmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_deathtrapmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Deathtrapmon!",
+                    "type": "good"
+                  }
+                ],
+                "else": [
+                  {
+                    "transform_item": "vpetmonster01_primal_red_brutal_black_death_widow"
+                  },
+                  {
+                    "set_string_var": "Blackdeathwidowmon",
+                    "target_var": {
+                      "npc_val": "pet_name"
+                    }
+                  },
+                  {
+                    "math": [
+                      "global_comp_mega_blackdeathwidowmon = 1"
+                    ]
+                  },
+                  {
+                    "u_message": "Your digital pet has mega-evolved into Blackdeathwidowmon!",
+                    "type": "good"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

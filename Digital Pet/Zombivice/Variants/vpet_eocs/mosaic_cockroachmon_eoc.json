@@ -1,0 +1,43 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_COCKROACHMON_MOSAIC",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_MOSAIC"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_COCKROACHMON_TRANSFORM_MOSAIC",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_mosaic_rotting_marsh_green"
+              },
+              {
+                "set_string_var": "Cockroachmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your Zombivice has fully evolved into Cockroachmon!",
+                "type": "good"
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

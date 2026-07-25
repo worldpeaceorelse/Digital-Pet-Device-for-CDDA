@@ -1,0 +1,758 @@
+[
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_sproutmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Sproutmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Sproutmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_crawlermon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Crawlermon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Crawlermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_grackenmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Grackenmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Grackenmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_kreckmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Kreckmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Kreckmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_survivormon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Survivormon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Survivormon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_sporemon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Sporemon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Sporemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_eyemon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Eyemon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Eyemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_scrapmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Scrapmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Scrapmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_feralmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Feralmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Feralmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_microslimemon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Microslimemon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Microslimemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_manhackmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Manhackmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Manhackmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_scorchedmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Scorchedmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Scorchedmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_blankmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Blankmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Blankmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_fleshcocoonmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Fleshcocoonmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Fleshcocoonmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_pulmonarymon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Pulmonarymon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Pulmonarymon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_anklebitermon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Anklebitermon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Anklebitermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_skelemon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Skelemon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Skelemon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_shadowmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Shadowmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Shadowmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_polypmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Polypmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Polypmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_crayfishmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Crayfishmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Crayfishmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_marlossmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Marlossmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Marlossmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_brainlessmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Brainlessmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Brainlessmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_seweranhamon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Seweranhamon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Seweranhamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_zappermon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Zappermon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Zappermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_monolithmon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Monolithmon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Monolithmon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_snotgobblermon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Snotgobblermon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Snotgobblermon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "copy-from": "vpetmonster01_base",
+    "id": "vpetmonster01_emerald_wave_larvamon",
+    "type": "ITEM",
+    "name": {
+      "str": "emerald wave digital pet (Larvamon)"
+    },
+    "description": "A emerald wave styled digital companion. This one is Larvamon!",
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE_EMERALD_WAVE",
+      "DIGIVICE",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]

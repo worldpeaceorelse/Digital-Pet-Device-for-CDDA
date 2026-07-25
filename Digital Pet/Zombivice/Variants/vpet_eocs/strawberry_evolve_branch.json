@@ -1,0 +1,3120 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_STRAWBERRY_EVOLVE_TO_ADULT",
+    "effect": [
+      {
+        "run_eocs": "EOC_DIGIVICE_EVOLVE_BRANCH_STRAWBERRY",
+        "beta_talker": "npc"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_BRANCH_STRAWBERRY",
+    "effect": [
+      {
+        "if": {
+          "math": [
+            "n_care_mistakes >= 8"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_COCKROACHMON_STRAWBERRY",
+          "beta_talker": "npc"
+        },
+        "else": [
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 1"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_PLANTBORGMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_THORNYSHAMBLERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 2"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_DEATHRATTLESERPENTMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_TENTACLEDOGMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 3"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SHOGGOTHMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GOZUMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 4"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_NIGHTSTALKERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GRIMHOWLERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 5"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_PREPPERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SOLDIERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 6"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALRAPTORMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALSHAMBLERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 7"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_STARINGHORRORMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_STARVAMPIREMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 8"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ZOMBORGMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FROSTBORGMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 9"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FERALPREPPERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ARMOREDFERALMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 10"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_AMOEBICMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SEWERSLIMEMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 11"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SKITTERBOTMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_BONEBOTMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 12"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_CREMATORMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FURNACEMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 13"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_WRAITHMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SHADOWSNAKEMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 14"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 33"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHWALLMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "if": {
+                  "math": [
+                    "n_pet_weight < 66"
+                  ]
+                },
+                "then": {
+                  "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHGOLEMMON_STRAWBERRY",
+                  "beta_talker": "npc"
+                },
+                "else": {
+                  "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHBORGMON_STRAWBERRY",
+                  "beta_talker": "npc"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 15"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SAWBONESMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SUTUREMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 16"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SHRIEKERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTOMMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 17"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SKELEREAPERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SKELETALBRUTEMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 18"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_POUNCERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_LEAPERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 19"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_MIGOMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_MYRMIODONMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 20"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ALBINOPENGUINMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GIANTADPOLEMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 21"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ZEALOTMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALOIDMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 22"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_BLOATEDMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ARMOREDFERALMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 23"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ZOMBEAVERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_GIANTSLUGMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 24"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SHOCKERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_ZAPTOMMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 25"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_BONETURRETMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHTURRETMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 26"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_PUKERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SPITTERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          },
+          {
+            "if": {
+              "math": [
+                "n_egg_code == 27"
+              ]
+            },
+            "then": {
+              "if": {
+                "math": [
+                  "n_pet_weight < 50"
+                ]
+              },
+              "then": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_DERMATIKMON_STRAWBERRY",
+                "beta_talker": "npc"
+              },
+              "else": {
+                "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SPIDEERMON_STRAWBERRY",
+                "beta_talker": "npc"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_PLANTBORGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_PLANTBORGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_toxic_lime"
+              },
+              {
+                "set_string_var": "Plantborgmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Plantborgmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_plantborgmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_THORNYSHAMBLERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_THORNYSHAMBLERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_pandemic_yellow"
+              },
+              {
+                "set_string_var": "Thornyshamblermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Thornyshamblermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_thornyshamblermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_DEATHRATTLESERPENTMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_DEATHRATTLESERPENTMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_infected_magenta"
+              },
+              {
+                "set_string_var": "Deathrattleserpentmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Deathrattleserpentmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_deathrattleserpentmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_TENTACLEDOGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_TENTACLEDOGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_pustule_orange"
+              },
+              {
+                "set_string_var": "Tentacledogmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Tentacledogmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_tentacledogmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SHOGGOTHMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SHOGGOTHMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_oxidized_copper"
+              },
+              {
+                "set_string_var": "Shoggothmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Shoggothmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_shoggothmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_GOZUMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_GOZUMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_dried_crimson"
+              },
+              {
+                "set_string_var": "Gozumon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Gozumon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_gozumon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_NIGHTSTALKERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_NIGHTSTALKERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_calcified_grey"
+              },
+              {
+                "set_string_var": "Nightstalkermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Nightstalkermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_nightstalkermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_GRIMHOWLERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_GRIMHOWLERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_ruby_red"
+              },
+              {
+                "set_string_var": "Grimhowlermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Grimhowlermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_grimhowlermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_PREPPERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_PREPPERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_garnet"
+              },
+              {
+                "set_string_var": "Preppermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Preppermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_preppermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SOLDIERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SOLDIERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_iridescent_pearl"
+              },
+              {
+                "set_string_var": "Soldiermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Soldiermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_soldiermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALRAPTORMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FUNGALRAPTORMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_spore_violet"
+              },
+              {
+                "set_string_var": "Fungalraptormon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fungalraptormon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fungalraptormon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALSHAMBLERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FUNGALSHAMBLERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_jade_green"
+              },
+              {
+                "set_string_var": "Fungalshamblermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fungalshamblermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fungalshamblermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_STARINGHORRORMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_STARINGHORRORMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_amethyst_purple"
+              },
+              {
+                "set_string_var": "Staringhorrormon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Staringhorrormon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_staringhorrormon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_STARVAMPIREMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_STARVAMPIREMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_golden_topaz"
+              },
+              {
+                "set_string_var": "Starvampiremon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Starvampiremon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_starvampiremon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ZOMBORGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ZOMBORGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_sapphire_blue"
+              },
+              {
+                "set_string_var": "Zomborgmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Zomborgmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_zomborgmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FROSTBORGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FROSTBORGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_vermilion"
+              },
+              {
+                "set_string_var": "Frostborgmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Frostborgmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_frostborgmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FERALPREPPERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FERALPREPPERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_olive_green"
+              },
+              {
+                "set_string_var": "Feralpreppermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Feralpreppermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_feralpreppermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ARMOREDFERALMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ARMOREDFERALMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_smog_grey"
+              },
+              {
+                "set_string_var": "Armoredferalmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Armoredferalmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_armoredferalmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_AMOEBICMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_AMOEBICMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_mist_white"
+              },
+              {
+                "set_string_var": "Amoebicmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Amoebicmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_amoebicmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SEWERSLIMEMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SEWERSLIMEMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_foggy_silver"
+              },
+              {
+                "set_string_var": "Sewerslimemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Sewerslimemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_sewerslimemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SKITTERBOTMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SKITTERBOTMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_vapor_blue"
+              },
+              {
+                "set_string_var": "Skitterbotmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Skitterbotmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_skitterbotmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_BONEBOTMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_BONEBOTMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_stratus_grey"
+              },
+              {
+                "set_string_var": "Bonebotmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Bonebotmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_bonebotmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_CREMATORMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_CREMATORMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_stormy_black"
+              },
+              {
+                "set_string_var": "Crematormon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Crematormon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_crematormon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FURNACEMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FURNACEMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_aqua_marine"
+              },
+              {
+                "set_string_var": "Furnacemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Furnacemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_furnacemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_WRAITHMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_WRAITHMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_hurricane_teal"
+              },
+              {
+                "set_string_var": "Wraithmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Wraithmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_wraithmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SHADOWSNAKEMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SHADOWSNAKEMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_spiral_green"
+              },
+              {
+                "set_string_var": "Shadowsnakemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Shadowsnakemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_shadowsnakemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHWALLMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FLESHWALLMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_twister_brown"
+              },
+              {
+                "set_string_var": "Fleshwallmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fleshwallmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fleshwallmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHGOLEMMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FLESHGOLEMMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_cursed_violet"
+              },
+              {
+                "set_string_var": "Fleshgolemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fleshgolemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fleshgolemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHBORGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FLESHBORGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_cyber_cyan"
+              },
+              {
+                "set_string_var": "Fleshborgmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fleshborgmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fleshborgmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SAWBONESMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SAWBONESMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_arcane_blue"
+              },
+              {
+                "set_string_var": "Sawbonesmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Sawbonesmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_sawbonesmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SUTUREMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SUTUREMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_charm_pink"
+              },
+              {
+                "set_string_var": "Suturemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Suturemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_suturemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SHRIEKERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SHRIEKERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_ceremonial_gold"
+              },
+              {
+                "set_string_var": "Shriekermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Shriekermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_shriekermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTOMMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_RAPTOMMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_shadow_indigo"
+              },
+              {
+                "set_string_var": "Raptormon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Raptormon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_raptormon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SKELEREAPERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SKELEREAPERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_bleached_bone"
+              },
+              {
+                "set_string_var": "Skelereapermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Skelereapermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_skelereapermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SKELETALBRUTEMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SKELETALBRUTEMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_prophetic_silver"
+              },
+              {
+                "set_string_var": "Skeletalbrutemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Skeletalbrutemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_skeletalbrutemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_POUNCERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_POUNCERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_doom_red"
+              },
+              {
+                "set_string_var": "Pouncermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Pouncermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_pouncermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_LEAPERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_LEAPERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_destiny_bronze"
+              },
+              {
+                "set_string_var": "Leapermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Leapermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_leapermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_MIGOMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_MIGOMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_light_pink"
+              },
+              {
+                "set_string_var": "Migomon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Migomon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_migomon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_MYRMIODONMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_MYRMIODONMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_metal_silver"
+              },
+              {
+                "set_string_var": "Myrmiodonmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Myrmiodonmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_myrmiodonmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ALBINOPENGUINMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ALBINOPENGUINMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_microchip_grey"
+              },
+              {
+                "set_string_var": "Albinopenguinmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Albinopenguinmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_albinopenguinmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_GIANTADPOLEMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_GIANTADPOLEMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_data_orange"
+              },
+              {
+                "set_string_var": "Giantadpolemon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Giantadpolemon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_giantadpolemon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ZEALOTMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ZEALOTMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_binary_white"
+              },
+              {
+                "set_string_var": "Zealotmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Zealotmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_zealotmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FUNGALOIDMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FUNGALOIDMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_cubic_red"
+              },
+              {
+                "set_string_var": "Fungaloidmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fungaloidmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fungaloidmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_BLOATEDMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_BLOATEDMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_petal_pink"
+              },
+              {
+                "set_string_var": "Bloatedmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Bloatedmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_bloatedmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ZOMBEAVERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ZOMBEAVERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_briar_green"
+              },
+              {
+                "set_string_var": "Zombeavermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Zombeavermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_zombeavermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_GIANTSLUGMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_GIANTSLUGMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_earth_brown"
+              },
+              {
+                "set_string_var": "Giantslugmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Giantslugmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_giantslugmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SHOCKERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SHOCKERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_tree_grey"
+              },
+              {
+                "set_string_var": "Shockermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Shockermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_shockermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_ZAPTOMMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_ZAPTOMMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_amber_yellow"
+              },
+              {
+                "set_string_var": "Zaptormon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Zaptormon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_zaptormon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_BONETURRETMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_BONETURRETMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_golden_dust"
+              },
+              {
+                "set_string_var": "Boneturretmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Boneturretmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_boneturretmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_FLESHTURRETMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_FLESHTURRETMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_shining_pearl"
+              },
+              {
+                "set_string_var": "Fleshturretmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Fleshturretmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_fleshturretmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_PUKERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_PUKERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_dusk_purple"
+              },
+              {
+                "set_string_var": "Wretchmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Wretchmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_pukermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SPITTERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SPITTERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_venom_green"
+              },
+              {
+                "set_string_var": "Spittermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Spittermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_spittermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_DERMATIKMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_DERMATIKMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_parasite_brown"
+              },
+              {
+                "set_string_var": "Dermatikmon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Dermatikmon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_dermatikmon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_SPIDEERMON_STRAWBERRY",
+    "effect": [
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_YOUNG_ADULT",
+              "DIGIVICE_BASE"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DO_SPIDEERMON_TRANSFORM_STRAWBERRY",
+            "effect": [
+              {
+                "transform_item": "vpetmonster01_strawberry_webbing_grey"
+              },
+              {
+                "set_string_var": "Spideermon",
+                "target_var": {
+                  "npc_val": "pet_name"
+                }
+              },
+              {
+                "u_message": "Your digital pet has fully evolved into Spideermon!",
+                "type": "good"
+              },
+              {
+                "math": [
+                  "global_comp_adult_spideermon = 1"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
+                "beta_talker": "npc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
