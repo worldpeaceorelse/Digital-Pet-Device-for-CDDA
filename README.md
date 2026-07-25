@@ -1,10 +1,8 @@
 # Virtual Pet Devices for Cataclysm
 
-Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle, evolve and neglect virtual monsters (all based on C:DDA monsters) across 27 egg lineages with 165 unique forms.
+Adds digital pet devices ("Zombivices" or "Zpets") to CDDA. Raise, train, battle, evolve and neglect virtual monsters (all based on C:DDA monsters) across 27 egg lineages with 165 unique forms and 20 devices to choose from.
 
 <img width="156" height="97" alt="momos_tilesetedit" src="https://github.com/user-attachments/assets/d6cea01a-0517-4338-969d-2d40c3dd6e99" />
-
-20 devices to choose from, some rarer than others.
 
 ## Features
 
