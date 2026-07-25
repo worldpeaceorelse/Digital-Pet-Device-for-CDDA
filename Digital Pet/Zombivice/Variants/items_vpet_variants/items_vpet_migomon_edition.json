@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "vpetmonster01_migomon_edition_egg",
+    "type": "ITEM",
+    "category": "other",
+    "name": {
+      "str": "migomon edition digital pet (egg)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! Displayed on the screen is an digital egg! Maybe raising this will fill the void inside... Press 'a' to activate.",
+    "weight": "70 g",
+    "volume": "35 ml",
+    "longest_side": "7 cm",
+    "price": "40 USD",
+    "price_postapoc": "40 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "0",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Hatch Zombivice!",
+        "description": "Hatch your Zombivice.",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_MIGOMON_EDITION_HATCH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_base",
+    "type": "ITEM",
+    "category": "other",
+    "name": {
+      "str": "digital pet (migomon edition)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! Press 'a' to activate.",
+    "weight": "70 g",
+    "volume": "35 ml",
+    "longest_side": "7 cm",
+    "price": "70 USD",
+    "price_postapoc": "150 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "0",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Terramon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a rocky, earth-toned monster with a sturdy shell and a gentle, loyal nature.",
+    "symbol": "d",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_navy",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Crescentmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a wise, owl-like creature with crescent moon markings and calm, knowing eyes.",
+    "symbol": "d",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_black",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Obsidianmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a shadowy, sleek beast with a smooth, metallic body and a cool, confident presence.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_brick",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Rampagemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a muscular, dinosaur-like monster with brick-colored scales and a fiery, unstoppable will.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_navy_english",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Elegantmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an elegant, aristocratic monster wearing a tiny monocle, speaking in riddles and proper etiquette.",
+    "symbol": "d",
+    "color": "light_blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Angelmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a pure white, angelic creature with soft feathers and a warm, healing glow about it.",
+    "symbol": "d",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_metal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Mechamon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a cyborg monster with gleaming silver armor and a core that hums with high-tech energy.",
+    "symbol": "d",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_dino",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Primalmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a primordial, reptilian monster with jagged teeth and a primal instinct for the hunt.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_diagonal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Voltmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a zippy, electric creature with jittery movements and an infectious, hyperactive energy.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_graffiti",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Punkmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a punk rock monster with a spiked collar, its body covered in wild, animated splashes of color.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_fiery",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Blazemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a passionate, phoenix-like monster wreathed in digital flames, its crest burning bright.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_lunar",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Selamon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a serene, rabbit-like monster with a silver moon symbol on its forehead, calm and elusive.",
+    "symbol": "d",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_logo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Streamon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a sleek, futuristic monster with sharp, angular data-stream patterns etched into its form.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_pixel",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Pixelmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a cute, chubby monster with a pixelated heart on its chest, overflowing with affection.",
+    "symbol": "d",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_tiedye",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Trippymon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a free-spirited, hippy monster with shifting rainbow patterns and a mellow, happy-go-lucky vibe.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_neon",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Neonmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a glowing, aggressive beast that pulses with a furious, blinding red light.",
+    "symbol": "d",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_darkcamo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Stealthmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a mysterious, tactical creature that seems to vanish into the shadows, its form barely visible.",
+    "symbol": "d",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_glow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Lumimon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a ghostly, ethereal being that emits a soft, gentle light from within, leaving a trail of sparkles.",
+    "symbol": "d",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_trans_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Crystalamon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a crystalline monster made of clear, green data, its body refracting light into rainbows.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_trans_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Aquamon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a fluid, aquatic monster that ripples and flows like water, constantly shifting its shape.",
+    "symbol": "d",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_purple_ice",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Frostmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a cold, stoic monster with ice-like spikes and a deep, frosty purple hue, exuding chill.",
+    "symbol": "d",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_graffiti_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Splattermon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an expressive, artistic monster covered in energetic, animated graffiti tags.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_paw",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Loyalmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a loyal, wolf-like monster with soft digital fur and a deep, protective instinct.",
+    "symbol": "d",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_golden",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Blademon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a holy, knightly monster wielding shimmering golden blades, swift and righteous.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_trans_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Embermon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a warm, cozy monster like a living campfire, its body a flickering, semi-transparent orange.",
+    "symbol": "d",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_trans_neon",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Zapmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a radical, energetic monster with a bright, glowing green form that looks full of electric life.",
+    "symbol": "d",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BABY",
+      "DIGIVICE_BASE"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_rotting_marsh_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Zombimon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a shambling, undead digital beast with a hunger for data.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_light_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Migomon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a pale alien entity from beyond the screen.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_oxidized_copper",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Kreckmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an ancient creature of rust and corrosion.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_bleached_bone",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Skelemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a bony apparition that rattles when it moves.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_spore_violet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Sporemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a spore-covered monstrosity spreading digital decay.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_toxic_lime",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Toxmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a toxic sludge of corrupted code.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_pandemic_yellow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Virumon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a viral entity that replicates itself.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_infected_magenta",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Contagmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an infectious plague given form.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_pustule_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Crawlermon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a bubbling, oozing mass of digital pus.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_dried_crimson",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Scabmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a crusty, scarred warrior.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_calcified_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Crustmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a calcified ancient with impenetrable skin.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_ruby_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Gemmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a radiant jewel of pure data.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_garnet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Carbunclemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a deep red gem that pulses with power.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_iridescent_pearl",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Opalmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a shifting opalescent beauty.",
+    "symbol": "D",
+    "color": "light_blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_jade_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Jadeitemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a smooth jade idol.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_amethyst_purple",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Amethystmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a regal purple crystal.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_golden_topaz",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Topazmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a golden gem that glows warmly.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_sapphire_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Sapphiremon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a deep blue sapphire of wisdom.",
+    "symbol": "D",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_vermilion",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Rubymon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a fiery ruby with a passionate core.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_olive_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Peridotmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a pale green gem of nature.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_smog_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Smogmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a foul cloud of industrial haze.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_mist_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Hazeemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a misty phantom that obscures vision.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_foggy_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Fogmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a dense fog that chills to the bone.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_vapor_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Mistmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a vapor that dances in the air.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_stratus_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Cirrusmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a wispy cloud creature.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_stormy_black",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Nimbusmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a stormcloud of wrath.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_aqua_marine",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Dropletmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a liquid embodiment of water.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_hurricane_teal",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Tempestmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a swirling hurricane of chaos.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_spiral_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Cyclonemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a spiraling vortex of wind.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_twister_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Whirlwindmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a dust devil of fury.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_cursed_violet",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Hexmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a cursed figure wreathed in dark magic.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_arcane_blue",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Spellmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an arcane scholar of the digital realm.",
+    "symbol": "D",
+    "color": "blue",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_charm_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Charmsmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a charming trickster with a winning smile.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_ceremonial_gold",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Ritualmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a ceremonial being of ancient rites.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_shadow_indigo",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Occultmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a shadowy figure from forbidden texts.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_prophetic_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Seermon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a prophetic eye that sees all.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_doom_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Omenmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a harbinger of doom and disaster.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_destiny_bronze",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Fatemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a weaver of destiny.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_metal_silver",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Droidmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a sleek robotic construct.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_cyber_cyan",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Cyborgmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a fusion of flesh and machine.",
+    "symbol": "D",
+    "color": "cyan",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_microchip_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Micromon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a tiny but mighty microchip.",
+    "symbol": "D",
+    "color": "dark_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_data_orange",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Terabytemon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a massive data storage creature.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_binary_white",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Logmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a creature of pure binary code.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_cubic_red",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Voxelmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a blocky, cubic creature.",
+    "symbol": "D",
+    "color": "red",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_petal_pink",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Bloommon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a flower that blossoms with data.",
+    "symbol": "D",
+    "color": "pink",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_briar_green",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Thornmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a prickly thorny beast.",
+    "symbol": "D",
+    "color": "green",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_earth_brown",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Rootmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is an ancient rooted entity.",
+    "symbol": "D",
+    "color": "brown",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_tree_grey",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Barkmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a woody, bark-covered form.",
+    "symbol": "D",
+    "color": "light_gray",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_amber_yellow",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Sapmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a sticky, sweet creature.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_golden_dust",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Pollenmon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a cloud of golden pollen.",
+    "symbol": "D",
+    "color": "yellow",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_shining_pearl",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Gleammon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a shining pearl of light.",
+    "symbol": "D",
+    "color": "white",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vpetmonster01_migomon_edition_dusk_purple",
+    "type": "ITEM",
+    "copy-from": "vpetmonster01_migomon_edition_base",
+    "name": {
+      "str": "migomon edition digital pet (Twilimon)"
+    },
+    "description": "A small translucent light-pink Migomon special edition toy containing a virtual pet that can be raised and battled. This device is extremely rare, especially in the post-cataclysm! On the screen is a creature of twilight and dusk.",
+    "symbol": "D",
+    "color": "magenta",
+    "flags": [
+      "NO_REPAIR",
+      "DIGIVICE",
+      "DIGIVICE_MIGOMON_EDITION",
+      "DIGIVICE_BASE",
+      "DIGIVICE_BABY"
+    ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "Interact with digital pet",
+        "description": "Open the digivice menu",
+        "effect_on_conditions": [
+          "EOC_DIGIVICE_OPEN_MENU"
+        ]
+      }
+    ]
+  }
+]
