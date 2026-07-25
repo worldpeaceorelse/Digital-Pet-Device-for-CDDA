@@ -48,6 +48,8 @@ This is the where Data is located at the Refugee Center. The dining area specifi
 
 ### Character Creation
 Virtual Pet Tamer profession — starts with a random egg from the first 5 models plus a Zombimon t-shirt and basic survival gear.
+<img width="1270" height="516" alt="job" src="https://github.com/user-attachments/assets/11bf796c-482b-47be-bc0f-a58aa4e10cd5" />
+
 
 ### Compendium & Achievements
 - Built-in compendium tracks all 165 forms with descriptions
