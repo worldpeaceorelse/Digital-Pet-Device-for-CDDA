@@ -494,7 +494,6 @@
     "type": "effect_on_condition",
     "id": "EOC_DIGIVICE_CHECK_ACHIEVEMENTS",
     "effect": [
-      { "math": [ "u_zpoints = global_zpoints" ] },
       {
         "if": { "math": [ "u_pet_age >= 720" ] },
         "then": { "give_achievement": "achievement_digivice_30_days" }

@@ -40,7 +40,6 @@
       },
       "male": { "entries": [ { "item": "boxer_briefs" } ] },
       "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    },
-    "flags": [ "SCEN_ONLY" ]
+    }
   }
 ]
