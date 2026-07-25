@@ -1,0 +1,237 @@
+[
+  {
+    "type": "npc",
+    "id": "digivice_maniac_brutus",
+    "name_unique": "Brutus",
+    "class": "NC_DIGIVICE_MANIAC",
+    "attitude": 0,
+    "mission": "GUARD",
+    "chat": "TALK_DIGIVICE_MANIAC_BRUTUS",
+    "faction": "free_merchants",
+    "gender": "male"
+  },
+  {
+    "type": "npc",
+    "id": "digivice_maniac_vex",
+    "name_unique": "Vex",
+    "class": "NC_DIGIVICE_MANIAC",
+    "attitude": 0,
+    "mission": "GUARD",
+    "chat": "TALK_DIGIVICE_MANIAC_VEX",
+    "faction": "free_merchants",
+    "gender": "female"
+  },
+  {
+    "type": "npc",
+    "id": "digivice_maniac_jinx",
+    "name_unique": "Jinx",
+    "class": "NC_DIGIVICE_MANIAC",
+    "attitude": 0,
+    "mission": "GUARD",
+    "chat": "TALK_DIGIVICE_MANIAC_JINX",
+    "faction": "free_merchants",
+    "gender": "female"
+  },
+  {
+    "type": "npc",
+    "id": "digivice_maniac_grimes",
+    "name_unique": "Grimes",
+    "class": "NC_DIGIVICE_MANIAC",
+    "attitude": 0,
+    "mission": "GUARD",
+    "chat": "TALK_DIGIVICE_MANIAC_GRIMES",
+    "faction": "free_merchants",
+    "gender": "male"
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_MANIAC_PREP_BATTLE",
+    "effect": [
+      {
+        "math": [
+          "u_has_battle_pet = 0"
+        ]
+      },
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [
+          {
+            "flags": [
+              "DIGIVICE_BABY"
+            ]
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_MANIAC_HAS_PET",
+            "effect": [
+              {
+                "math": [
+                  "u_selected_pet_uid = n_pet_uid"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_atk = n_pet_atk"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_def = n_pet_def"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_int = n_pet_int"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_agi = n_pet_agi"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_luck = n_pet_luck"
+                ]
+              },
+              {
+                "set_string_var": "<npc_val:pet_name>",
+                "target_var": {
+                  "u_val": "u_pet_name"
+                },
+                "parse_tags": true
+              },
+              {
+                "math": [
+                  "u_pet_stage = n_pet_stage"
+                ]
+              },
+              {
+                "math": [
+                  "u_has_battle_pet = 1"
+                ]
+              }
+            ]
+          }
+        ],
+        "false_eocs": [
+          {
+            "id": "EOC_DIGIVICE_MANIAC_NO_PET",
+            "effect": {
+              "u_message": "You need a hatched Zombivice to battle!",
+              "type": "bad"
+            }
+          }
+        ]
+      },
+      {
+        "if": {
+          "math": [
+            "u_has_battle_pet == 1"
+          ]
+        },
+        "then": [
+          {
+            "set_string_var": [
+              "Brutus's Triffidmon",
+              "Vex's Barghestmon",
+              "Jinx's Jabberwockmon",
+              "Grimes's Skeletaljuggernautmon"
+            ],
+            "target_var": {
+              "u_val": "digi_pet_name_disp"
+            }
+          },
+          {
+            "math": [
+              "u_digi_atk = rand(30) + 60"
+            ]
+          },
+          {
+            "math": [
+              "u_digi_def = rand(30) + 60"
+            ]
+          },
+          {
+            "math": [
+              "u_digi_int = rand(30) + 60"
+            ]
+          },
+          {
+            "math": [
+              "u_digi_agi = rand(30) + 60"
+            ]
+          },
+          {
+            "math": [
+              "u_digi_luck = rand(30) + 60"
+            ]
+          },
+          {
+            "math": [
+              "u_digi_stage = 6"
+            ]
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_NPC_BATTLE_INTRO"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_MANIAC_BRUTUS",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "\"Name's Brutus. My Triffidmon's hungry. You volunteering?\"",
+      "Brutus cracks his neck. \"Triffidmon's been bored. Let's fix that.\"",
+      "\"Another challenger. Hope you're tougher than the last one.\""
+    ],
+    "responses": [
+      { "text": "Let's battle!", "topic": "TALK_DONE", "effect": { "run_eocs": "EOC_DIGIVICE_MANIAC_PREP_BATTLE" } },
+      { "text": "Not today.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_MANIAC_VEX",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Vex twirls her Zombivice. \"Barghestmon's restless. Want to dance?\"",
+      "\"You've got that look. The one people have right before they lose to me.\"",
+      "\"Barghestmon doesn't like strangers. Let's give it a reason.\""
+    ],
+    "responses": [
+      { "text": "Let's battle!", "topic": "TALK_DONE", "effect": { "run_eocs": "EOC_DIGIVICE_MANIAC_PREP_BATTLE" } },
+      { "text": "Not today.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_MANIAC_JINX",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "\"Jinx!\" She strikes a pose. \"Jabberwockmon needs a playmate! You in?\"",
+      "\"Hey hey! Another victim! I mean challenger!\"",
+      "Jinx bounces. \"Fight fight fight! Jabberwockmon's gonna go wild!\""
+    ],
+    "responses": [
+      { "text": "Let's battle!", "topic": "TALK_DONE", "effect": { "run_eocs": "EOC_DIGIVICE_MANIAC_PREP_BATTLE" } },
+      { "text": "Not today.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_MANIAC_GRIMES",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Grimes cracks a smile. \"Skeletaljuggernautmon's been collecting dust. Let's change that.\"",
+      "\"Skeletaljuggernautmon. You. Basement. Now.\"",
+      "Grimes doesn't greet you. He just holds up his Zombivice and jerks his head toward the arena."
+    ],
+    "responses": [
+      { "text": "Let's battle!", "topic": "TALK_DONE", "effect": { "run_eocs": "EOC_DIGIVICE_MANIAC_PREP_BATTLE" } },
+      { "text": "Not today.", "topic": "TALK_DONE" }
+    ]
+  }
+]

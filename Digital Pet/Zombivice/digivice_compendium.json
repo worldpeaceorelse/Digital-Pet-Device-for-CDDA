@@ -1,0 +1,262 @@
+[
+  {
+    "id": "DIGIVICE_COMPENDIUM",
+    "type": "talk_topic",
+    "dynamic_line": "=== Zombivice Compendium ===\n\nBrowse by lineage to see discovered forms.",
+    "responses": [
+      {
+        "text": "Brown Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_1"
+        }
+      },
+      {
+        "text": "Yellow Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_2"
+        }
+      },
+      {
+        "text": "Black Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_3"
+        }
+      },
+      {
+        "text": "Red Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_4"
+        }
+      },
+      {
+        "text": "Brick Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_5"
+        }
+      },
+      {
+        "text": "Green-Brown Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_6"
+        }
+      },
+      {
+        "text": "White Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_7"
+        }
+      },
+      {
+        "text": "Metal Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_8"
+        }
+      },
+      {
+        "text": "Dino Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_9"
+        }
+      },
+      {
+        "text": "Next >",
+        "topic": "DIGIVICE_COMPENDIUM_1"
+      },
+      {
+        "text": "Never mind",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "DIGIVICE_COMPENDIUM_1",
+    "type": "talk_topic",
+    "dynamic_line": "=== Zombivice Compendium ===\n\nBrowse by lineage to see discovered forms.",
+    "responses": [
+      {
+        "text": "Diagonal Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_10"
+        }
+      },
+      {
+        "text": "Graffiti Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_11"
+        }
+      },
+      {
+        "text": "Fiery Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_12"
+        }
+      },
+      {
+        "text": "Lunar Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_13"
+        }
+      },
+      {
+        "text": "Flesh Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_14"
+        }
+      },
+      {
+        "text": "Hearts Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_15"
+        }
+      },
+      {
+        "text": "Tiedye Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_16"
+        }
+      },
+      {
+        "text": "Skull Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_17"
+        }
+      },
+      {
+        "text": "Dark Camo Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_18"
+        }
+      },
+      {
+        "text": "< Prev",
+        "topic": "DIGIVICE_COMPENDIUM"
+      },
+      {
+        "text": "Next >",
+        "topic": "DIGIVICE_COMPENDIUM_2"
+      },
+      {
+        "text": "Never mind",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "DIGIVICE_COMPENDIUM_2",
+    "type": "talk_topic",
+    "dynamic_line": "=== Zombivice Compendium ===\n\nBrowse by lineage to see discovered forms.",
+    "responses": [
+      {
+        "text": "Pink Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_19"
+        }
+      },
+      {
+        "text": "Sapphire Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_20"
+        }
+      },
+      {
+        "text": "Amaranth Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_21"
+        }
+      },
+      {
+        "text": "Purple Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_22"
+        }
+      },
+      {
+        "text": "Light Blue Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_23"
+        }
+      },
+      {
+        "text": "Electric Blue Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_24"
+        }
+      },
+      {
+        "text": "Golden Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_25"
+        }
+      },
+      {
+        "text": "Magenta Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_26"
+        }
+      },
+      {
+        "text": "Cobweb Egg Lineage",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_27"
+        }
+      },
+      {
+        "text": "Other",
+        "topic": "DIGIVICE_COMPENDIUM_LINEAGE",
+        "effect": {
+          "run_eocs": "EOC_DIGIVICE_BUILD_COMP_GENERAL"
+        }
+      },
+      {
+        "text": "< Prev",
+        "topic": "DIGIVICE_COMPENDIUM_1"
+      },
+      {
+        "text": "Never mind",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "DIGIVICE_COMPENDIUM_LINEAGE",
+    "type": "talk_topic",
+    "dynamic_line": "<u_val:compendium_text>",
+    "responses": [
+      {
+        "text": "Back to compendium",
+        "topic": "DIGIVICE_COMPENDIUM"
+      },
+      {
+        "text": "Never mind",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

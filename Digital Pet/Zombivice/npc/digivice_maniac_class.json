@@ -1,0 +1,12 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_DIGIVICE_MANIAC",
+    "name": "Digimon Maniac",
+    "job_description": "I live and breathe digital monster battling.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ]
+  }
+]

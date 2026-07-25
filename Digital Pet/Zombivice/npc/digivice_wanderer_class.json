@@ -1,0 +1,12 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_DIGIVICE_WANDERER",
+    "name": "Digivice Wanderer",
+    "job_description": "I roam the wastes with my digital partner.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ]
+  }
+]

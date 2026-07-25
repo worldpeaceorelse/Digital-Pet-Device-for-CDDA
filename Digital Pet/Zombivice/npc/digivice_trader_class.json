@@ -1,0 +1,333 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_DIGIVICE_TRADER",
+    "name": "Digivice Trader",
+    "job_description": "I trade in digital pet devices for zpoints.",
+    "traits": [
+      {
+        "group": "NPC_starting_traits"
+      },
+      {
+        "group": "Appearance_demographics"
+      }
+    ],
+    "shopkeeper_item_group": [
+      {
+        "group": "DIGIVICE_SHOP_BASIC",
+        "rigid": true
+      },
+      {
+        "group": "DIGIVICE_SHOP_STANDARD",
+        "rigid": true
+      },
+      {
+        "group": "DIGIVICE_SHOP_PREMIUM",
+        "rigid": true,
+        "condition": {
+          "math": [
+            "u_tournament_wins >= 50"
+          ]
+        }
+      },
+      {
+        "group": "DIGIVICE_SHOP_ELITE",
+        "rigid": true,
+        "condition": {
+          "math": [
+            "u_tournament_wins >= 100"
+          ]
+        }
+      },
+      {
+        "group": "DIGIVICE_SHOP_MERCH",
+        "rigid": true
+      }
+    ],
+    "shopkeeper_price_rules": [
+      {
+        "item": "zpoint_voucher_strap",
+        "fixed_adj": 0
+      },
+      {
+        "item": "zpoint_voucher_bundle",
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_egg",
+        "price": 3000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_red_and_black_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_GREEN_AND_WHITE_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_blue_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_yellow_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_magenta_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_migomon_edition_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_kreckmon_edition_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_zombimon_edition_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_zombimon_movie_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_lunar_eclipse_egg",
+        "price": 4000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_strawberry_egg",
+        "price": 5000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_dusk_egg",
+        "price": 5000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_mosaic_egg",
+        "price": 5000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_cotton_candy_egg",
+        "price": 5000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_crystal_wave_egg",
+        "price": 6000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_emerald_wave_egg",
+        "price": 6000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_primal_red_egg",
+        "price": 6000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_primal_orange_egg",
+        "price": 6000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "vpetmonster01_solar_flare_egg",
+        "price": 6000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_plush",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_mug",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_card_game",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_comic",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_pillowcase",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_plate",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_wallet",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_energy_drink",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_board_game",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_action_figure",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_lunchbox",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_water_bottle",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_towel",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_handheld",
+        "price": 1500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_blanket",
+        "price": 1500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_hat",
+        "price": 5000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_beanie",
+        "price": 10000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_tshirt",
+        "price": 10000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_pajama_top",
+        "price": 10000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_pajama_bottoms",
+        "price": 10000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_slippers",
+        "price": 15000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_backpack",
+        "price": 20000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_socks",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_pin",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_notebook",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_puzzle",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_yoyo",
+        "price": 500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_frisbee",
+        "price": 1000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_water_gun",
+        "price": 1500,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_sneakers",
+        "price": 15000,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_cereal",
+        "price": 300,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_gummies",
+        "price": 300,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_bubble_gum",
+        "price": 200,
+        "fixed_adj": 0
+      },
+      {
+        "item": "zombimon_noodles",
+        "price": 500,
+        "fixed_adj": 0
+      }
+    ],
+    "shopkeeper_consumption_rates": "digivice_shop_rates",
+    "shopkeeper_whitelist": "digivice_shop_whitelist",
+    "worn_override": "NC_DIGIVICE_TRADER_worn",
+    "carry_override": "NC_DIGIVICE_TRADER_carry",
+    "weapon_override": "NC_DIGIVICE_TRADER_wield"
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "type": "npc",
+    "id": "digivice_wanderer",
+    "class": "NC_DIGIVICE_WANDERER",
+    "attitude": 0,
+    "mission": "NULL",
+    "chat": "TALK_DIGIVICE_WANDERER",
+    "faction": "free_merchants",
+    "gender": "random"
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_DIGIVICE_WANDERER",
+    "dynamic_line": [
+      "You got a Zombivice? Let's see if it can keep up!",
+      "Another trainer! My partner's been aching for a real fight.",
+      "The road's long, but my digimon keeps me company. Wanna battle?",
+      "I've trained my partner across a hundred miles. You ready for this?",
+      "Fresh face! Hope your pet's tougher than you look.",
+      "Found this Zombivice in a wreck. Raised it from an egg. Let's go!",
+      "You think you know digimon? Step up and prove it.",
+      "My partner and I have been through hell together. Show me what you've got.",
+      "Battle me and I might share where I found this egg.",
+      "The wastes are brutal, but my digimon's got my back. Yours?"
+    ],
+    "responses": [
+      {
+        "text": "Let's battle our Zombivices!",
+        "topic": "TALK_DONE",
+        "effect": { "run_eocs": "EOC_DIGIVICE_WANDERER_BATTLE" }
+      },
+      {
+        "text": "Maybe later.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_WANDERER_BATTLE",
+    "effect": [
+      { "math": [ "u_has_battle_pet = 0" ] },
+      {
+        "u_run_inv_eocs": "random",
+        "search_data": [ { "flags": [ "DIGIVICE_BABY" ] } ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_WANDERER_HAS_PET",
+            "effect": [
+              { "math": [ "u_selected_pet_uid = n_pet_uid" ] },
+              { "math": [ "u_pet_atk = n_pet_atk" ] },
+              { "math": [ "u_pet_def = n_pet_def" ] },
+              { "math": [ "u_pet_int = n_pet_int" ] },
+              { "math": [ "u_pet_agi = n_pet_agi" ] },
+              { "math": [ "u_pet_luck = n_pet_luck" ] },
+              { "set_string_var": "<npc_val:pet_name>", "target_var": { "u_val": "u_pet_name" }, "parse_tags": true },
+              { "math": [ "u_pet_stage = n_pet_stage" ] },
+              { "math": [ "u_has_battle_pet = 1" ] }
+            ]
+          }
+        ],
+        "false_eocs": [
+          {
+            "id": "EOC_DIGIVICE_WANDERER_NO_PET",
+            "effect": { "u_message": "You need a hatched Zombivice to battle!", "type": "bad" }
+          }
+        ]
+      },
+      {
+        "if": { "math": [ "u_has_battle_pet == 1" ] },
+        "then": [
+          {
+            "set_string_var": [
+              "Rampagemon", "Doomwingmon", "Thunderbeastmon", "Frosthowlmon",
+              "Venomstrikemon", "Ironhideomon", "Stormbringermon", "Wildfangmon",
+              "Shadowprowlermon", "Blazewingmon", "Crystalgardmon", "Thornbackmon",
+              "Stonefistmon", "Warpathmon", "Nightglidermon", "Copperhideomon",
+              "Boulderbackmon", "Sneakscalemmon", "Brightmanemon",
+              "Dustdevilmon", "Shockhoofmon", "Firebrandmon", "Iceshardmon",
+              "Silverclawmon", "Bronzetuskmon"
+            ],
+            "target_var": { "u_val": "digi_pet_name_disp" }
+          },
+          { "math": [ "u_digi_stage = rand(3) + 4" ] },
+          { "math": [ "u_digi_atk = rand(25) + 55" ] },
+          { "math": [ "u_digi_def = rand(25) + 55" ] },
+          { "math": [ "u_digi_int = rand(25) + 55" ] },
+          { "math": [ "u_digi_agi = rand(25) + 55" ] },
+          { "math": [ "u_digi_luck = rand(25) + 55" ] },
+          {
+            "if": { "math": [ "u_digi_stage == 4" ] },
+            "then": { "u_message": "\"My partner's still growing! Don't underestimate us!\"", "type": "info" }
+          },
+          {
+            "if": { "math": [ "u_digi_stage == 5" ] },
+            "then": { "u_message": "\"We've come a long way together. Feel the power!\"", "type": "info" }
+          },
+          {
+            "if": { "math": [ "u_digi_stage == 6" ] },
+            "then": { "u_message": "\"Behold the pinnacle of digital evolution!\"", "type": "info" }
+          },
+          { "open_dialogue": { "topic": "DIGIVICE_NPC_BATTLE_INTRO" } }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "nest_RandEnc_wanderer_add",
+    "object": {
+      "place_npcs": [
+        { "class": "digivice_wanderer", "x": 12, "y": 12 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "nest_RandEnc_wanderer_remove",
+    "object": {
+      "remove_npcs": [
+        { "class": "digivice_wanderer", "x": [ 0, 23 ], "y": [ 0, 23 ] }
+      ]
+    }
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_RandEnc_Roadstop_wanderer_add",
+    "recurrence": 1800,
+    "global": true,
+    "effect": [
+      { "set_condition": "random_enc_condition", "condition": { "math": [ "0 == 0" ] } },
+      {
+        "run_eocs": "EOC_RandEnc",
+        "variables": {
+          "omt": "roadstop_a",
+          "map_update": "nest_RandEnc_wanderer_add",
+          "map_removal": "nest_RandEnc_wanderer_remove",
+          "chance": 20,
+          "days_till_spawn": 3
+        }
+      }
+    ]
+  }
+]

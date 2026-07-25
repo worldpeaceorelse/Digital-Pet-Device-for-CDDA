@@ -1,0 +1,1203 @@
+[
+  {
+    "type": "npc",
+    "id": "digivice_trader",
+    "name_unique": "Data",
+    "class": "NC_DIGIVICE_TRADER",
+    "attitude": 0,
+    "mission": "SHOPKEEP",
+    "chat": "TALK_DIGIVICE_TRADER",
+    "faction": "digivice_depot",
+    "gender": "male"
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Data looks up from a mess of wires and cracked screens, eyes lighting up. \"Oh! A live one! Come, come \u00e2\u20ac\u201d you've got the look of someone who hasn't met a Zpet before. I can always tell.\"",
+      "\"Welcome to the Digivice Depot!\" Data announces, gesturing at a wall of colorful plastic eggs and handheld devices. \"Last working Zpet operation on the continent. Probably the world. Definitely this county.\"",
+      "Data grins. \"New face! You want to see what I've got?\" He gestures at a wall of gleaming gadgets. \"Zpets \u00e2\u20ac\u201d digital companions. Raisable, evolvable, battle-ready. Before the cataclysm they were just toys. Now?\" He taps his temple. \"They're a reason to get up in the morning.\""
+    ],
+    "speaker_effect": {
+      "effect": [
+        {
+          "u_add_var": "met_data",
+          "value": "yes"
+        },
+        {
+          "npc_first_topic": "TALK_DIGIVICE_TRADER_RETURN"
+        }
+      ]
+    },
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "topic": "TALK_DONE",
+        "effect": "start_trade"
+      },
+      {
+        "text": "Zpets? What are you talking about?",
+        "topic": "TALK_DIGIVICE_TRADER_INTRO"
+      },
+      {
+        "text": "I've never owned one before...",
+        "topic": "TALK_DIGIVICE_TRADER_FREE_STARTER",
+        "condition": {
+          "not": {
+            "u_has_item_with_flag": "DIGIVICE"
+          }
+        }
+      },
+      {
+        "text": "I should get going.",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER_RETURN",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Data's face lights up. \"Back again! You're becoming a regular.\" He starts polishing a device absently. \"What's the word? Need a new egg?\"",
+      "\"Ah, if it isn't my favorite customer!\" Data says, leaning back. \"How's the Zpet doing? Eaten anything it shouldn't?\" He chuckles.",
+      "Data nods in recognition. \"Hey there. Still alive, still collecting Zpets. Love to see it.\" He gestures at his wares. \"Same deal as before \u00e2\u20ac\u201d take a look if something catches your eye.\"",
+      "\"Good to see you in one piece,\" Data grins, setting down a soldering iron. \"Zpets still kicking? Need anything?\"",
+      "Data glances at your Zombivice. \"That little buddy of yours looks healthier every time I see you. What've you been feeding it?\"",
+      "\"You know,\" Data says, nodding at your Zombivice, \"I've seen some impressive Zombimon in my time. Yours is shaping up nicely.\"",
+      "\"How's the raising going?\" Data asks, gesturing at your pocket. \"Keeping up with the feeding and training?\"",
+      "\"I heard someone in the refugee center was showing off a mega-evolved Zombimon the other day. Couldn't have been you, could it?\" Data winks.",
+      "Data wipes his hands on a rag. \"Speaking of rare evolutions \u2014 I had a guy come in last week with a Zombimon I'd never seen before. A real beauty.\"",
+      "\"A baby Zombimon!\" Data coos. \"Look at the little guy. They grow up so fast, you'll blink and it'll be evolving.\"",
+      "\"Fresh hatchling, huh?\" Data nods knowingly. \"The first few days are the most important. Feed it well, play with it, keep it clean.\"",
+      "\"Babies are adorable,\" Data says, glancing at your Zombivice. \"But don't let that fool you \u2014 they're little data-eating machines.\"",
+      "\"Nothing quite like that new egg smell,\" Data chuckles. \"Cherish these early days.\"",
+      "\"A newborn Zombimon!\" Data clasps his hands together. \"So full of potential. It could become anything.\"",
+      "\"Getting bigger!\" Data observes. \"You can see the personality forming. That one's got spirit.\"",
+      "\"Mid-stage already?\" Data raises an eyebrow. \"You've been putting in the work. Don't slack off now.\"",
+      "\"The middle stages are where they really start to come into their own,\" Data says thoughtfully. \"This is where you shape what it becomes.\"",
+      "\"Look at those stats climbing!\" Data grins. \"Keep up the training and you'll have a champion on your hands.\"",
+      "\"I can tell you've been consistent,\" Data says approvingly. \"That's the secret. Consistency.\"",
+      "\"Your Zombimon's looking healthy,\" Data notes. \"Good color, bright eyes. Whatever you're doing, keep doing it.\"",
+      "\"You know, most people give up around this stage,\" Data says. \"Too impatient. But you're sticking with it. I respect that.\"",
+      "\"An adult form!\" Data beams. \"Look at that! Fully realized. This is what it's all about.\"",
+      "\"Adult stage, nice!\" Data gives a thumbs up. \"You've raised it well. Most Zombimon never make it this far.\"",
+      "\"A fully grown Zombimon!\" Data circles you, admiring your Zombivice. \"That is a thing of beauty right there.\"",
+      "\"Adult form, excellent stats...\" Data nods appreciatively. \"You didn't just raise it \u2014 you raised it RIGHT.\"",
+      "\"I love seeing adult Zombimon,\" Data says wistfully. \"Reminds me of why I got into this business.\"",
+      "\"Perfect adult evolution!\" Data claps. \"Textbook raising. You should be proud.\"",
+      "\"HOLY...\" Data's jaw drops. \"Is that a MEGA?! I've only ever seen pictures!\" He stares at your Zombivice like it's a religious artifact.",
+      "\"A MEGA!\" Data practically squeals. \"Do you have ANY idea how rare that is?! You're a legend!\"",
+      "\"A mega-evolved Zombimon...\" Data whispers reverently. \"I've been in this trade for years and I've only seen three. You're in elite company.\"",
+      "\"MEGA!\" Data fans himself. \"I need to sit down. This is the most exciting thing that's happened in weeks.\"",
+      "\"You walked in here with a MEGA and you're just... casually showing it off?\" Data shakes his head in disbelief. \"Incredible.\"",
+      "\"That's a mega,\" Data says slowly, savoring the words. \"That's a genuine, bonafide mega-evolved Zombimon. I can die happy now.\"",
+      "\"Training's coming along?\" Data asks. \"Good. A trained Zombimon is a happy Zombimon. And a happy Zombimon doesn't eat through your backpack.\"",
+      "\"Been entering tournaments?\" Data leans in. \"I hear the competition's getting fierce. Some real talent out there.\"",
+      "\"Battle wins build character,\" Data says sagely. \"For both you and your Zombimon. Keep fighting.\"",
+      "\"You know, I once saw a Zombimon win a tournament with a perfect strategy,\" Data reminisces. \"Outsmarted a much stronger opponent. Brains over brawn.\"",
+      "\"How's the battle record looking?\" Data asks. \"Don't worry about losses \u2014 every defeat teaches you something.\"",
+      "\"A Zombimon that battles regularly evolves faster,\" Data advises. \"Something about the combat data. Don't ask me the science.\"",
+      "\"Feeding your Zombimon properly is more important than people think,\" Data says. \"A well-fed Zombimon is a loyal Zombimon.\"",
+      "\"You'd be surprised how many people forget to clean up after their Zombimon,\" Data says, wrinkling his nose. \"Don't be one of those people.\"",
+      "\"Hunger and happiness \u2014 those are the two dials you need to watch,\" Data explains. \"Let either one drop too low and you'll have problems.\"",
+      "\"Overfeeding is a thing, you know,\" Data warns. \"Your Zombimon will eat itself into a coma if you let it. Moderation.\"",
+      "\"If your Zombimon looks sad, play with it,\" Data suggests. \"Simple interaction goes a long way.\"",
+      "\"Evolution isn't just about time,\" Data says. \"It's about how you raise them. Care mistakes add up.\"",
+      "\"Every choice you make influences what your Zombimon becomes,\" Data explains. \"Feeding, training, battling \u2014 it all matters.\"",
+      "\"Trying for a specific evolution?\" Data asks. \"Keep an eye on the weight. That's the secret most people miss.\"",
+      "\"Evolution is part science, part art,\" Data muses. \"And part luck. But mostly science.\"",
+      "\"I've seen Zombimon evolve in the strangest ways,\" Data says. \"Sometimes when you least expect it. That's the magic of it.\"",
+      "\"Hey, a special edition!\" Data grins. \"You've got taste. I always liked the look of those.\"",
+      "\"That's one of the limited runs!\" Data says approvingly. \"Good eye. Those are getting harder to find.\"",
+      "\"A collector's model,\" Data nods. \"You don't see many of those in the wild. Most ended up in museums.\"",
+      "\"Nice variant!\" Data says. \"I had a few of those in stock before the Cataclysm. Wish I'd kept one for myself.\"",
+      "\"Your Zombimon's looking a bit... round,\" Data observes carefully. \"Might want to ease up on the protein.\"",
+      "\"Bit on the skinny side?\" Data asks. \"Feed it more. A hungry Zombimon is a grumpy Zombimon.\"",
+      "\"Weight management is key,\" Data says. \"Too heavy or too light can mess up your evolution plans.\"",
+      "\"Your Zombimon's at a healthy weight,\" Data notes approvingly. \"Perfect balance. You clearly know what you're doing.\"",
+      "\"Is your Zombimon getting enough sleep?\" Data asks. \"An exhausted Zombimon makes mistakes.\"",
+      "\"If it's acting cranky, put it to bed,\" Data advises. \"Even digital creatures need their rest.\"",
+      "\"Sleep is when they process all that experience data,\" Data explains. \"Don't skip it.\"",
+      "\"Keeping it clean?\" Data asks. \"Good hygiene prevents all sorts of problems.\"",
+      "\"Messy Zombimon get sick more often,\" Data warns. \"Stay on top of the cleanup.\"",
+      "\"Your Zombimon looks healthy,\" Data observes. \"No signs of infection. Keep doing what you're doing.\"",
+      "\"If it ever starts acting strange \u2014 glitching, weird colors \u2014 bring it by,\" Data says. \"I might be able to help.\"",
+      "\"A healthy Zombimon is a happy Zombimon,\" Data says cheerfully. \"And a happy Zombimon makes for a happy trainer.\"",
+      "\"You're doing great,\" Data says warmly. \"Really. This Zombimon-raising thing is harder than it looks.\"",
+      "\"Every day with your Zombimon is a gift,\" Data says philosophically. \"Even the messy days.\"",
+      "\"I never get tired of seeing people bond with their Zombimon,\" Data smiles. \"That's why I do this.\"",
+      "\"You and your Zombimon make a good team,\" Data observes. \"I can tell by the way it responds to you.\"",
+      "\"Did you know Zombimon were originally designed as educational tools?\" Data asks. \"Then someone figured out they could fight each other and, well... the rest is history.\"",
+      "\"Before the Cataclysm, there were whole tournaments broadcast on TV,\" Data remembers. \"Million-viewer events. Seems like another lifetime now.\"",
+      "\"I used to run a little shop,\" Data says. \"Before all this. Sold Zombimon merchandise, organized tournaments. It was a good life.\"",
+      "\"There's a rumor that somewhere out east, there's a lab with prototype Zombimon,\" Data says quietly. \"Unreleased models. Never confirmed, of course.\"",
+      "\"The first Zombimon were made in the late 90s,\" Data says. \"Ancient technology by today's standards. But the core design hasn't changed much.\"",
+      "\"Zpoints treating you well?\" Data asks. \"Save them up and you can get some really nice eggs.\"",
+      "\"If you're short on Zpoints, try the tournament circuit,\" Data suggests. \"Good money if you've got the skills.\"",
+      "\"I've seen people waste Zpoints on the wrong eggs,\" Data says. \"Think about what you want before you buy.\"",
+      "\"Zpoints come and go,\" Data shrugs. \"But a well-raised Zombimon? That's forever.\"",
+      "\"I heard you've been making waves in the tournament scene,\" Data says. \"People are talking.\"",
+      "\"A tournament champion, huh?\" Data grins. \"I knew you had it in you.\"",
+      "\"Championship material,\" Data nods. \"I don't say that to just anyone.\"",
+      "\"How many tournament wins now?\" Data asks. \"Keep climbing that ladder.\"",
+      "\"The tournament scene's gotten competitive,\" Data says. \"Good. Keeps everyone sharp.\"",
+      "\"You know, I've always had a soft spot for this evolutionary line,\" Data says. \"They've got character.\"",
+      "\"That one's got a good nature,\" Data observes. \"You can see it in the eyes.\"",
+      "\"I met someone once who raised one of these to its ultimate form,\" Data says. \"Took them nearly a year. Worth it.\"",
+      "\"Interesting choice!\" Data says. \"Not everyone goes for this line. Takes patience.\"",
+      "\"Zombimon are more than just pets,\" Data says softly. \"They're companions. Reminders of a world that could have been.\"",
+      "\"In a world full of monsters,\" Data says, \"it's nice to have a monster of your own. One that's on your side.\"",
+      "\"People think I'm in it for the Zpoints,\" Data chuckles. \"Nah. I'm in it for the look on someone's face when their Zombimon evolves.\"",
+      "\"Every Zombimon has a story,\" Data says. \"And every story starts with a single egg.\"",
+      "\"The bond between a trainer and their Zombimon,\" Data muses, \"is one of the few pure things left in this world.\"",
+      "\"You take care of your Zombimon, and it'll take care of you,\" Data says. \"That's the deal.\"",
+      "\"Why did the Zombimon cross the road?\" Data asks. \"To evolve on the other side!\" He cackles at his own joke.",
+      "\"What do you call a Zombimon that never evolves?\" Data grins. \"A roommate!\" He slaps his knee.",
+      "\"You hear about the Zombimon that ate too much data?\" Data says. \"It had a byte too much!\" He wheezes with laughter.",
+      "\"I've got a million of these,\" Data says, wiping a tear. \"Ask me another time.\"",
+      "\"Lost a Zombimon before?\" Data asks gently. \"It happens. Don't beat yourself up. You can always start again.\"",
+      "\"Every egg is a new beginning,\" Data says. \"That's the beauty of it.\"",
+      "\"I've seen people lose their Zombimon and give up entirely,\" Data says. \"Don't be one of them. Try again.\"",
+      "\"Back in '19, there was a Zombimon that sold for a million dollars,\" Data says. \"A MILLION. For a digital pet. Wild times.\"",
+      "\"You know what they say: a Zombimon in the hand is worth two in the bush,\" Data says. \"No one says that. I just made it up.\"",
+      "\"I once saw a Zombimon beat a mutant bear in a fight,\" Data says. \"True story. Little guy just would NOT give up.\"",
+      "\"The rarest Zombimon I ever saw was a prototype from the original 1997 run,\" Data says. \"Still had the beta firmware.\"",
+      "\"Sometimes I dream about Zombimon,\" Data admits. \"I know. It's sad. But this is my life now.\"",
+      "\"Your Zombimon trusts you,\" Data observes. \"I can tell by how it responds. That trust takes time to build.\"",
+      "\"A Zombimon that trusts its trainer will fight twice as hard,\" Data says. \"That bond is real.\"",
+      "\"You and your Zombimon have a connection,\" Data notes. \"I see it. That's rare.\"",
+      "\"If you're looking to find more Zombimon stuff, check the old warehouses,\" Data suggests. \"Before the Cataclysm, there were distribution centers all over the state \u2014 unsold merchandise piled to the ceiling. I found a whole pallet of Zpet eggs in one, out by the old highway overpass.\"",
+      "\"Toy stores are obvious,\" Data says, ticking off fingers. \"But don't sleep on electronics shops, comic book stores, or even vending machines. I found a limited edition Zombimon egg in a capsule machine at a truck stop once. You never know what's out there.\"",
+      "\"The old mall's got a toy store that was expecting a massive Zombimon shipment right before everything went to hell,\" Data says, lowering his voice. \"I've never been able to get past the things in the food court, but you might have better luck.\"",
+      "\"You ever hear about the Jogress project?\" Data asks, his eyes lighting up. \"Cross-species evolution. Two fully evolved Zombimon fused into one \u2014 a hybrid. The original developers built a prototype machine, but the project got buried. 'Site Omega,' they called the facility. Somewhere in the mountains.\"",
+      "\"I've been piecing together fragments about a secret R&D lab,\" Data says quietly. \"The original Zombimon creators had a secondary facility \u2014 off the books. I found shipping records for a crate labeled 'PROTOTYPE \u2014 DO NOT EXPOSE TO DIRECT SUNLIGHT' routed to a mountain grid sector. If that Jogress machine still exists...\" He trails off."
+    ],
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "topic": "TALK_DONE",
+        "effect": "start_trade"
+      },
+      {
+        "text": "I want to exchange my points for vouchers.",
+        "topic": "TALK_DIGIVICE_TRADER_BUY_VOUCHERS"
+      },
+      {
+        "text": "I'm new to this \u00e2\u20ac\u201d can you help me out?",
+        "topic": "TALK_DIGIVICE_TRADER_FREE_STARTER",
+        "condition": {
+          "and": [
+            {
+              "math": [
+                "global_pet_counter == 1"
+              ]
+            },
+            {
+              "not": {
+                "compare_string": [
+                  "yes",
+                  {
+                    "u_val": "received_free_starter"
+                  }
+                ]
+              }
+            },
+            {
+              "not": {
+                "u_has_item_with_flag": "DIGIVICE"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "text": "When's your next restock?",
+        "topic": "TALK_DIGIVICE_TRADER_RESTOCK"
+      },
+      {
+        "text": "See you around, Data.",
+        "topic": "TALK_DONE"
+      }
+    ],
+    "speaker_effect": {
+      "condition": {
+        "and": [
+          {
+            "u_has_item_with_flag": "DIGIVICE"
+          },
+          {
+            "one_in_chance": 3
+          }
+        ]
+      },
+      "effect": [
+        {
+          "u_run_inv_eocs": "random",
+          "search_data": [
+            {
+              "flags": [
+                "DIGIVICE_BABY"
+              ]
+            }
+          ],
+          "true_eocs": [
+            {
+              "id": "EOC_DIGIVICE_DATA_MONSTER_REACTION",
+              "effect": [
+                {
+                  "set_string_var": "<npc_val:pet_name>",
+                  "target_var": {
+                    "u_val": "pet_name_display"
+                  },
+                  "parse_tags": true
+                },
+                {
+                  "if": {
+                    "compare_string": [
+                      "Sproutmon",
+                      {
+                        "u_val": "pet_name_display"
+                      }
+                    ]
+                  },
+                  "then": {
+                    "u_message": "\"A Sproutmon! That was my first too. Brings back memories.\" Data smiles wistfully.",
+                    "type": "info"
+                  },
+                  "else": {
+                    "if": {
+                      "compare_string": [
+                        "Crawlermon",
+                        {
+                          "u_val": "pet_name_display"
+                        }
+                      ]
+                    },
+                    "then": {
+                      "u_message": "\"Crawlermon, huh? Little skitterer. Fast little guys.\" Data nods.",
+                      "type": "info"
+                    },
+                    "else": {
+                      "if": {
+                        "compare_string": [
+                          "Grackenmon",
+                          {
+                            "u_val": "pet_name_display"
+                          }
+                        ]
+                      },
+                      "then": {
+                        "u_message": "\"Grackenmon! I can hear it from here. They're vocal little things, aren't they?\" Data chuckles.",
+                        "type": "info"
+                      },
+                      "else": {
+                        "if": {
+                          "compare_string": [
+                            "Kreckmon",
+                            {
+                              "u_val": "pet_name_display"
+                            }
+                          ]
+                        },
+                        "then": {
+                          "u_message": "\"Kreckmon! Feisty one. I can see it in the eyes.\" Data grins.",
+                          "type": "info"
+                        },
+                        "else": {
+                          "if": {
+                            "compare_string": [
+                              "Survivormon",
+                              {
+                                "u_val": "pet_name_display"
+                              }
+                            ]
+                          },
+                          "then": {
+                            "u_message": "\"Survivormon? Appropriate name for the times we're living in.\" Data says dryly.",
+                            "type": "info"
+                          },
+                          "else": {
+                            "if": {
+                              "compare_string": [
+                                "Sporemon",
+                                {
+                                  "u_val": "pet_name_display"
+                                }
+                              ]
+                            },
+                            "then": {
+                              "u_message": "\"Sporemon! Careful not to breathe in too deep!\" Data laughs at his own joke.",
+                              "type": "info"
+                            },
+                            "else": {
+                              "if": {
+                                "compare_string": [
+                                  "Eyemon",
+                                  {
+                                    "u_val": "pet_name_display"
+                                  }
+                                ]
+                              },
+                              "then": {
+                                "u_message": "\"Eyemon... it's watching me, isn't it?\" Data shifts uncomfortably.",
+                                "type": "info"
+                              },
+                              "else": {
+                                "if": {
+                                  "compare_string": [
+                                    "Scrapmon",
+                                    {
+                                      "u_val": "pet_name_display"
+                                    }
+                                  ]
+                                },
+                                "then": {
+                                  "u_message": "\"Scrapmon! Looks like it's already been through the wringer. Fitting.\" Data says.",
+                                  "type": "info"
+                                },
+                                "else": {
+                                  "if": {
+                                    "compare_string": [
+                                      "Feralmon",
+                                      {
+                                        "u_val": "pet_name_display"
+                                      }
+                                    ]
+                                  },
+                                  "then": {
+                                    "u_message": "\"Feralmon! Got them wild eyes. I like it.\" Data grins.",
+                                    "type": "info"
+                                  },
+                                  "else": {
+                                    "if": {
+                                      "compare_string": [
+                                        "Microslimemon",
+                                        {
+                                          "u_val": "pet_name_display"
+                                        }
+                                      ]
+                                    },
+                                    "then": {
+                                      "u_message": "\"Microslimemon! Try not to let it ooze on anything valuable.\" Data jokes.",
+                                      "type": "info"
+                                    },
+                                    "else": {
+                                      "if": {
+                                        "compare_string": [
+                                          "Manhackmon",
+                                          {
+                                            "u_val": "pet_name_display"
+                                          }
+                                        ]
+                                      },
+                                      "then": {
+                                        "u_message": "\"Manhackmon, huh? I'd keep that away from the refugee center guards. They get nervous.\" Data says.",
+                                        "type": "info"
+                                      },
+                                      "else": {
+                                        "if": {
+                                          "compare_string": [
+                                            "Scorchedmon",
+                                            {
+                                              "u_val": "pet_name_display"
+                                            }
+                                          ]
+                                        },
+                                        "then": {
+                                          "u_message": "\"Scorchedmon! Still warm to the touch. I can feel the heat from here.\" Data fans himself.",
+                                          "type": "info"
+                                        },
+                                        "else": {
+                                          "if": {
+                                            "compare_string": [
+                                              "Blankmon",
+                                              {
+                                                "u_val": "pet_name_display"
+                                              }
+                                            ]
+                                          },
+                                          "then": {
+                                            "u_message": "\"Blankmon... creepy little void-dweller. I respect the choice though.\" Data nods slowly.",
+                                            "type": "info"
+                                          },
+                                          "else": {
+                                            "if": {
+                                              "compare_string": [
+                                                "Fleshcocoonmon",
+                                                {
+                                                  "u_val": "pet_name_display"
+                                                }
+                                              ]
+                                            },
+                                            "then": {
+                                              "u_message": "\"Fleshcocoonmon... you know what, I'm not gonna ask. You do you.\" Data shrugs.",
+                                              "type": "info"
+                                            },
+                                            "else": {
+                                              "if": {
+                                                "compare_string": [
+                                                  "Pulmonarymon",
+                                                  {
+                                                    "u_val": "pet_name_display"
+                                                  }
+                                                ]
+                                              },
+                                              "then": {
+                                                "u_message": "\"Pulmonarymon! Got a good heartbeat on that one. Literally.\" Data taps his chest.",
+                                                "type": "info"
+                                              },
+                                              "else": {
+                                                "if": {
+                                                  "compare_string": [
+                                                    "Anklebitermon",
+                                                    {
+                                                      "u_val": "pet_name_display"
+                                                    }
+                                                  ]
+                                                },
+                                                "then": {
+                                                  "u_message": "\"Anklebitermon! Watch your shins!\" Data laughs, stepping back playfully.",
+                                                  "type": "info"
+                                                },
+                                                "else": {
+                                                  "if": {
+                                                    "compare_string": [
+                                                      "Skelemon",
+                                                      {
+                                                        "u_val": "pet_name_display"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "then": {
+                                                    "u_message": "\"Skelemon! Spooky. I love it.\" Data grins approvingly.",
+                                                    "type": "info"
+                                                  },
+                                                  "else": {
+                                                    "if": {
+                                                      "compare_string": [
+                                                        "Shadowmon",
+                                                        {
+                                                          "u_val": "pet_name_display"
+                                                        }
+                                                      ]
+                                                    },
+                                                    "then": {
+                                                      "u_message": "\"Shadowmon! I didn't even see you come in.\" Data peers at your pocket.",
+                                                      "type": "info"
+                                                    },
+                                                    "else": {
+                                                      "if": {
+                                                        "compare_string": [
+                                                          "Polypmon",
+                                                          {
+                                                            "u_val": "pet_name_display"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "then": {
+                                                        "u_message": "\"Polypmon! Did it just... bud off a smaller one?\" Data squints.",
+                                                        "type": "info"
+                                                      },
+                                                      "else": {
+                                                        "if": {
+                                                          "compare_string": [
+                                                            "Crayfishmon",
+                                                            {
+                                                              "u_val": "pet_name_display"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "then": {
+                                                          "u_message": "\"Crayfishmon! Snappy little thing.\" Data mimics pincers with his fingers.",
+                                                          "type": "info"
+                                                        },
+                                                        "else": {
+                                                          "if": {
+                                                            "compare_string": [
+                                                              "Marlossmon",
+                                                              {
+                                                                "u_val": "pet_name_display"
+                                                              }
+                                                            ]
+                                                          },
+                                                          "then": {
+                                                            "u_message": "\"Marlossmon... you know what, I'm not gonna touch that one. Literally or figuratively.\" Data says.",
+                                                            "type": "info"
+                                                          },
+                                                          "else": {
+                                                            "if": {
+                                                              "compare_string": [
+                                                                "Brainlessmon",
+                                                                {
+                                                                  "u_val": "pet_name_display"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "then": {
+                                                              "u_message": "\"Brainlessmon... yep. The name checks out.\" Data smirks.",
+                                                              "type": "info"
+                                                            },
+                                                            "else": {
+                                                              "if": {
+                                                                "compare_string": [
+                                                                  "Seweranhamon",
+                                                                  {
+                                                                    "u_val": "pet_name_display"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "then": {
+                                                                "u_message": "\"Seweranhamon! Smells like it too, I bet.\" Data wrinkles his nose playfully.",
+                                                                "type": "info"
+                                                              },
+                                                              "else": {
+                                                                "if": {
+                                                                  "compare_string": [
+                                                                    "Zappermon",
+                                                                    {
+                                                                      "u_val": "pet_name_display"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "then": {
+                                                                  "u_message": "\"Zappermon! Keep that away from my equipment!\" Data gestures at his stall protectively.",
+                                                                  "type": "info"
+                                                                },
+                                                                "else": {
+                                                                  "if": {
+                                                                    "compare_string": [
+                                                                      "Monolithmon",
+                                                                      {
+                                                                        "u_val": "pet_name_display"
+                                                                      }
+                                                                    ]
+                                                                  },
+                                                                  "then": {
+                                                                    "u_message": "\"Monolithmon! Solid as a rock. Doesn't say much, does it?\" Data observes.",
+                                                                    "type": "info"
+                                                                  },
+                                                                  "else": {
+                                                                    "if": {
+                                                                      "compare_string": [
+                                                                        "Snotgobblermon",
+                                                                        {
+                                                                          "u_val": "pet_name_display"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "then": {
+                                                                      "u_message": "\"Snotgobblermon... gross. I love it.\" Data chuckles.",
+                                                                      "type": "info"
+                                                                    },
+                                                                    "else": {
+                                                                      "if": {
+                                                                        "compare_string": [
+                                                                          "Larvamon",
+                                                                          {
+                                                                            "u_val": "pet_name_display"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      "then": {
+                                                                        "u_message": "\"Larvamon! Eating everything in sight, I assume?\" Data grins.",
+                                                                        "type": "info"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER_FREE_STARTER",
+    "type": "talk_topic",
+    "dynamic_line": "\"Never had a Zpet? Oh man, you're in for a treat!\" Data rummages through a drawer overflowing with gadgets and pulls out a generic Zombivice. \"First one's on the house. Call it an investment in your continued sanity.\" He presses it into your hands with genuine warmth. \"World's gone to hell \u00e2\u20ac\u201d might as well have a little buddy to share it with. Feed it, train it, keep it clean, and it'll evolve into something truly yours. Trust me, you'll get attached.\"",
+    "speaker_effect": {
+      "effect": [
+        {
+          "math": [
+            "global_pet_counter = global_pet_counter + 1"
+          ]
+        },
+        {
+          "u_add_var": "received_free_starter",
+          "value": "yes"
+        },
+        {
+          "u_spawn_item": "vpetmonster01_egg"
+        },
+        {
+          "give_achievement": "achievement_digivice_zombivice"
+        }
+      ]
+    },
+    "responses": [
+      {
+        "text": "Thanks, Data. I'll take good care of it.",
+        "topic": "TALK_DIGIVICE_TRADER_RETURN"
+      }
+    ]
+  },
+  {
+    "type": "shopkeeper_consumption_rates",
+    "id": "digivice_shop_rates",
+    "default_rate": 1,
+    "junk_threshold": "0 cent",
+    "rates": [
+      {
+        "category": "currency",
+        "rate": -1
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_SHOP_BASIC",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "vpetmonster01_egg",
+        "prob": 100,
+        "count": [
+          3,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_SHOP_STANDARD",
+    "subtype": "collection",
+    "//": "Priced at 250 zpoint vouchers each via fixed_adj",
+    "items": [
+      {
+        "item": "vpetmonster01_red_and_black_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_GREEN_AND_WHITE_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_blue_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_yellow_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_magenta_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_migomon_edition_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_kreckmon_edition_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_zombimon_edition_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_zombimon_movie_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_lunar_eclipse_egg",
+        "prob": 100
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_SHOP_PREMIUM",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "vpetmonster01_strawberry_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_dusk_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_mosaic_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_cotton_candy_egg",
+        "prob": 100
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_SHOP_ELITE",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "vpetmonster01_crystal_wave_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_emerald_wave_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_primal_red_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_primal_orange_egg",
+        "prob": 100
+      },
+      {
+        "item": "vpetmonster01_solar_flare_egg",
+        "prob": 100
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_SHOP_MERCH",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "zombimon_plush",
+        "prob": 50
+      },
+      {
+        "item": "zombimon_tshirt",
+        "prob": 50
+      },
+      {
+        "item": "zombimon_mug",
+        "prob": 50
+      },
+      {
+        "item": "zombimon_board_game",
+        "prob": 30
+      },
+      {
+        "item": "zombimon_card_game",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_handheld",
+        "prob": 25
+      },
+      {
+        "item": "zombimon_energy_drink",
+        "prob": 60,
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "zombimon_comic",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_hat",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_action_figure",
+        "prob": 25
+      },
+      {
+        "item": "zombimon_lunchbox",
+        "prob": 30
+      },
+      {
+        "item": "zombimon_blanket",
+        "prob": 30
+      },
+      {
+        "item": "zombimon_pillowcase",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_plate",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_pajama_bottoms",
+        "prob": 35
+      },
+      {
+        "item": "zombimon_pajama_top",
+        "prob": 35
+      },
+      {
+        "item": "zombimon_slippers",
+        "prob": 35
+      },
+      {
+        "item": "zombimon_water_bottle",
+        "prob": 45
+      },
+      {
+        "item": "zombimon_backpack",
+        "prob": 20
+      },
+      {
+        "item": "zombimon_towel",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_wallet",
+        "prob": 25
+      },
+      {
+        "item": "zombimon_beanie",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_socks",
+        "prob": 45
+      },
+      {
+        "item": "zombimon_pin",
+        "prob": 50
+      },
+      {
+        "item": "zombimon_notebook",
+        "prob": 35
+      },
+      {
+        "item": "zombimon_puzzle",
+        "prob": 30
+      },
+      {
+        "item": "zombimon_yoyo",
+        "prob": 40
+      },
+      {
+        "item": "zombimon_frisbee",
+        "prob": 35
+      },
+      {
+        "item": "zombimon_water_gun",
+        "prob": 30
+      },
+      {
+        "item": "zombimon_sneakers",
+        "prob": 15
+      },
+      {
+        "item": "zombimon_cereal",
+        "prob": 50,
+        "count": [ 1, 3 ]
+      },
+      {
+        "item": "zombimon_gummies",
+        "prob": 50,
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "zombimon_bubble_gum",
+        "prob": 60,
+        "count": [ 1, 5 ]
+      },
+      {
+        "item": "zombimon_noodles",
+        "prob": 45,
+        "count": [ 1, 3 ]
+      }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER_BUY_VOUCHERS",
+    "type": "talk_topic",
+    "dynamic_line": "\"Zpoint vouchers, eh?\" Data pulls out a stack of printed paper. \"I can exchange your Zpoints for vouchers. Good for trade right here.\"",
+    "responses": [
+      {
+        "text": "[1 Zpoint] Buy 1 voucher",
+        "topic": "TALK_DIGIVICE_TRADER_BUY_VOUCHERS",
+        "condition": {
+          "math": [
+            "u_zpoints >= 1"
+          ]
+        },
+        "effect": [
+          {
+            "math": [
+              "u_zpoints = u_zpoints - 1"
+            ]
+          },
+          {
+            "u_spawn_item": "zpoint_voucher"
+          }
+        ]
+      },
+      {
+        "text": "[10 Zpoints] Buy 10 vouchers",
+        "topic": "TALK_DIGIVICE_TRADER_BUY_VOUCHERS",
+        "condition": {
+          "math": [
+            "u_zpoints >= 10"
+          ]
+        },
+        "effect": [
+          {
+            "math": [
+              "u_zpoints = u_zpoints - 10"
+            ]
+          },
+          {
+            "u_spawn_item": "zpoint_voucher_strap"
+          }
+        ]
+      },
+      {
+        "text": "[100 Zpoints] Buy 100 vouchers",
+        "topic": "TALK_DIGIVICE_TRADER_BUY_VOUCHERS",
+        "condition": {
+          "math": [
+            "u_zpoints >= 100"
+          ]
+        },
+        "effect": [
+          {
+            "math": [
+              "u_zpoints = u_zpoints - 100"
+            ]
+          },
+          {
+            "u_spawn_item": "zpoint_voucher_bundle"
+          }
+        ]
+      },
+      {
+        "text": "I don't have any Zpoints...",
+        "topic": "TALK_DIGIVICE_TRADER_RETURN",
+        "condition": {
+          "math": [
+            "u_zpoints < 1"
+          ]
+        }
+      },
+      {
+        "text": "Back.",
+        "topic": "TALK_DIGIVICE_TRADER_RETURN"
+      }
+    ]
+  },
+  {
+    "type": "shopkeeper_whitelist",
+    "id": "digivice_shop_whitelist",
+    "message": "\"Sorry \u2014 Zpoint vouchers only.\"",
+    "entries": [
+      {
+        "item": "zpoint_voucher"
+      },
+      {
+        "item": "zpoint_voucher_strap"
+      },
+      {
+        "item": "zpoint_voucher_bundle"
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_DIGIVICE_TRADER_worn",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "boxer_briefs"
+      },
+      {
+        "item": "socks"
+      },
+      {
+        "item": "zombimon_pajama_top"
+      },
+      {
+        "item": "zombimon_pajama_bottoms"
+      },
+      {
+        "item": "sneakers"
+      },
+      {
+        "item": "glasses_safety"
+      },
+      {
+        "item": "wristwatch"
+      },
+      {
+        "item": "zombimon_backpack"
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_DIGIVICE_TRADER_carry",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "zpoint_voucher_bundle",
+        "count": [
+          1,
+          3
+        ]
+      },
+      {
+        "item": "zpoint_voucher_strap",
+        "count": [
+          2,
+          5
+        ]
+      },
+      {
+        "item": "vpetmonster01_egg",
+        "count": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_DIGIVICE_TRADER_wield",
+    "subtype": "collection",
+    "items": []
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_ALL_DEVICES",
+    "subtype": "collection",
+    "items": [
+      { "item": "vpetmonster01_egg" },
+      { "item": "vpetmonster01_red_and_black_egg" },
+      { "item": "vpetmonster01_GREEN_AND_WHITE_egg" },
+      { "item": "vpetmonster01_blue_egg" },
+      { "item": "vpetmonster01_yellow_egg" },
+      { "item": "vpetmonster01_magenta_egg" },
+      { "item": "vpetmonster01_migomon_edition_egg" },
+      { "item": "vpetmonster01_kreckmon_edition_egg" },
+      { "item": "vpetmonster01_zombimon_edition_egg" },
+      { "item": "vpetmonster01_zombimon_movie_egg" },
+      { "item": "vpetmonster01_lunar_eclipse_egg" },
+      { "item": "vpetmonster01_strawberry_egg" },
+      { "item": "vpetmonster01_dusk_egg" },
+      { "item": "vpetmonster01_mosaic_egg" },
+      { "item": "vpetmonster01_cotton_candy_egg" },
+      { "item": "vpetmonster01_crystal_wave_egg" },
+      { "item": "vpetmonster01_emerald_wave_egg" },
+      { "item": "vpetmonster01_primal_red_egg" },
+      { "item": "vpetmonster01_primal_orange_egg" },
+      { "item": "vpetmonster01_solar_flare_egg" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DIGIVICE_ALL_MERCH",
+    "subtype": "collection",
+    "items": [
+      { "item": "zombimon_plush" },
+      { "item": "zombimon_tshirt" },
+      { "item": "zombimon_mug" },
+      { "item": "zombimon_board_game" },
+      { "item": "zombimon_card_game" },
+      { "item": "zombimon_handheld" },
+      { "item": "zombimon_comic" },
+      { "item": "zombimon_energy_drink" },
+      { "item": "zombimon_hat" },
+      { "item": "zombimon_action_figure" },
+      { "item": "zombimon_lunchbox" },
+      { "item": "zombimon_blanket" },
+      { "item": "zombimon_pillowcase" },
+      { "item": "zombimon_plate" },
+      { "item": "zombimon_pajama_bottoms" },
+      { "item": "zombimon_pajama_top" },
+      { "item": "zombimon_slippers" },
+      { "item": "zombimon_water_bottle" },
+      { "item": "zombimon_backpack" },
+      { "item": "zombimon_towel" },
+      { "item": "zombimon_wallet" },
+      { "item": "zombimon_beanie" },
+      { "item": "zombimon_socks" },
+      { "item": "zombimon_pin" },
+      { "item": "zombimon_notebook" },
+      { "item": "zombimon_puzzle" },
+      { "item": "zombimon_yoyo" },
+      { "item": "zombimon_frisbee" },
+      { "item": "zombimon_water_gun" },
+      { "item": "zombimon_sneakers" },
+      { "item": "zombimon_cereal" },
+      { "item": "zombimon_gummies" },
+      { "item": "zombimon_bubble_gum" },
+      { "item": "zombimon_noodles" }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER_INTRO",
+    "type": "talk_topic",
+    "dynamic_line": "\"Zombivices! Digital companions!\" Data holds up a small device with a cracked screen. \"Before the world ended, these were just toys. Now? They're a piece of the old world you can carry in your pocket. You raise 'em, feed 'em, train 'em, and they evolve. Each one's unique. And if you've got the touch, you can battle other Zombivices.\" He grins. \"It's not much, but it's something.\"",
+    "responses": [
+      {
+        "text": "Sounds interesting. Let's trade.",
+        "topic": "TALK_DONE",
+        "effect": "start_trade"
+      },
+      {
+        "text": "I've never owned one before.",
+        "topic": "TALK_DIGIVICE_TRADER_FREE_STARTER"
+      },
+      {
+        "text": "I'll think about it.",
+        "topic": "TALK_DIGIVICE_TRADER_RETURN"
+      }
+    ]
+  },
+  {
+    "id": "TALK_DIGIVICE_TRADER_RESTOCK",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Data checks his notes. \"Next shipment of devices and merch should arrive around <restock_time_point>. Check back then.\"",
+      "\"I've got a scav run planned,\" Data says. \"Should have new stock by <restock_time_point> at the latest.\"",
+      "\"Supply run's pending,\" Data shrugs. \"I'll have fresh stock after <restock_time_point>. Come by then.\""
+    ],
+    "responses": [
+      { "text": "Good to know.", "topic": "TALK_DIGIVICE_TRADER_RETURN" }
+    ]
+  }
+]

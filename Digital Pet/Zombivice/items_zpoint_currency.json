@@ -1,0 +1,59 @@
+[
+  {
+    "type": "ITEM",
+    "category": "currency",
+    "id": "zpoint_voucher",
+    "name": {
+      "str_sp": "Zpoint voucher"
+    },
+    "description": "A small paper voucher printed with Data's Zombivice Depot logo and a holographic Zombimon crest. The text reads 'Good for 1 Zpoint worth of trade at any authorized dealer.' Below it in tiny print: '*Authorized dealer: Data.'",
+    "price": "1 USD",
+    "price_postapoc": "1 USD",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "color": "green",
+    "symbol": "$",
+    "flags": [
+      "BANK_NOTE_SHAPED"
+    ],
+    "material": [
+      "paper"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "zpoint_voucher_strap",
+    "name": {
+      "str": "Zpoint voucher strap"
+    },
+    "description": "A strap of ten Zpoint vouchers, held together with a rubber band. Each one is worth 1 Zpoint at Data's Zombivice Depot.",
+    "looks_like": "money_strap_one",
+    "copy-from": "zpoint_voucher",
+    "color": "green",
+    "price": "10 USD",
+    "price_postapoc": "10 USD",
+    "weight": "10 g",
+    "volume": "10 ml",
+    "flags": [
+      "BANK_NOTE_STRAP_SHAPED"
+    ]
+  },
+  {
+    "type": "ITEM",
+    "id": "zpoint_voucher_bundle",
+    "name": {
+      "str": "Zpoint voucher bundle"
+    },
+    "description": "A bundle of one hundred Zpoint vouchers, divided into ten straps of ten. Enough to buy anything in Data's shop.",
+    "looks_like": "money_bundle_one",
+    "copy-from": "zpoint_voucher_strap",
+    "color": "green",
+    "price": "100 USD",
+    "price_postapoc": "100 USD",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "flags": [
+      "BANK_NOTE_SHAPED"
+    ]
+  }
+]

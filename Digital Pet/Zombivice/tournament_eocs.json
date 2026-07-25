@@ -1,0 +1,634 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TOURNAMENT_INIT",
+    "effect": [
+      {
+        "math": [
+          "u_tournament_level = 1"
+        ]
+      },
+      {
+        "math": [
+          "u_tournament_wins = 0"
+        ]
+      },
+      {
+        "math": [
+          "u_tournament_losses = 0"
+        ]
+      },
+      {
+        "math": [
+          "u_tournament_championships = 0"
+        ]
+      },
+      {
+        "set_string_var": "Tournament started! Good luck!",
+        "target_var": {
+          "u_val": "tournament_msg"
+        }
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_TOURNAMENT_NEXT_ROUND"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TOURNAMENT_NEXT_ROUND",
+    "effect": [
+      {
+        "if": {
+          "math": [
+            "u_pet_stamina < 20"
+          ]
+        },
+        "then": [
+          {
+            "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+            "type": "bad"
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_BATTLE_MENU"
+            }
+          }
+        ],
+        "else": [
+          {
+            "if": {
+              "math": [
+                "u_tournament_level <= 100"
+              ]
+            },
+            "then": [
+              {
+                "math": [
+                  "u_tournament_level_str = u_tournament_level"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_TOURNAMENT_GENERATE_OPPONENT"
+              }
+            ],
+            "else": [
+              {
+                "math": [
+                  "u_tournament_championships = u_tournament_championships + 1"
+                ]
+              },
+              {
+                "give_achievement": "achievement_digivice_champion"
+              },
+              {
+                "math": [
+                  "global_tournament_championships = global_tournament_championships + 1"
+                ]
+              },
+              {
+                "math": [
+                  "u_zpoints = u_zpoints + 20"
+                ]
+              },
+              {
+                "u_spawn_item": "zpoint_voucher_strap"
+              },
+              {
+                "u_spawn_item": "zpoint_voucher_strap"
+              },
+              {
+                "set_string_var": "CHAMPION!",
+                "target_var": {
+                  "u_val": "battle_result"
+                }
+              },
+              {
+                "set_string_var": "Your monster defeated ALL 100 opponents and is the TOURNAMENT CHAMPION!\nAll stats boosted!",
+                "target_var": {
+                  "u_val": "battle_msg"
+                }
+              },
+              {
+                "math": [
+                  "u_pet_atk = u_pet_atk + 5"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_def = u_pet_def + 5"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_int = u_pet_int + 5"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_agi = u_pet_agi + 5"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_luck = u_pet_luck + 5"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_happiness = 100"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_evolve_progress = u_pet_evolve_progress + 50"
+                ]
+              },
+              {
+                "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE"
+              },
+              {
+                "open_dialogue": {
+                  "topic": "DIGIVICE_TOURNAMENT_RESULT"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TOURNAMENT_BATTLE",
+    "effect": [
+      {
+        "set_string_var": "Battle begins against <u_val:tournament_opponent_name>!",
+        "target_var": {
+          "u_val": "battle_msg"
+        },
+        "parse_tags": true
+      },
+      {
+        "math": [
+          "u_battle_score = 0"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_score = 0"
+        ]
+      },
+      {
+        "if": {
+          "math": [
+            "u_pet_atk > u_battle_opponent_atk"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_score = u_battle_score + 1"
+          ]
+        },
+        "else": {
+          "if": {
+            "math": [
+              "u_pet_atk < u_battle_opponent_atk"
+            ]
+          },
+          "then": {
+            "math": [
+              "u_battle_opponent_score = u_battle_opponent_score + 1"
+            ]
+          }
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_pet_def > u_battle_opponent_def"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_score = u_battle_score + 1"
+          ]
+        },
+        "else": {
+          "if": {
+            "math": [
+              "u_pet_def < u_battle_opponent_def"
+            ]
+          },
+          "then": {
+            "math": [
+              "u_battle_opponent_score = u_battle_opponent_score + 1"
+            ]
+          }
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_pet_int > u_battle_opponent_int"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_score = u_battle_score + 1"
+          ]
+        },
+        "else": {
+          "if": {
+            "math": [
+              "u_pet_int < u_battle_opponent_int"
+            ]
+          },
+          "then": {
+            "math": [
+              "u_battle_opponent_score = u_battle_opponent_score + 1"
+            ]
+          }
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_pet_agi > u_battle_opponent_agi"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_score = u_battle_score + 1"
+          ]
+        },
+        "else": {
+          "if": {
+            "math": [
+              "u_pet_agi < u_battle_opponent_agi"
+            ]
+          },
+          "then": {
+            "math": [
+              "u_battle_opponent_score = u_battle_opponent_score + 1"
+            ]
+          }
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_pet_luck > u_battle_opponent_luck"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_score = u_battle_score + 1"
+          ]
+        },
+        "else": {
+          "if": {
+            "math": [
+              "u_pet_luck < u_battle_opponent_luck"
+            ]
+          },
+          "then": {
+            "math": [
+              "u_battle_opponent_score = u_battle_opponent_score + 1"
+            ]
+          }
+        }
+      },
+      {
+        "math": [
+          "u_battle_chance = (u_battle_score * 20) + 10"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_roll = rand(100)"
+        ]
+      },
+      {
+        "if": {
+          "or": [
+            {
+              "math": [
+                "u_battle_roll < u_battle_chance"
+              ]
+            },
+            {
+              "math": [
+                "u_battle_roll >= 95"
+              ]
+            }
+          ]
+        },
+        "then": [
+          {
+            "math": [
+              "u_tournament_wins = u_tournament_wins + 1"
+            ]
+          },
+          {
+            "math": [
+              "global_tournament_match_wins = global_tournament_match_wins + 1"
+            ]
+          },
+          {
+            "math": [
+              "u_zpoints = u_zpoints + 3"
+            ]
+          },
+          {
+            "math": [
+              "u_tournament_level = u_tournament_level + 1"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_happiness = u_pet_happiness + 15"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_happiness = clamp(u_pet_happiness, 0, 100)"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_evolve_progress = u_pet_evolve_progress + 10"
+            ]
+          },
+          {
+            "u_message": "Tournament Level <u_val:tournament_level_str> - VICTORY over <u_val:tournament_opponent_name>!",
+            "type": "good"
+          },
+          {
+            "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS"
+          },
+          {
+            "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE"
+          },
+          {
+            "set_string_var": "VICTORY!",
+            "target_var": {
+              "u_val": "battle_result"
+            }
+          },
+          {
+            "set_string_var": "Your monster defeated <u_val:tournament_opponent_name> at Level <u_val:tournament_level_str>!",
+            "target_var": {
+              "u_val": "battle_msg"
+            },
+            "parse_tags": true
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_TOURNAMENT_ROUND_WIN"
+            }
+          }
+        ],
+        "else": [
+          {
+            "math": [
+              "u_tournament_losses = u_tournament_losses + 1"
+            ]
+          },
+          {
+            "set_string_var": "DEFEATED!",
+            "target_var": {
+              "u_val": "battle_result"
+            }
+          },
+          {
+            "set_string_var": "Your monster was defeated at Level <u_val:tournament_level_str> by <u_val:tournament_opponent_name>...",
+            "target_var": {
+              "u_val": "battle_msg"
+            },
+            "parse_tags": true
+          },
+          {
+            "math": [
+              "u_pet_happiness = u_pet_happiness - 20"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_happiness = clamp(u_pet_happiness, 0, 100)"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_hunger = u_pet_hunger - 15"
+            ]
+          },
+          {
+            "math": [
+              "u_pet_hunger = clamp(u_pet_hunger, 0, 100)"
+            ]
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_TOURNAMENT_RESULT"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TOURNAMENT_GENERATE_OPPONENT",
+    "effect": [
+      {
+        "set_string_var": [
+          "Terramon",
+          "Crescentmon",
+          "Obsidianmon",
+          "Rampagemon",
+          "Elegantmon",
+          "Angelmon",
+          "Mechamon",
+          "Primalmon",
+          "Voltmon",
+          "Punkmon",
+          "Blazemon",
+          "Selamon",
+          "Streamon",
+          "Pixelmon",
+          "Trippymon",
+          "Neonmon",
+          "Stealthmon",
+          "Lumimon",
+          "Crystalamon",
+          "Aquamon",
+          "Frostmon",
+          "Splattermon",
+          "Loyalmon",
+          "Blademon",
+          "Embermon",
+          "Zapmon"
+        ],
+        "target_var": {
+          "u_val": "tournament_opponent_name"
+        }
+      },
+      {
+        "math": [
+          "u_battle_cycle = (u_tournament_level - 1) % 5"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_extra = (u_tournament_level - 1) / 5"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_atk_base = 1 + u_battle_extra"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_def_base = 1 + u_battle_extra"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_int_base = 1 + u_battle_extra"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_agi_base = 1 + u_battle_extra"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_luck_base = 1 + u_battle_extra"
+        ]
+      },
+      {
+        "if": {
+          "math": [
+            "u_battle_cycle == 0"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_atk_base = u_battle_atk_base + 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_battle_cycle == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_def_base = u_battle_def_base + 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_battle_cycle == 2"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_int_base = u_battle_int_base + 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_battle_cycle == 3"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_agi_base = u_battle_agi_base + 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_battle_cycle == 4"
+          ]
+        },
+        "then": {
+          "math": [
+            "u_battle_luck_base = u_battle_luck_base + 1"
+          ]
+        }
+      },
+      {
+        "math": [
+          "u_battle_opponent_atk = u_battle_atk_base + rand(3) - 1"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_def = u_battle_def_base + rand(3) - 1"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_int = u_battle_int_base + rand(3) - 1"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_agi = u_battle_agi_base + rand(3) - 1"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_luck = u_battle_luck_base + rand(3) - 1"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_atk = clamp(u_battle_opponent_atk, 1, 99)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_def = clamp(u_battle_opponent_def, 1, 99)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_int = clamp(u_battle_opponent_int, 1, 99)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_agi = clamp(u_battle_opponent_agi, 1, 99)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_luck = clamp(u_battle_opponent_luck, 1, 99)"
+        ]
+      },
+      {
+        "set_string_var": "Tournament Level <u_val:tournament_level_str>",
+        "target_var": {
+          "u_val": "battle_difficulty"
+        },
+        "parse_tags": true
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_TOURNAMENT_BATTLE"
+      }
+    ]
+  }
+]

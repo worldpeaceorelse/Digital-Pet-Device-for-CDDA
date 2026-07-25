@@ -1,0 +1,184 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "digivice_maniac_house",
+    "name": "abandoned house",
+    "sym": "^",
+    "color": "light_green",
+    "see_cost": "high",
+    "travel_cost_type": "structure",
+    "flags": [ "NO_ROTATE", "RISK_HIGH", "GENERIC_LOOT", "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "digivice_maniac_basement",
+    "name": "strange basement",
+    "sym": "O",
+    "color": "dark_gray",
+    "see_cost": "high",
+    "travel_cost_type": "basement",
+    "flags": [ "NO_ROTATE", "KNOWN_UP", "GENERIC_LOOT" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "digivice_maniac_den",
+    "overmaps": [
+      {
+        "point": [
+          0,
+          0,
+          0
+        ],
+        "overmap": "digivice_maniac_house"
+      },
+      {
+        "point": [
+          0,
+          0,
+          -1
+        ],
+        "overmap": "digivice_maniac_basement"
+      }
+    ],
+    "locations": [
+      "land"
+    ],
+    "city_distance": [
+      3,
+      50
+    ],
+    "city_sizes": [
+      3,
+      12
+    ],
+    "occurrences": [
+      0,
+      1
+    ],
+    "flags": [
+      "CLASSIC",
+      "UNIQUE"
+    ]
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "digivice_maniac_house",
+    "weight": 1,
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    WWWWWWWWWWWWWWW     ",
+        "    W.B.....B....W      ",
+        "    W.............W     ",
+        "    W.............W     ",
+        "    W.............W     ",
+        "    W.............W     ",
+        "    W.............W     ",
+        "    W.C...T.S.d..W      ",
+        "    W.C...T..|...W      ",
+        "    W........|....W     ",
+        "    WWWWWWWWWWWWWWW     ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        " ": "t_grass",
+        "W": "t_wall_w",
+        ".": "t_floor",
+        "S": "t_stairs_down",
+        "d": "t_door_c",
+        "|": "t_window",
+        "B": "t_floor",
+        "C": "t_floor",
+        "T": "t_floor"
+      },
+      "furniture": {
+        "B": "f_bed",
+        "C": "f_chair",
+        "T": "f_table"
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": "digivice_maniac_basement",
+    "weight": 1,
+    "object": {
+      "rows": [
+        "XXXXXXXXXXXXXXXXXXXXXXXX",
+        "X......................X",
+        "X.B..................B.X",
+        "X......................X",
+        "X......................X",
+        "X.......C..C...........X",
+        "X......................X",
+        "X.......T..T...........X",
+        "X.......T..T...........X",
+        "X......................X",
+        "X......................X",
+        "X...........S..........X",
+        "X......................X",
+        "X......................X",
+        "X.......C..C...........X",
+        "X......................X",
+        "X......................X",
+        "X.B..................B.X",
+        "X......................X",
+        "X......................X",
+        "X......................X",
+        "X......................X",
+        "X......................X",
+        "XXXXXXXXXXXXXXXXXXXXXXXX"
+      ],
+      "terrain": {
+        "X": "t_rock_wall",
+        ".": "t_rock_floor",
+        "S": "t_stairs_up",
+        "B": "t_rock_floor",
+        "C": "t_rock_floor",
+        "T": "t_rock_floor"
+      },
+      "furniture": {
+        "B": "f_bed",
+        "C": "f_chair",
+        "T": "f_table"
+      },
+      "place_npcs": [
+        {
+          "class": "digivice_maniac_brutus",
+          "x": 3,
+          "y": 2,
+          "unique_id": "DIGIVICE_MANIAC_BRUTUS"
+        },
+        {
+          "class": "digivice_maniac_vex",
+          "x": 20,
+          "y": 2,
+          "unique_id": "DIGIVICE_MANIAC_VEX"
+        },
+        {
+          "class": "digivice_maniac_jinx",
+          "x": 3,
+          "y": 17,
+          "unique_id": "DIGIVICE_MANIAC_JINX"
+        },
+        {
+          "class": "digivice_maniac_grimes",
+          "x": 20,
+          "y": 17,
+          "unique_id": "DIGIVICE_MANIAC_GRIMES"
+        }
+      ]
+    }
+  }
+]

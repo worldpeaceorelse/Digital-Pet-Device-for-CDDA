@@ -1,0 +1,11 @@
+[
+  {
+    "type": "mapgen",
+    "update_mapgen_id": "digivice_trader_placement",
+    "object": {
+      "place_npcs": [
+        { "class": "digivice_trader", "x": 7, "y": 13, "unique_id": "DIGIVICE_TRADER" }
+      ]
+    }
+  }
+]

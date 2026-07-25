@@ -1,0 +1,1174 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_1",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_1_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(5) + 1"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(5) + 1"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(5) + 1"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(5) + 1"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(5) + 1"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Baby",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_2",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_2_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(10) + 5"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(10) + 5"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(10) + 5"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(10) + 5"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(10) + 5"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Very Easy",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_3",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_3_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 14"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 14"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 14"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 14"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 14"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Easy",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_4",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_4_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 24"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 24"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 24"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 24"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 24"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Moderate",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_5",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_5_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 34"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 34"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 34"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 34"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 34"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Medium",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_6",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_6_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 44"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 44"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 44"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 44"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 44"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Hard",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_7",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_7_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 54"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 54"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 54"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 54"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 54"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Very Hard",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_8",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_8_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 64"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 64"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 64"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 64"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 64"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Brutal",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_9",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_9_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(11) + 74"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(11) + 74"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(11) + 74"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(11) + 74"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(11) + 74"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Extreme",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_START_TIER_10",
+    "effect": [
+      {
+        "u_run_inv_eocs": "all",
+        "search_data": [
+          {
+            "condition": {
+              "math": [
+                "n_pet_uid == u_selected_pet_uid"
+              ]
+            }
+          }
+        ],
+        "true_eocs": [
+          {
+            "id": "EOC_DIGIVICE_BATTLE_TIER_10_ITEM",
+            "effect": [
+              {
+                "math": [
+                  "n_stamina = max(n_stamina - 10, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_stamina = n_stamina"
+                ]
+              },
+              {
+                "if": {
+                  "math": [
+                    "n_stamina < 20"
+                  ]
+                },
+                "then": [
+                  {
+                    "u_message": "Your pet is too tired to fight! Wait for stamina to regenerate.",
+                    "type": "bad"
+                  },
+                  {
+                    "open_dialogue": {
+                      "topic": "DIGIVICE_BATTLE_MENU"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "math": [
+                      "u_battle_opponent_atk = rand(16) + 84"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_def = rand(16) + 84"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_int = rand(16) + 84"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_agi = rand(16) + 84"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_battle_opponent_luck = rand(16) + 84"
+                    ]
+                  },
+                  {
+                    "set_string_var": "Ultimate",
+                    "target_var": {
+                      "u_val": "battle_difficulty"
+                    }
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_BATTLE_RESOLVE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BATTLE_RESOLVE",
+    "effect": [
+      {
+        "set_string_var": "The battle begins!",
+        "target_var": {
+          "u_val": "battle_msg"
+        }
+      },
+      {
+        "set_string_var": "Your monster faces <u_val:battle_difficulty> opponent!",
+        "target_var": {
+          "u_val": "battle_msg"
+        },
+        "parse_tags": true
+      },
+      {
+        "math": [
+          "u_pet_total = u_pet_atk + u_pet_def + u_pet_int + u_pet_agi + u_pet_luck"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_opponent_total = u_battle_opponent_atk + u_battle_opponent_def + u_battle_opponent_int + u_battle_opponent_agi + u_battle_opponent_luck"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_ratio = u_pet_total / max(u_battle_opponent_total, 1)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_chance = clamp(floor(u_battle_ratio * 33), 5, 95)"
+        ]
+      },
+      {
+        "math": [
+          "u_battle_roll = rand(100)"
+        ]
+      },
+      {
+        "if": {
+          "or": [
+            {
+              "math": [
+                "u_battle_roll < u_battle_chance"
+              ]
+            },
+            {
+              "math": [
+                "u_battle_roll >= 95"
+              ]
+            }
+          ]
+        },
+        "then": [
+          {
+            "set_string_var": "VICTORY!",
+            "target_var": {
+              "u_val": "battle_result"
+            }
+          },
+          {
+            "set_string_var": "Your monster wins the battle!",
+            "target_var": {
+              "u_val": "battle_msg"
+            }
+          },
+          {
+            "math": [
+              "n_battle_loss_streak = 0"
+            ]
+          },
+          {
+            "math": [
+              "global_total_battle_wins = global_total_battle_wins + 1"
+            ]
+          },
+          {
+            "math": [
+              "u_zpoints = u_zpoints + 1"
+            ]
+          },
+          {
+            "u_run_inv_eocs": "all",
+            "search_data": [
+              {
+                "condition": {
+                  "math": [
+                    "n_pet_uid == u_selected_pet_uid"
+                  ]
+                }
+              }
+            ],
+            "true_eocs": [
+              {
+                "id": "EOC_DIGIVICE_BATTLE_STATS_INCREASE",
+                "effect": [
+                  {
+                    "math": [
+                      "n_pet_atk = min(n_pet_atk + rand(3), 99)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_def = min(n_pet_def + rand(3), 99)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_int = min(n_pet_int + rand(3), 99)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_agi = min(n_pet_agi + rand(3), 99)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_luck = min(n_pet_luck + rand(3), 99)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_atk = n_pet_atk"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_def = n_pet_def"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_int = n_pet_int"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_agi = n_pet_agi"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_luck = n_pet_luck"
+                    ]
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_UPDATE_STAT_TRACKING"
+                  },
+                  {
+                    "u_message": "Your monster's stats have increased! (0-2 each)",
+                    "type": "good"
+                  },
+                  {
+                    "math": [
+                      "n_pet_happiness = min(n_pet_happiness + 10, 100)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_evolve_progress = n_pet_evolve_progress + 10"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_happiness = n_pet_happiness"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_evolve_progress = n_pet_evolve_progress"
+                    ]
+                  },
+                  {
+                    "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE"
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_BATTLE_RESULT"
+            }
+          }
+        ],
+        "else": [
+          {
+            "set_string_var": "DEFEAT!",
+            "target_var": {
+              "u_val": "battle_result"
+            }
+          },
+          {
+            "set_string_var": "Your monster was defeated...",
+            "target_var": {
+              "u_val": "battle_msg"
+            }
+          },
+          {
+            "math": [
+              "n_battle_loss_streak = n_battle_loss_streak + 1"
+            ]
+          },
+          {
+            "if": {
+              "math": [
+                "n_battle_loss_streak >= 3"
+              ]
+            },
+            "then": [
+              {
+                "math": [
+                  "n_care_mistakes = n_care_mistakes + 1"
+                ]
+              },
+              {
+                "math": [
+                  "n_battle_loss_streak = 0"
+                ]
+              },
+              {
+                "u_message": "Your pet is getting discouraged from losing...",
+                "type": "bad"
+              }
+            ]
+          },
+          {
+            "u_run_inv_eocs": "all",
+            "search_data": [
+              {
+                "condition": {
+                  "math": [
+                    "n_pet_uid == u_selected_pet_uid"
+                  ]
+                }
+              }
+            ],
+            "true_eocs": [
+              {
+                "id": "EOC_DIGIVICE_BATTLE_STATS_DECREASE",
+                "effect": [
+                  {
+                    "math": [
+                      "n_pet_hunger = max(n_pet_hunger - 10, 0)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "n_pet_happiness = max(n_pet_happiness - 15, 0)"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_hunger = n_pet_hunger"
+                    ]
+                  },
+                  {
+                    "math": [
+                      "u_pet_happiness = n_pet_happiness"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "open_dialogue": {
+              "topic": "DIGIVICE_BATTLE_RESULT"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

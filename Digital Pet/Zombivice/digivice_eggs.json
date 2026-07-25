@@ -1,0 +1,1761 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_SELECT_EGG",
+    "effect": [
+      {
+        "run_eocs": "EOC_DIGIVICE_CHECK_EGG_UNLOCKS"
+      },
+      {
+        "math": [
+          "u_egg_code = 0"
+        ]
+      },
+      {
+        "open_dialogue": {
+          "topic": "DIGIVICE_EGG_SELECT",
+          "true_eocs": [
+            "EOC_DIGIVICE_HATCH_EGG"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BROWN",
+    "effect": [
+      {
+        "set_string_var": "brown",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 1"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_brown"
+      },
+      {
+        "set_string_var": "Sproutmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Sproutmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_sproutmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_YELLOW",
+    "effect": [
+      {
+        "set_string_var": "yellow",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 2"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_yellow"
+      },
+      {
+        "set_string_var": "Crawlermon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Crawlermon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_crawlermon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BLACK",
+    "effect": [
+      {
+        "set_string_var": "black",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 3"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_black"
+      },
+      {
+        "set_string_var": "Grackenmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Grackenmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_grackenmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_RED",
+    "effect": [
+      {
+        "set_string_var": "red",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 4"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_red"
+      },
+      {
+        "set_string_var": "Kreckmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Kreckmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_kreckmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BRICK",
+    "effect": [
+      {
+        "set_string_var": "brick",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 5"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_brick"
+      },
+      {
+        "set_string_var": "Survivormon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Survivormon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_survivormon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GREEN_BROWN",
+    "effect": [
+      {
+        "set_string_var": "green_brown",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 6"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_green_brown"
+      },
+      {
+        "set_string_var": "Sporemon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Sporemon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_sporemon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_WHITE",
+    "effect": [
+      {
+        "set_string_var": "white",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 7"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_white"
+      },
+      {
+        "set_string_var": "Eyemon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into an Eyemon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_eyemon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_METAL",
+    "effect": [
+      {
+        "set_string_var": "metal",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 8"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_metal"
+      },
+      {
+        "set_string_var": "Scrapmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Scrapmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_scrapmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_DINO",
+    "effect": [
+      {
+        "set_string_var": "dino",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 9"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_dino"
+      },
+      {
+        "set_string_var": "Feralmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Feralmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_feralmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_DIAGONAL",
+    "effect": [
+      {
+        "set_string_var": "diagonal",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 10"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_diagonal"
+      },
+      {
+        "set_string_var": "Microslimemon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Microslimemon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_microslimemon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GRAFFITI",
+    "effect": [
+      {
+        "set_string_var": "graffiti",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 11"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_graffiti"
+      },
+      {
+        "set_string_var": "Manhackmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Manhackmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_manhackmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_FIERY",
+    "effect": [
+      {
+        "set_string_var": "fiery",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 12"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_fiery"
+      },
+      {
+        "set_string_var": "Scorchedmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Scorchedmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_scorchedmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_LUNAR",
+    "effect": [
+      {
+        "set_string_var": "lunar",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 13"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_lunar"
+      },
+      {
+        "set_string_var": "Blankmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Blankmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_blankmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_FLESH",
+    "effect": [
+      {
+        "set_string_var": "flesh",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 14"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_flesh"
+      },
+      {
+        "set_string_var": "fleshcocoonmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Fleshcocoonmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_fleshcocoonmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_HEARTS",
+    "effect": [
+      {
+        "set_string_var": "pixel",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 15"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_hearts"
+      },
+      {
+        "set_string_var": "Pulmonarymon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Pulmonarymon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_pulmonarymon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_TIEDYE",
+    "effect": [
+      {
+        "set_string_var": "tiedye",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 16"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_tiedye"
+      },
+      {
+        "set_string_var": "Anklebitermon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into an Anklebitermon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_anklebitermon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_SKULL",
+    "effect": [
+      {
+        "set_string_var": "skull",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 17"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_skull"
+      },
+      {
+        "set_string_var": "Skelemon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Skelemon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_skelemon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_DARKCAMO",
+    "effect": [
+      {
+        "set_string_var": "darkcamo",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 18"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_darkcamo"
+      },
+      {
+        "set_string_var": "Shadowmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Shadowmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_shadowmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_PINK",
+    "effect": [
+      {
+        "set_string_var": "pink",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 19"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_pink"
+      },
+      {
+        "set_string_var": "Polypmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Polypmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_polypmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_SAPPHIRE",
+    "effect": [
+      {
+        "set_string_var": "sapphire",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 20"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_sapphire"
+      },
+      {
+        "set_string_var": "Crayfishmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Crayfishmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_crayfishmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_AMARANTH",
+    "effect": [
+      {
+        "set_string_var": "amaranth",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 21"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_amaranth"
+      },
+      {
+        "set_string_var": "Marlossmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Marlossmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_marlossmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_PURPLE",
+    "effect": [
+      {
+        "set_string_var": "purple",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 22"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_purple"
+      },
+      {
+        "set_string_var": "Brainlessmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Brainlessmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_brainlessmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_LIGHT_BLUE",
+    "effect": [
+      {
+        "set_string_var": "light_blue",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 23"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_light_blue"
+      },
+      {
+        "set_string_var": "Seweranhamon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Seweranhamon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_seweranhamon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_ELECTRIC_BLUE",
+    "effect": [
+      {
+        "set_string_var": "electric_blue",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 24"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_electric_blue"
+      },
+      {
+        "set_string_var": "Zappermon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Zappermon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_zappermon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GOLDEN",
+    "effect": [
+      {
+        "set_string_var": "golden",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 25"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_golden"
+      },
+      {
+        "set_string_var": "Monolithmon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Monolithmon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_monolithmon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_MAGENTA",
+    "effect": [
+      {
+        "set_string_var": "magenta",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 26"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_magenta"
+      },
+      {
+        "set_string_var": "Snotgobblermon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Snotgobblermon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_snotgobblermon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_COBWEB",
+    "effect": [
+      {
+        "set_string_var": "cobweb",
+        "target_var": {
+          "npc_val": "egg_color"
+        }
+      },
+      {
+        "math": [
+          "n_egg_code = 27"
+        ]
+      },
+      {
+        "transform_item": "vpetmonster01_cobweb"
+      },
+      {
+        "set_string_var": "Larvamon",
+        "target_var": {
+          "npc_val": "pet_name"
+        }
+      },
+      {
+        "set_string_var": "base",
+        "target_var": {
+          "npc_val": "pet_variant"
+        }
+      },
+      {
+        "math": [
+          "n_pet_uid = global_pet_counter"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_counter = global_pet_counter + 1"
+        ]
+      },
+      {
+        "u_message": "Your egg glows warmly and hatches into a Larvamon!",
+        "type": "good"
+      },
+      {
+        "math": [
+          "global_comp_baby_larvamon = 1"
+        ]
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_HATCH_EGG",
+    "effect": [
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 1"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_BROWN"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 2"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_YELLOW"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 3"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_BLACK"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 4"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_RED"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 5"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_BRICK"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 6"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_GREEN_BROWN"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 7"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_WHITE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 8"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_METAL"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 9"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_DINO"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 10"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_DIAGONAL"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 11"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_GRAFFITI"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 12"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_FIERY"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 13"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_LUNAR"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 14"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_FLESH"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 15"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_HEARTS"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 16"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_TIEDYE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 17"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_SKULL"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 18"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_DARKCAMO"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 19"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_PINK"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 20"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_SAPPHIRE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 21"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_AMARANTH"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 22"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_PURPLE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 23"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_LIGHT_BLUE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 24"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_ELECTRIC_BLUE"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 25"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_GOLDEN"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 26"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_MAGENTA"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 27"
+          ]
+        },
+        "then": {
+          "run_eocs": "EOC_DIGIVICE_COBWEB"
+        }
+      },
+      {
+        "run_eocs": "EOC_DIGIVICE_GIVE_HATCH_ACHIEVEMENT"
+      }
+    ]
+  }
+]

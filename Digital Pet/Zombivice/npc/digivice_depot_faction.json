@@ -1,0 +1,45 @@
+[
+  {
+    "type": "faction",
+    "id": "digivice_depot",
+    "name": "Digivice Depot",
+    "likes_u": 50,
+    "respects_u": 50,
+    "known_by_u": true,
+    "size": 1,
+    "power": 50,
+    "fac_food_supply": [
+      [
+        0,
+        {
+          "calories": 0,
+          "vitamins": {}
+        }
+      ]
+    ],
+    "wealth": 5000,
+    "currency": "zpoint_voucher",
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "your_followers": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": false
+      }
+    },
+    "mon_faction": "player",
+    "description": "Data's one-man operation \u2014 the Digivice Depot. A small stall in the refugee center dealing in Zombimon eggs, merchandise, and Zpoint vouchers."
+  }
+]

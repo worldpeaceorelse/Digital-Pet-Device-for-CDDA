@@ -1,0 +1,4391 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_1",
+    "effect": [
+      {
+        "set_string_var": "=== Brown Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_sproutmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Sproutmon - A tiny green sprout with bright eyes. It wobbles when it walks and leaves little leaf trails.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_plantborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Plantborgmon - A humanoid plant creature with vine-wrapped limbs and a flowering crest on its head.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_thornyshamblermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Thornyshamblermon - A shambling mass of brambles and thorny vines. It leaves gouges in whatever it touches.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_triffidmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Triffidmon - A colossal plant-beast with snapping maws nestled between venomous petals. Its roar shakes the earth.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_biollantemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Biollantemon - A sentient garden given form — roots like tentacles, flowers like eyes, and an unending hunger for sunlight.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_vinebeastmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Vinebeastmon - An enormous mass of writhing vines and thick bark, moving with the slow inevitability of an avalanche.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_2",
+    "effect": [
+      {
+        "set_string_var": "=== Yellow Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_crawlermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Crawlermon - A wriggly little worm with a cheerful face. It leaves a sparkly trail behind it.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_deathrattleserpentmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Deathrattleserpentmon - A sinuous serpent with bone plating along its spine and a rattle that echoes like thunder.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_tentacledogmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Tentacledogmon - A bizarre quadruped with too many legs and a perpetually happy expression.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_krakemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Krakemon - A gargantuan serpent of the deep, its body lined with phosphorescent gills and teeth like harpoons.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_scyllamon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Scyllamon - A multi-headed aquatic horror, each head snapping and snarling independently.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_hydramon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Hydramon - An impossibly large sea serpent whose countless heads rise from the water like a forest of nightmares.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_3",
+    "effect": [
+      {
+        "set_string_var": "=== Black Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_grackenmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Grackenmon - A tiny shadow that giggles. It likes hiding in dark corners and pouncing on unsuspecting toes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_shoggothmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shoggothmon - A shapeless mass of eyes and mouths that shifts and bubbles as it moves.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_gozumon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Gozumon - A brutish, hunched creature with stony grey skin and fists like boulders.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_amalgamationmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Amalgamationmon - A writhing fusion of a dozen creatures stitched together into one shambling abomination.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_daityamon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Daityamon - A towering demon with four arms and a crown of crackling energy.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_hekatonkheiremon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Hekatonkheiremon - A hundred-limbed colossus that moves like an avalanche of flesh and bone.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_4",
+    "effect": [
+      {
+        "set_string_var": "=== Red Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_kreckmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Kreckmon - A small red imp with a tuft of hair and a mischievous grin. It loves causing trouble.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_nightstalkermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Nightstalkermon - A sleek, shadowy wolf with glowing eyes that pierce the darkness.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_grimhowlermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Grimhowlermon - A gaunt, lupine beast whose howl carries the weight of a thousand lost souls.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_barghestmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Barghestmon - A massive black wolf wreathed in green flame, its eyes burning with hellfire.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_jabberwockmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Jabberwockmon - A nightmarish dragon with claws like scythes and eyes that burn with impossible colors.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_darkwyrmmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Darkwyrmmon - An ancient wyrm of pure shadow that blots out the sun where it passes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_5",
+    "effect": [
+      {
+        "set_string_var": "=== Brick Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_survivormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Survivormon - A hardy little creature with a patched coat and a determined expression. It never gives up.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_preppermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Preppermon - A rugged survivalist covered in pouches and scavenged gear.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_soldiermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Soldiermon - A disciplined warrior standing at attention, its movements crisp and efficient.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletaljuggernautmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletaljuggernautmon - A towering construct of fused bone and armor, advancing with the unstoppable force of a war machine.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletalreapermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalreapermon - A cloaked skeleton wielding a scythe that seems to drink the light around it.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletalexecutionermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalexecutionermon - A massive, hooded skeleton dragging an axe the size of a door. It does not speak.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_6",
+    "effect": [
+      {
+        "set_string_var": "=== Green-Brown Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_sporemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Sporemon - A puffy little mushroom with a cute face. It releases tiny sparkly spores when excited.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fungalraptormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungalraptormon - A swift, predatory fungus-animal hybrid with mushroom frills and razor-sharp claws.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fungalshamblermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungalshamblermon - A shambling fungal mass with glowing mycelium pulsing beneath its skin.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fungalspiremon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungalspiremon - A tower of living fungus that releases clouds of mind-altering spores across the battlefield.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fungalhulkmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungalhulkmon - A hulking brute of compressed fungal matter, its fists harder than stone.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fungaljuggernautmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungaljuggernautmon - An unstoppable fungal behemoth that leaves a trail of spores and decay in its wake.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_7",
+    "effect": [
+      {
+        "set_string_var": "=== White Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_eyemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Eyemon - A floating little eyeball with tiny wings. It blinks at you curiously.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_staringhorrormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Staringhorrormon - A creature covered in eyes that never blink. Every gaze carries a silent accusation.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_starvampiremon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Starvampiremon - A gaunt humanoid with elongated fangs and pale skin that drinks the vitality from its prey.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_amigarahorrorrmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Amigarahorrorrmon - A shifting mass of limbs and faces that contorts into impossible shapes, defying anatomy.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_eigenspectremon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Eigenspectremon - A ghostly entity that flickers between dimensions, its form a smudge of quantum uncertainty.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_impossibleshapemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Impossibleshapemon - A creature that exists in angles no eye can follow, a walking violation of geometry.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_8",
+    "effect": [
+      {
+        "set_string_var": "=== Metal Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_scrapmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Scrapmon - A tiny robot made of bolts and loose wires. It beeps happily and spins in circles.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_zomborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zomborgmon - A cybernetic corpse with a single glowing optic and hydraulics hissing with each movement.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_frostborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Frostborgmon - A chilling cyborg that vents cryogenic mist, freezing everything in its vicinity.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zomborgdevourermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zomborgdevourermon - A massive cyber-zombie with a grinding maw that consumes everything and converts it to fuel.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombiehulkmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombiehulkmon - A towering undead brute with reinforced armor plating and fists like wrecking balls.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombiebrutemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombiebrutemon - An absolute unit of muscle and rage, its body covered in combat scars and grafted armor.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_9",
+    "effect": [
+      {
+        "set_string_var": "=== Dino Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_feralmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Feralmon - A tiny dinosaur with big eyes and a wagging tail. It chirps excitedly when fed.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_feralpreppermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Feralpreppermon - A primal survivor draped in scavenged gear, its eyes constantly scanning for threats.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_armoredferalmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Armoredferalmon - A heavily plated beast with bone ridges and a thick, armored hide.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fleshrapormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshrapormon - A horrifying raptor-like creature with exposed muscle tissue and claws like surgical blades.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fleshconstructmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshconstructmon - A stitched-together abomination of limbs and organs, moving with jerky, unnatural precision.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fleshyshamblermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshyshamblermon - A dripping, amorphous mass of meat that drags itself forward, leaving a bloody trail.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_10",
+    "effect": [
+      {
+        "set_string_var": "=== Diagonal Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_microslimemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Microslimemon - A tiny jiggly blob with a cute smile. It bounces when it moves and makes squishy sounds.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_amoebicmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Amoebicmon - A shifting, translucent blob that flows around obstacles and absorbs nutrients through its membrane.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_sewerslimemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Sewerslimemon - A viscous, foul-smelling slime that has adapted to the darkest, dirtiest places.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_graboidmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Graboidmon - A massive subterranean worm with a circular maw of concentric teeth.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_protoplasmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Protoplasmon - A seething mass of primordial goo that can reshape itself into any form at will.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_oozebeastmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Oozebeastmon - A towering blob of corrosive slime that melts everything it touches into more of itself.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_11",
+    "effect": [
+      {
+        "set_string_var": "=== Graffiti Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_manhackmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Manhackmon - A tiny flying buzzsaw with a grumpy face. It makes angry whirring noises.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_skitterbotmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skitterbotmon - A multi-legged machine that skitters across walls and ceilings with unsettling speed.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_bonebotmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Bonebotmon - A skeletal automaton that moves with mechanical precision, its joints clicking with each step.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_migomyrmidonmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Migomyrmidonmon - A chitinous alien soldier with blade-like forelimbs and a hive-mind glint in its multifaceted eyes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_migosurgeonmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Migosurgeonmon - An alien horror with too many limbs, each ending in a different surgical instrument.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_phaseshrikemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Phaseshrikemon - A creature that flickers in and out of phase, its piercing shriek disrupting reality itself.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_12",
+    "effect": [
+      {
+        "set_string_var": "=== Fiery Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_scorchedmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Scorchedmon - A little ember sprite with glowing coal eyes. It leaves tiny burned footprints.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_crematormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Crematormon - A walking funeral pyre, its body wreathed in black smoke and dancing flames.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_furnacemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Furnacemon - A hulking iron beast with a burning core, venting superheated steam with every breath.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_fiendmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fiendmon - A demonic entity wreathed in hellfire, its horns crackling with molten energy.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_ancientreddragonmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Ancientreddragonmon - A dragon of legend with scales like cooling lava and wings that blot out the sky.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_scorchedzombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Scorchedzombiemon - A charred, burning corpse that staggers forward, setting everything ablaze in its path.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_13",
+    "effect": [
+      {
+        "set_string_var": "=== Lunar Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_blankmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Blankmon - A featureless white creature with a curious tilt to its head. It watches everything silently.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_wraithmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Wraithmon - A spectral figure cloaked in tattered shadows, gliding silently through the darkness.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_shadowsnakemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shadowsnakemon - A serpent of living darkness that slithers through shadows and strikes from nowhere.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_absencemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Absencemon - A void given form — not a creature but the shape of nothingness, erasing light where it passes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_titanspectremon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Titanspectremon - A towering ghost of impossible size, its translucent form stretching toward the heavens.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_unfoldedimpossibilitymon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Unfoldedimpossibilitymon - A creature that unfolds in dimensions beyond sight, each facet a new horror.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_14",
+    "effect": [
+      {
+        "set_string_var": "=== Flesh Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_fleshcocoonmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshcocoonmon - A pulsing fleshy cocoon with a gentle heartbeat. Something is growing inside.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fleshwallmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshwallmon - A living barrier of pulsing meat and sinew that blocks all passage.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fleshgolemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshgolemon - A hulking brute of stitched flesh and bone, animated by sheer rage.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fleshborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshborgmon - A nightmarish fusion of flesh and machine, cybernetic implants driven into raw muscle.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_abominationmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Abominationmon - A writhing mass of limbs, eyes, and mouths that was never meant to exist.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_daityadevourermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Daityadevourermon - A demonic giant whose endless hunger drives it to consume everything in its path.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_meldedtaskforcemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Meldedtaskforcemon - A fusion of multiple creatures, their consciousnesses merged into a single, terrifying will.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_15",
+    "effect": [
+      {
+        "set_string_var": "=== Hearts Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_pulmonarymon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Pulmonarymon - A tiny floating heart with little wings. It pulses with a warm, gentle light.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_sawbonesmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Sawbonesmon - A hunched medical horror, its tools slick with fluids of unknown origin.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_suturemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Suturemon - A stitched-together creature that moves with jerky precision, trailing surgical thread.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombienecromancermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombienecromancermon - A hooded figure that commands the dead, its staff crackling with necrotic energy.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombielichmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombielichmon - An undying sorcerer whose body is a preserved husk, its power drawn from a phylactery.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombiemastermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombiemastermon - A crowned corpse-lord whose mere presence raises the dead to serve its will.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_16",
+    "effect": [
+      {
+        "set_string_var": "=== Tiedye Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_anklebitermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Anklebitermon - A tiny ball of teeth and fur. It nibbles affectionately on everything it can reach.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_shriekermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shriekermon - A small bat-like creature with an eerie shriek that can shatter glass and stun foes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_raptormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Raptormon - A sleek, feathered predator with razor-sharp claws and an unnerving intelligence in its eyes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombiepredatormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombiepredatormon - A relentless hunter that stalks its prey with inhuman patience, striking without warning.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_zombiestridermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombiestridermon - A long-limbed horror that moves across the battlefield with graceful, terrifying speed.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_hunterkillerzombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Hunterkillerzombiemon - A perfect predator, its body streamlined for killing and its senses tuned for tracking.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_17",
+    "effect": [
+      {
+        "set_string_var": "=== Skull Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_skelemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skelemon - A bouncy little skeleton that clatters when it walks. It waves at you cheerfully.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_skelereapermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skelereapermon - A skeletal figure in a tattered cloak, wielding a blade that glows with pale light.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_skeletalbrutemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalbrutemon - A massive skeleton with reinforced bones and fists like clubs.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletalhulkmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalhulkmon - A giant of fused bone and hatred, its every step shaking the ground.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletalmastermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalmastermon - A crowned skeleton radiating an aura of death, commanding legions of the undead.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_skeletalshockermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Skeletalshockermon - A skeleton crackling with bioelectric energy, its touch sending jolts of pain.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_18",
+    "effect": [
+      {
+        "set_string_var": "=== Dark Camo Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_shadowmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shadowmon - A little shadow-puppet that mimics your movements. It giggles silently.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_pouncermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Pouncermon - A stealthy ambush predator with padded paws and eyes that gleam in the dark.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_leapermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Leapermon - A long-limbed creature built for incredible leaps, striking from above without warning.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_netherhorrormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Netherhorrormon - A creature from beyond reality, its form constantly shifting between impossible shapes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_phaseskulkermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Phaseskulkermon - A stalker that phases between dimensions, appearing just behind you without a sound.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_shadowleapermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shadowleapermon - A nightmare that hunts through shadows, leaping between pools of darkness to reach its prey.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_19",
+    "effect": [
+      {
+        "set_string_var": "=== Pink Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_polypmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Polypmon - A tiny pink coral polyp that waves its little tentacles happily.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_migomon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Migomon - A small alien larva that communicates through bioluminescent flashes.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_myrmiodonmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Myrmiodonmon - A chitinous ant-like creature with powerful mandibles and a disciplined hive mind.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_migoslavermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Migoslavermon - An alien master with a hypnotic gaze, enslaving lesser minds to do its bidding.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_yraxquadraphractmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Yraxquadraphractmon - A geometric horror of living crystal, its facets reflecting impossible geometries.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_yraxtrifacetmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Yraxtrifacetmon - A three-faced entity of pure malice, each face representing a different method of destruction.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_20",
+    "effect": [
+      {
+        "set_string_var": "=== Sapphire Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_crayfishmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Crayfishmon - A tiny blue crawdad with oversized claws. It clicks them happily at you.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_albinopenguinmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Albinopenguinmon - A pale, cold-adapted bird that waddles with surprising speed.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_giantadpolemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Giantadpolemon - A colossal tadpole with translucent skin, revealing organs that glow with inner light.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_vortexmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Vortexmon - A swirling maw of water and pressure that drags everything into its depths.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_leviathanmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Leviathanmon - A sea monster of biblical proportions, its body a mountain of scale and fury.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_krakenmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Krakenmon - An ancient leviathan with tentacles the thickness of ships, rising from the abyss.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_21",
+    "effect": [
+      {
+        "set_string_var": "=== Amaranth Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_marlossmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Marlossmon - A tiny fungus-creature with a red cap. It releases calming spores that smell like berries.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_zealotmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zealotmon - A fanatical humanoid driven by an otherworldly purpose, its eyes burning with devotion.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fungaloidmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fungaloidmon - A humanoid figure overtaken by fungal growth, its body a garden of spores.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_marlosszealotmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Marlosszealotmon - A devout servant of the fungal hive, spreading the will of the colony without question.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_triffidqueenmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Triffidqueenmon - A massive fungal entity that commands entire armies of spore-born servants.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_triffidheartmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Triffidheartmon - The beating core of the fungal hive, a pulsing organ of immense psychic power.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_22",
+    "effect": [
+      {
+        "set_string_var": "=== Purple Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_brainlessmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Brainlessmon - A happy little creature with empty eyes and a big smile. It doesn’t think, it just loves.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_bloatedmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Bloatedmon - A swollen, distended corpse filled with putrid gas and simmering fluids.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_armoredferalmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Armoredferalmon - A heavily plated beast with bone ridges and a thick, armored hide.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_gasbagmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Gasbagmon - A grotesque balloon of rotting flesh, swollen with flammable gas and ready to burst.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_acidiczombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Acidiczombiemon - A dissolving corpse whose caustic blood eats through anything it touches.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_corrosivezombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Corrosivezombiemon - A zombie so saturated with acid that its mere presence melts the ground beneath it.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_23",
+    "effect": [
+      {
+        "set_string_var": "=== Light Blue Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_seweranhamon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Seweranhamon - A tiny creature that thrives in the dark. It has big eyes and a gentle glow.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_zombeavermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zombeavermon - A shambling rodent with oversized teeth that gnaws through anything in its path.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_giantslugmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Giantslugmon - A colossal slug whose slime trail is both corrosive and noxious.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_plaguebearermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Plaguebearermon - A walking pandemic, its body a vector for diseases that devastate entire populations.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_necromancerzombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Necromancerzombiemon - A zombie that raises other zombies, an endless source of undead horrors.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_summonerzombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Summonerzombiemon - A decaying spellcaster that pulls creatures from beyond to fight for it.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_24",
+    "effect": [
+      {
+        "set_string_var": "=== Electric Blue Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_zappermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zappermon - A tiny electric ball of static. It makes your hair stand on end when you pet it.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_shockermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shockermon - A crackling humanoid that releases arcs of electricity with every movement.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_zaptormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Zaptormon - A sleek, fast predator that moves like lightning and strikes just as hard.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_shockerbrutemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Shockerbrutemon - A hulking mass of muscle and electricity, each punch delivering a devastating shock.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_electrofrogmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Electrofrogmon - A giant amphibian whose skin glows with bioelectric energy, leaping with shocking speed.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_overloadmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Overloadmon - A being of pure electrical fury, its body a constant storm of lightning and thunder.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_25",
+    "effect": [
+      {
+        "set_string_var": "=== Golden Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_monolithmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Monolithmon - A small floating geometric shape that hums with ancient energy.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_boneturretmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Boneturretmon - A skeletal construct with a cannon fused to its spine, firing bolts of bone.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_fleshturretmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Fleshturretmon - A fleshy emplacement that launches projectiles of hardened biomass.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_advancedfleshborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Advancedfleshborgmon - A terrifying fusion of cybernetics and living tissue, optimized for destruction.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_advancedplantborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Advancedplantborgmon - An enhanced plant-cyborg, its vines tipped with steel and its leaves razor-sharp.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_prototypecyborgmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Prototypecyborgmon - A prototype war machine, its experimental weapons glowing with unstable power.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_26",
+    "effect": [
+      {
+        "set_string_var": "=== Magenta Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_snotgobblermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Snotgobblermon - A tiny green blob with big eyes. It leaves little gooey handprints everywhere.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_wretchmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Wretchmon - A degenerate, hunched creature covered in filth and oozing black bile.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_spittermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Spittermon - A disgusting creature whose swollen mouth glands can projectile-vomit corrosive bile.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_boomerzombiemon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Boomerzombiemon - A bloated explosive corpse that detonates in a shower of caustic gore.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_tearjerkermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Tearjerkermon - A weeping horror whose tears are acidic and whose sobs attract more undead.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_bombardiermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Bombardiermon - A hulking abomination that launches globs of caustic bile from swollen glands.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_27",
+    "effect": [
+      {
+        "set_string_var": "=== Cobweb Egg Lineage ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Baby ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_baby_larvamon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Larvamon - A tiny caterpillar with cute segmented segments. It leaves little silk trails.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Adults ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_dermatikmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Dermatikmon - A skittering insectoid that burrows under skin to lay its eggs.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_spideermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Spideermon - A multi-legged arachnid that weaves webs of unnerving strength and stickiness.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "set_string_var": "<u_val:compendium_text>\n\n--- Megas ---",
+        "target_var": {
+          "u_val": "compendium_text"
+        },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_wyrdspidermon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Wyrdspidermon - A giant spider that weaves webs from the fabric of reality itself, trapping souls.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_deathtrapmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Deathtrapmon - A mechanical nightmare of gears and blades, designed by a mad mind to end lives.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_blackdeathwidowmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Blackdeathwidowmon - A queen of spiders, her venom potent enough to kill in seconds.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_BUILD_COMP_GENERAL",
+    "effect": [
+      {
+        "set_string_var": "=== Other Zombimons ===",
+        "target_var": {
+          "u_val": "compendium_text"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_adult_cockroachmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Cockroachmon - A skittering cockroach that refuses to die. It adapts to everything.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_plaguevectormon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Plaguevectormon - A swarm of diseased insects moving as one organism, spreading sickness.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_comp_mega_ratkingmon == 1"
+          ]
+        },
+        "then": {
+          "set_string_var": "<u_val:compendium_text>\n  ✅ Ratkingmon - A writhing mass of rats fused together, each head squeaking in maddening harmony.",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        },
+        "else": {
+          "set_string_var": "<u_val:compendium_text>\n  ❌ ???",
+          "target_var": {
+            "u_val": "compendium_text"
+          },
+          "parse_tags": true
+        }
+      }
+    ]
+  }
+]
