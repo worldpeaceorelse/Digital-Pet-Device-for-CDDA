@@ -1,0 +1,814 @@
+[
+  {
+    "id": "achievement_digivice_hatch_1",
+    "type": "achievement",
+    "name": "Sproutmon",
+    "description": "Hatch a Sproutmon from a brown egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_2",
+    "type": "achievement",
+    "name": "Crawlermon",
+    "description": "Hatch a Crawlermon from a yellow egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_3",
+    "type": "achievement",
+    "name": "Grackenmon",
+    "description": "Hatch a Grackenmon from a black egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_4",
+    "type": "achievement",
+    "name": "Kreckmon",
+    "description": "Hatch a Kreckmon from a red egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_5",
+    "type": "achievement",
+    "name": "Survivormon",
+    "description": "Hatch a Survivormon from a brick egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_6",
+    "type": "achievement",
+    "name": "Sporemon",
+    "description": "Hatch a Sporemon from a green-brown egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_7",
+    "type": "achievement",
+    "name": "Eyemon",
+    "description": "Hatch an Eyemon from a white egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_8",
+    "type": "achievement",
+    "name": "Scrapmon",
+    "description": "Hatch a Scrapmon from a metal egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_9",
+    "type": "achievement",
+    "name": "Feralmon",
+    "description": "Hatch a Feralmon from a dino egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_10",
+    "type": "achievement",
+    "name": "Microslimemon",
+    "description": "Hatch a Microslimemon from a diagonal egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_11",
+    "type": "achievement",
+    "name": "Manhackmon",
+    "description": "Hatch a Manhackmon from a graffiti egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_12",
+    "type": "achievement",
+    "name": "Scorchedmon",
+    "description": "Hatch a Scorchedmon from a fiery egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_13",
+    "type": "achievement",
+    "name": "Blankmon",
+    "description": "Hatch a Blankmon from a lunar egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_14",
+    "type": "achievement",
+    "name": "Fleshcocoonmon",
+    "description": "Hatch a Fleshcocoonmon from a flesh egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_15",
+    "type": "achievement",
+    "name": "Pulmonarymon",
+    "description": "Hatch a Pulmonarymon from a hearts egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_16",
+    "type": "achievement",
+    "name": "Anklebitermon",
+    "description": "Hatch an Anklebitermon from a tiedye egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_17",
+    "type": "achievement",
+    "name": "Skelemon",
+    "description": "Hatch a Skelemon from a skull egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_18",
+    "type": "achievement",
+    "name": "Shadowmon",
+    "description": "Hatch a Shadowmon from a dark camo egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_19",
+    "type": "achievement",
+    "name": "Polypmon",
+    "description": "Hatch a Polypmon from a pink egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_20",
+    "type": "achievement",
+    "name": "Crayfishmon",
+    "description": "Hatch a Crayfishmon from a sapphire egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_21",
+    "type": "achievement",
+    "name": "Marlossmon",
+    "description": "Hatch a Marlossmon from an amaranth egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_22",
+    "type": "achievement",
+    "name": "Brainlessmon",
+    "description": "Hatch a Brainlessmon from a purple egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_23",
+    "type": "achievement",
+    "name": "Seweranhamon",
+    "description": "Hatch a Seweranhamon from a light blue egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_24",
+    "type": "achievement",
+    "name": "Zappermon",
+    "description": "Hatch a Zappermon from an electric blue egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_25",
+    "type": "achievement",
+    "name": "Monolithmon",
+    "description": "Hatch a Monolithmon from a golden egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_26",
+    "type": "achievement",
+    "name": "Snotgobblermon",
+    "description": "Hatch a Snotgobblermon from a magenta egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_hatch_27",
+    "type": "achievement",
+    "name": "Larvamon",
+    "description": "Hatch a Larvamon from a cobweb egg.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_zombivice",
+    "type": "achievement",
+    "name": "Zombivice",
+    "description": "Receive a free Zombivice from Data, the Zpet merchant.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_first_hatch",
+    "type": "achievement",
+    "name": "First Steps",
+    "description": "Hatch your very first digital pet.",
+    "requirements": [
+      {
+        "event_statistic": "num_avatar_wake_ups",
+        "is": ">=",
+        "target": 999999
+      }
+    ]
+  },
+  {
+    "id": "achievement_digivice_young_adult",
+    "type": "achievement",
+    "name": "Growing Up",
+    "description": "Evolve your pet to young adult for the first time.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_adult",
+    "type": "achievement",
+    "name": "Fully Grown",
+    "description": "Evolve your pet to its adult form for the first time.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_mega",
+    "type": "achievement",
+    "name": "Mega Evolution",
+    "description": "Evolve your pet to its mega form for the first time.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_7_days",
+    "type": "achievement",
+    "name": "One Week Strong",
+    "description": "Keep a pet alive for 7 days.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_30_days",
+    "type": "achievement",
+    "name": "Seasoned Trainer",
+    "description": "Keep a pet alive for 30 days.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_first_battle_win",
+    "type": "achievement",
+    "name": "First Blood",
+    "description": "Win your first battle.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_10_battle_wins",
+    "type": "achievement",
+    "name": "Battle Hardened",
+    "description": "Win 10 battles.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_50_battle_wins",
+    "type": "achievement",
+    "name": "War Veteran",
+    "description": "Win 50 battles.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_100_battle_wins",
+    "type": "achievement",
+    "name": "Legendary Warrior",
+    "description": "Win 100 battles.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_champion",
+    "type": "achievement",
+    "name": "Champion",
+    "description": "Win your first tournament championship.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_perfect_care",
+    "type": "achievement",
+    "name": "Perfect Care",
+    "description": "Raise a pet to adulthood with zero care mistakes.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_max_happy",
+    "type": "achievement",
+    "name": "Happy Friend",
+    "description": "Reach maximum happiness with your pet.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_virus_recovery",
+    "type": "achievement",
+    "name": "Survivor",
+    "description": "Recover your pet from a virus infection.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_1000_zpoints",
+    "type": "achievement",
+    "name": "Wealthy",
+    "description": "Accumulate 1,000 Zpoints.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_10000_zpoints",
+    "type": "achievement",
+    "name": "Zpoint Millionaire",
+    "description": "Accumulate 10,000 Zpoints.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "id": "achievement_digivice_completionist",
+    "type": "achievement",
+    "name": "Complete Collection",
+    "description": "Hatch every baby form from all 27 egg types.",
+    "requirements": [
+      { "event_statistic": "num_avatar_wake_ups", "is": ">=", "target": 999999 }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GIVE_HATCH_ACHIEVEMENT",
+    "effect": [
+      {
+        "math": [
+          "u_total_hatches = u_total_hatches + 1"
+        ]
+      },
+      {
+        "if": {
+          "math": [
+            "u_total_hatches == 1"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_first_hatch"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 1"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_1"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 2"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_2"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 3"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_3"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 4"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_4"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 5"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_5"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 6"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_6"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 7"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_7"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 8"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_8"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 9"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_9"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 10"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_10"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 11"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_11"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 12"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_12"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 13"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_13"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 14"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_14"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 15"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_15"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 16"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_16"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 17"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_17"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 18"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_18"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 19"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_19"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 20"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_20"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 21"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_21"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 22"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_22"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 23"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_23"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 24"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_24"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 25"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_25"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 26"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_26"
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "u_egg_code == 27"
+          ]
+        },
+        "then": {
+          "give_achievement": "achievement_digivice_hatch_27"
+        }
+      }
+    ]
+  }
+]

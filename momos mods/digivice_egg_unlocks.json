@@ -1,0 +1,1149 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_EGG_UNLOCKS",
+    "effect": [
+      {
+        "math": [
+          "global_egg_unlocked_brown = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_yellow = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_black = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_brick = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_red = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_green_brown = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_white = 1"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_metal = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_dino = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_diagonal = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_graffiti = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_fiery = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_lunar = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_flesh = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_hearts = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_tiedye = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_skull = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_darkcamo = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_pink = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_sapphire = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_amaranth = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_purple = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_light_blue = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_electric_blue = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_golden = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_magenta = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_egg_unlocked_cobweb = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_total_battle_wins = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_tournament_championships = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_tournament_match_wins = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_pet_has_died = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_reached_happiness_100 = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_young_adult_evo_count = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_adult_stage_reached = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_infection_recovered = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_max_age_ge_48 = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat_ge_15 = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_low_care_mistakes_adult = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_stat_sum_ge_30 = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_age_ge_24 = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat = 0"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat_sum = 0"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_EGG_UNLOCKS_ON_START",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [
+      {
+        "run_eocs": "EOC_DIGIVICE_INIT_EGG_UNLOCKS"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_UPDATE_STAT_TRACKING",
+    "effect": [
+      {
+        "math": [
+          "global_max_stat = max(global_max_stat, n_pet_atk)"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat = max(global_max_stat, n_pet_def)"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat = max(global_max_stat, n_pet_int)"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat = max(global_max_stat, n_pet_agi)"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat = max(global_max_stat, n_pet_luck)"
+        ]
+      },
+      {
+        "math": [
+          "global_max_stat_sum = max(global_max_stat_sum, n_pet_atk + n_pet_def + n_pet_int + n_pet_agi + n_pet_luck)"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_CHECK_EGG_UNLOCKS",
+    "effect": [
+      {
+        "if": {
+          "math": [
+            "global_young_adult_evo_count >= 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_metal = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_total_battle_wins >= 5"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_dino = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_tournament_championships >= 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_diagonal = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_age_ge_24 == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_graffiti = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_pet_has_died == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_fiery = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_low_care_mistakes_adult == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_lunar = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_pet_counter >= 4"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_flesh = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_reached_happiness_100 == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_hearts = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_tournament_championships >= 3"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_tiedye = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_infection_recovered == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_skull = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_pet_counter >= 7"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_darkcamo = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_stat_sum_ge_30 == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_pink = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_max_stat >= 15"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_max_stat_ge_15 = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_max_stat_sum >= 30"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_stat_sum_ge_30 = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_adult_stage_reached == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_sapphire = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_max_age_ge_48 == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_amaranth = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_total_battle_wins >= 15"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_purple = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_tournament_match_wins >= 5"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_light_blue = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_total_battle_wins >= 30"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_electric_blue = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_max_stat_ge_15 == 1"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_golden = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_tournament_championships >= 10"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_magenta = 1"
+          ]
+        }
+      },
+      {
+        "if": {
+          "math": [
+            "global_total_battle_wins >= 50"
+          ]
+        },
+        "then": {
+          "math": [
+            "global_egg_unlocked_cobweb = 1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "DIGIVICE_EGG_SELECT",
+    "dynamic_line": "Choose your Digital Egg!",
+    "responses": [
+      {
+        "text": "<color_brown>Solid brown</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 1"
+          ]
+        }
+      },
+      {
+        "text": "<color_yellow>Yellow with white triangles</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 2"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>Black</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 3"
+          ]
+        }
+      },
+      {
+        "text": "<color_light_red>Brick pattern</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 5"
+          ]
+        }
+      },
+      {
+        "text": "<color_light_red>Red</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 4"
+          ]
+        }
+      },
+      {
+        "text": "<color_green>Green with brown stripes</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 6"
+          ]
+        }
+      },
+      {
+        "text": "<color_white>White</color>",
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 7"
+          ]
+        }
+      },
+      {
+        "text": "<color_light_gray>Metal</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_metal == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 8"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Metal Egg</color> <color_red>(locked - evolve a pet to young adult)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_metal == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Evolve a pet to young adult to unlock the Metal egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_green>Dino print</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_dino == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 9"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Dino Egg</color> <color_red>(locked - win 5 battles)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_dino == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 5 battles to unlock the Dino egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_light_gray>Diagonal stripes</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_diagonal == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 10"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Diagonal Egg</color> <color_red>(locked - win a tournament championship)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_diagonal == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win a tournament championship to unlock the Diagonal egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_magenta>Graffiti</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_graffiti == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 11"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Graffiti Egg</color> <color_red>(locked - raise a pet for 24 hours)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_graffiti == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Raise a pet for 24 hours to unlock the Graffiti egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_dark_gray>Fiery</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_fiery == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 12"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Fiery Egg</color> <color_red>(locked - experience pet death)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_fiery == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Experience the death of a pet to unlock the Fiery egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_yellow>Lunar pattern</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_lunar == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 13"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Lunar Egg</color> <color_red>(locked - adult with ≤3 care mistakes)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_lunar == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Evolve a pet to adult with 3 or fewer care mistakes to unlock the Lunar egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_red>Flesh</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_flesh == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 14"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Flesh Egg</color> <color_red>(locked - raise 3 pets)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_flesh == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Raise 3 different pets to unlock the Flesh egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_pink>Heart-shaped</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_hearts == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 15"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Heart Egg</color> <color_red>(locked - max out happiness)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_hearts == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Max out a pet's happiness to 100 to unlock the Heart egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_light_cyan>Tie-dye</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_tiedye == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 16"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Tie-dye Egg</color> <color_red>(locked - win 3 championships)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_tiedye == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 3 tournament championships to unlock the Tie-dye egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_white>Skull</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_skull == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 17"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Skull Egg</color> <color_red>(locked - recover from infection)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_skull == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Have a pet recover from a virus infection to unlock the Skull egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_dark_gray>Dark Camo</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_darkcamo == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 18"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Dark Camo Egg</color> <color_red>(locked - raise 6 pets)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_darkcamo == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Raise 6 different pets to unlock the Dark Camo egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_pink>Pink</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_pink == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 19"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Pink Egg</color> <color_red>(locked - total stats ≥ 30)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_pink == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Raise a pet with total stats of 30 or more to unlock the Pink egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_blue>Sapphire</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_sapphire == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 20"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Sapphire Egg</color> <color_red>(locked - reach adult form)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_sapphire == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Evolve any pet to adult form to unlock the Sapphire egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_light_red>Amaranth</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_amaranth == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 21"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Amaranth Egg</color> <color_red>(locked - pet lives 48 hours)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_amaranth == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Keep a pet alive for 48 hours to unlock the Amaranth egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_magenta>Purple</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_purple == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 22"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Purple Egg</color> <color_red>(locked - win 15 battles)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_purple == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 15 battles to unlock the Purple egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_light_cyan>Light blue</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_light_blue == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 23"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Light Blue Egg</color> <color_red>(locked - win 5 tournament matches)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_light_blue == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 5 tournament matches to unlock the Light Blue egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_cyan>Electric blue</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_electric_blue == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 24"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Electric Blue Egg</color> <color_red>(locked - win 30 battles)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_electric_blue == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 30 battles to unlock the Electric Blue egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_yellow>Golden</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_golden == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 25"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Golden Egg</color> <color_red>(locked - any stat reaches 15)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_golden == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Raise any stat to 15 or higher to unlock the Golden egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_pink>Magenta</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_magenta == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 26"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Magenta Egg</color> <color_red>(locked - win 10 championships)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_magenta == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 10 tournament championships to unlock the Magenta egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "<color_light_gray>Cobweb</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_cobweb == 1"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "math": [
+            "u_egg_code = 27"
+          ]
+        }
+      },
+      {
+        "text": "<color_dark_gray>??? Cobweb Egg</color> <color_red>(locked - win 50 battles)</color>",
+        "condition": {
+          "math": [
+            "global_egg_unlocked_cobweb == 0"
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": {
+          "u_message": "Win 50 battles to unlock the Cobweb egg!",
+          "type": "info"
+        }
+      },
+      {
+        "text": "Never mind",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

@@ -1,0 +1,558 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_OPEN_MENU",
+    "effect": [
+      { "math": [ "u_selected_pet_uid = n_pet_uid" ] },
+      { "math": [ "u_pet_stage = n_pet_stage" ] },
+      { "math": [ "u_pet_atk = n_pet_atk" ] },
+      { "math": [ "u_pet_def = n_pet_def" ] },
+      { "math": [ "u_pet_int = n_pet_int" ] },
+      { "math": [ "u_pet_agi = n_pet_agi" ] },
+	  { "math": [ "u_pet_weight = n_pet_weight" ] },
+{ "math": [ "u_pet_stamina = n_stamina" ] },
+{ "math": [ "u_pet_max_stamina = n_max_stamina" ] },
+{ "math": [ "u_pet_mess_count = n_mess_count" ] },
+{ "math": [ "u_pet_care_mistakes = n_care_mistakes" ] },
+      { "math": [ "u_tournament_wins = n_tournament_wins" ] },
+      { "math": [ "u_tournament_losses = n_tournament_losses" ] },
+      { "math": [ "u_tournament_championships = n_tournament_championships" ] },
+      { "math": [ "u_pet_luck = n_pet_luck" ] },
+	      { "set_string_var": "<npc_val:pet_name>", "target_var": { "u_val": "pet_name_display" }, "parse_tags": true },
+    { "set_string_var": "<npc_val:pet_variant>", "target_var": { "u_val": "pet_variant_display" }, "parse_tags": true },
+      { "math": [ "u_pet_sleeping = n_pet_sleeping" ] },
+      { "math": [ "u_pet_quarantined = n_pet_quarantined" ] },
+      { "math": [ "u_awake_timer = n_awake_timer" ] },
+      { "math": [ "u_pet_tired = n_pet_tired" ] },
+      { "math": [ "u_sleep_timer = n_sleep_timer" ] },
+      { "math": [ "u_infected = n_infected" ] },
+      { "math": [ "u_virus_progress = n_virus_progress" ] },
+      { "math": [ "u_quarantine_timer = n_quarantine_timer" ] },
+      { "math": [ "u_tired_timer = n_tired_timer" ] },
+      { "math": [ "u_pet_age = n_pet_age" ] },
+      { "math": [ "u_pet_age_days = round(n_pet_age / 24)" ] },
+      { "math": [ "u_pet_age_hours = n_pet_age % 24" ] },
+      { "math": [ "u_egg_code = n_egg_code" ] },
+      { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
+      { "run_eocs": "EOC_DIGIVICE_GET_HAPPY_STATUS" },
+      { "run_eocs": "EOC_DIGIVICE_GET_SLEEP_STATUS" },
+      { "run_eocs": "EOC_DIGIVICE_GET_VIRUS_STATUS" },
+      { "run_eocs": "EOC_DIGIVICE_GET_IDLE_ACTION" },
+      { "run_eocs": "EOC_DIGIVICE_CHECK_ACHIEVEMENTS" },
+      { "open_dialogue": { "topic": "DIGIVICE_MAIN_MENU" } }
+    ]
+  },
+  {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_FORCE_CLOSE_ALL",
+  "effect": [
+    { "open_dialogue": { "topic": "TALK_DONE" } }
+  ]
+},
+ {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_ITEM",
+    "effect": [
+      { "math": [ "n_pet_hunger = 100" ] },
+      { "math": [ "n_pet_happiness = 50" ] },
+      { "math": [ "n_pet_stage = 0" ] },
+      { "math": [ "n_pet_death_timer = 0" ] },
+      { "math": [ "n_pet_evolve_progress = 0" ] },
+	  { "math": [ "n_care_mistakes = 0" ] },
+{ "math": [ "n_battle_loss_streak = 0" ] },
+{ "math": [ "n_pet_weight = 5" ] },
+{ "math": [ "n_stamina = 100" ] },
+{ "math": [ "n_max_stamina = 100" ] },
+{ "math": [ "n_potty_timer = 2" ] },
+      { "math": [ "n_mess_count = 0" ] },
+      { "math": [ "n_pet_sleeping = 0" ] },
+      { "math": [ "n_pet_quarantined = 0" ] },
+      { "math": [ "n_awake_timer = 0" ] },
+      { "math": [ "n_pet_tired = 0" ] },
+      { "math": [ "n_sleep_timer = 0" ] },
+      { "math": [ "n_infected = 0" ] },
+      { "math": [ "n_virus_progress = 0" ] },
+      { "math": [ "n_quarantine_timer = 0" ] },
+      { "math": [ "n_tired_timer = 0" ] },
+      { "math": [ "n_pet_age = 0" ] },
+      { "math": [ "n_pet_atk = 1" ] },
+      { "math": [ "n_pet_def = 1" ] },
+      { "math": [ "n_pet_int = 1" ] },
+      { "math": [ "n_pet_agi = 1" ] },
+      { "math": [ "n_pet_luck = 1" ] },
+      { "u_message": "Your new digital companion awakens! Take care of it.", "type": "good" }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_HUNGER_STATUS",
+    "effect": [
+      { "math": [ "u_pet_hunger_num = n_pet_hunger" ] },
+      {
+        "if": { "math": [ "n_pet_hunger >= 90" ] },
+        "then": { "set_string_var": "Well fed!", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 76" ] },
+            { "math": [ "n_pet_hunger < 90" ] }
+          ]
+        },
+        "then": { "set_string_var": "Satisfied", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 51" ] },
+            { "math": [ "n_pet_hunger < 76" ] }
+          ]
+        },
+        "then": { "set_string_var": "Peckish", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_hunger >= 21" ] },
+            { "math": [ "n_pet_hunger < 51" ] }
+          ]
+        },
+        "then": { "set_string_var": "Starving", "target_var": { "u_val": "pet_hunger_desc" } }
+      },
+      {
+        "if": { "math": [ "n_pet_hunger < 21" ] },
+        "then": { "set_string_var": "Near death", "target_var": { "u_val": "pet_hunger_desc" } }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_HAPPY_STATUS",
+    "effect": [
+      { "math": [ "u_pet_happy_num = n_pet_happiness" ] },
+      {
+        "if": { "math": [ "n_pet_happiness >= 90" ] },
+        "then": { "set_string_var": "Ecstatic!", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 76" ] },
+            { "math": [ "n_pet_happiness < 90" ] }
+          ]
+        },
+        "then": { "set_string_var": "Happy", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 51" ] },
+            { "math": [ "n_pet_happiness < 76" ] }
+          ]
+        },
+        "then": { "set_string_var": "Content", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "n_pet_happiness >= 21" ] },
+            { "math": [ "n_pet_happiness < 51" ] }
+          ]
+        },
+        "then": { "set_string_var": "Lonely", "target_var": { "u_val": "pet_happy_desc" } }
+      },
+      {
+        "if": { "math": [ "n_pet_happiness < 21" ] },
+        "then": { "set_string_var": "Miserable", "target_var": { "u_val": "pet_happy_desc" } }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_SLEEP_STATUS",
+    "effect": [
+      { "math": [ "u_sleep_timer = n_sleep_timer" ] },
+      { "math": [ "u_awake_timer = n_awake_timer" ] },
+      { "math": [ "u_pet_tired = n_pet_tired" ] },
+      { "set_string_var": "Awake", "target_var": { "u_val": "pet_sleep_desc" } },
+      {
+        "if": { "math": [ "n_pet_sleeping == 1" ] },
+        "then": { "set_string_var": "Sleeping", "target_var": { "u_val": "pet_sleep_desc" } }
+      },
+      {
+        "if": { "math": [ "n_pet_tired == 1" ] },
+        "then": [
+          { "set_string_var": "Awake (Tired!)", "target_var": { "u_val": "pet_sleep_desc" } }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_GET_VIRUS_STATUS",
+    "effect": [
+      { "math": [ "u_virus_progress = n_virus_progress" ] },
+      { "math": [ "u_infected = n_infected" ] },
+      { "set_string_var": "Healthy", "target_var": { "u_val": "pet_virus_desc" } },
+      {
+        "if": { "math": [ "n_virus_progress > 0" ] },
+        "then": { "set_string_var": "At risk", "target_var": { "u_val": "pet_virus_desc" } }
+      },
+      {
+        "if": { "math": [ "n_virus_progress >= 50" ] },
+        "then": { "set_string_var": "High risk", "target_var": { "u_val": "pet_virus_desc" } }
+      },
+      {
+        "if": { "math": [ "n_infected == 1" ] },
+        "then": { "set_string_var": "INFECTED!", "target_var": { "u_val": "pet_virus_desc" } }
+      }
+    ]
+  },
+  {
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_TICK_ITEM",
+  "effect": [
+    { "math": [ "n_pet_age = n_pet_age + 1" ] },
+    {
+      "if": { "math": [ "n_pet_age >= 24" ] },
+      "then": { "math": [ "global_age_ge_24 = 1" ] }
+    },
+    {
+      "if": { "math": [ "n_pet_age >= 48" ] },
+      "then": { "math": [ "global_max_age_ge_48 = 1" ] }
+    },
+    {
+      "if": { "math": [ "n_pet_sleeping == 1" ] },
+      "then": [
+        { "math": [ "n_pet_hunger = n_pet_hunger - 2" ] },
+        { "math": [ "n_pet_happiness = n_pet_happiness - 1" ] },
+        { "math": [ "n_stamina = min(n_stamina + 30, n_max_stamina)" ] },
+        { "math": [ "n_sleep_timer = n_sleep_timer - 1" ] },
+        {
+          "if": { "math": [ "n_sleep_timer <= 0" ] },
+          "then": [
+            { "math": [ "n_pet_sleeping = 0" ] },
+            { "math": [ "n_awake_timer = 0" ] },
+            { "math": [ "n_pet_tired = 0" ] },
+            { "u_message": "Your digital pet wakes up naturally, fully rested!", "type": "good", "popup": true }
+          ]
+        }
+      ],
+      "else": [
+        { "math": [ "n_pet_hunger = n_pet_hunger - 10" ] },
+        { "math": [ "n_pet_happiness = n_pet_happiness - 5" ] },
+        { "math": [ "n_stamina = min(n_stamina + 10, n_max_stamina)" ] },
+        { "math": [ "n_awake_timer = n_awake_timer + 1" ] },
+        {
+          "if": { "and": [ { "math": [ "n_awake_timer >= 12" ] }, { "math": [ "n_pet_tired == 0" ] } ] },
+          "then": [
+            { "math": [ "n_pet_tired = 1" ] },
+            { "math": [ "n_tired_timer = 0" ] },
+            { "u_message": "<color_yellow>BEEP! Your digital pet is tired and needs sleep!</color>", "type": "bad", "popup": true }
+          ]
+        },
+        {
+          "if": { "math": [ "n_pet_tired == 1" ] },
+          "then": { "math": [ "n_tired_timer = n_tired_timer + 1" ] }
+        }
+      ]
+    },
+    {
+      "if": { "and": [ { "math": [ "n_pet_sleeping == 0" ] }, { "math": [ "n_tired_timer >= 2" ] } ] },
+      "then": [
+        { "math": [ "n_pet_sleeping = 1" ] },
+        { "math": [ "n_sleep_timer = 6" ] },
+        { "math": [ "n_pet_tired = 0" ] },
+        { "math": [ "n_awake_timer = 0" ] },
+        { "math": [ "n_tired_timer = 0" ] },
+        { "u_message": "Your pet was so tired it fell asleep on its own!", "type": "bad", "popup": true }
+      ]
+    },
+    { "math": [ "n_pet_hunger = clamp(n_pet_hunger, 0, 100)" ] },
+    { "math": [ "n_pet_happiness = clamp(n_pet_happiness, 0, 100)" ] },
+    {
+      "if": { "math": [ "n_pet_happiness >= 100" ] },
+      "then": { "math": [ "global_reached_happiness_100 = 1" ] }
+    },
+
+    { "math": [ "n_potty_timer = n_potty_timer - 1" ] },
+    {
+      "if": { "math": [ "n_potty_timer <= 0" ] },
+      "then": [
+        { "math": [ "n_mess_count = n_mess_count + 1" ] },
+{ "math": [ "n_hunger_mistake_timer = 0" ] },
+      { "math": [ "n_happy_mistake_timer = 0" ] },
+      { "math": [ "n_potty_timer = 2" ] },
+        {
+          "if": { "math": [ "n_mess_count > 4" ] },
+          "then": [
+            { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] },
+            { "math": [ "n_mess_count = 4" ] }
+          ]
+        }
+      ]
+    },
+
+    {
+      "if": { "math": [ "n_pet_hunger < 20" ] },
+      "then": [
+        { "math": [ "n_hunger_mistake_timer = n_hunger_mistake_timer - 1" ] },
+        {
+          "if": { "math": [ "n_hunger_mistake_timer <= 0" ] },
+          "then": [
+            { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] },
+            { "math": [ "n_hunger_mistake_timer = 3" ] }
+          ]
+        }
+      ],
+      "else": { "math": [ "n_hunger_mistake_timer = 0" ] }
+    },
+    {
+      "if": { "math": [ "n_pet_happiness < 20" ] },
+      "then": [
+        { "math": [ "n_happy_mistake_timer = n_happy_mistake_timer - 1" ] },
+        {
+          "if": { "math": [ "n_happy_mistake_timer <= 0" ] },
+          "then": [
+            { "math": [ "n_care_mistakes = n_care_mistakes + 1" ] },
+            { "math": [ "n_happy_mistake_timer = 3" ] }
+          ]
+        }
+      ],
+      "else": { "math": [ "n_happy_mistake_timer = 0" ] }
+    },
+
+    {
+      "if": {
+        "and": [
+          { "math": [ "n_pet_hunger < 10" ] },
+          { "math": [ "n_pet_happiness < 10" ] }
+        ]
+      },
+      "then": { "math": [ "n_pet_death_timer = n_pet_death_timer + 1" ] },
+      "else": { "math": [ "n_pet_death_timer = 0" ] }
+    },
+    { "math": [ "n_pet_death_timer = min(n_pet_death_timer, 24)" ] },
+    {
+      "if": { "math": [ "n_pet_death_timer >= 24" ] },
+      "then": [
+        { "u_message": "Your digital pet has died from days of neglect...", "type": "bad" },
+        { "math": [ "global_pet_has_died = 1" ] },
+        { "transform_item": "vpetmonster01_egg" }
+      ]
+    },
+
+    {
+      "if": { "math": [ "n_pet_quarantined == 0" ] },
+      "then": [
+        {
+          "if": {
+            "or": [
+              { "math": [ "n_pet_hunger < 20" ] },
+              { "math": [ "n_pet_happiness < 20" ] }
+            ]
+          },
+          "then": { "math": [ "n_virus_progress = n_virus_progress + 1" ] }
+        },
+        { "math": [ "n_virus_progress = min(n_virus_progress, 100)" ] },
+        {
+          "if": { "math": [ "n_virus_progress >= 100" ] },
+          "then": { "math": [ "n_infected = 1" ] }
+        }
+      ]
+    },
+    {
+      "if": { "math": [ "n_pet_quarantined == 1" ] },
+      "then": [
+        { "math": [ "n_virus_progress = max(n_virus_progress - 5, 0)" ] },
+        {
+      "if": { "math": [ "n_virus_progress <= 0" ] },
+      "then": [
+        { "math": [ "n_infected = 0" ] },
+        { "math": [ "global_infection_recovered = 1" ] }
+      ]
+        }
+      ]
+    },
+
+    { "run_eocs": "EOC_DIGIVICE_CHECK_EVOLVE_BRANCH" },
+    { "run_eocs": "EOC_DIGIVICE_MEGA_CHECK_EVOLVE_BRANCH" }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_TICK_RECURRING",
+  "recurrence": 3600,
+  "global": false,
+  "effect": [
+    { "math": [ "global_hour_counter = global_hour_counter + 1" ] },
+    {
+      "u_run_inv_eocs": "all",
+      "search_data": [ { "flags": [ "DIGIVICE" ] } ],
+      "true_eocs": [ "EOC_DIGIVICE_TICK_ITEM" ]
+    }
+  ]
+},
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_COUNTER",
+    "effect": [
+      { "math": [ "global_pet_counter = 1" ] },
+      { "math": [ "global_hour_counter = 0" ] }
+    ]
+  },
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_DEBUG_FORCE_ADULT",
+  "effect": [
+    {
+      "u_run_inv_eocs": "random",
+      "search_data": [ { "flags": [ "DIGIVICE_BABY" ] } ],
+      "true_eocs": [
+        {
+          "id": "EOC_DEBUG_ADULT_INNER",
+          "effect": [
+            { "math": [ "n_pet_stage = 5" ] },
+            { "math": [ "n_pet_evolve_progress = 0" ] },
+            { "u_message": "Forcing evolution to adulthood...", "type": "good" },
+            { "run_eocs": "EOC_DIGIVICE_TYPE_DISTRIBUTOR", "beta_talker": "npc" }
+          ]
+        }
+      ],
+      "false_eocs": [
+        {
+          "id": "EOC_DEBUG_NO_BABY",
+          "effect": { "u_message": "No baby Zombivice found to evolve.", "type": "bad" }
+        }
+      ]
+    }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_DEBUG_FORCE_MEGA",
+  "effect": [
+    {
+      "u_run_inv_eocs": "random",
+      "search_data": [ { "flags": [ "DIGIVICE_YOUNG_ADULT" ] } ],
+      "true_eocs": [
+        {
+          "id": "EOC_DEBUG_MEGA_INNER",
+          "effect": [
+            { "math": [ "n_pet_stage = 6" ] },
+            { "math": [ "n_pet_evolve_progress = 0" ] },
+            { "u_message": "Forcing mega evolution...", "type": "good" },
+            { "run_eocs": "EOC_DIGIVICE_MEGA_EVOLVE_BRANCH", "beta_talker": "npc" }
+          ]
+        }
+      ],
+      "false_eocs": [
+        {
+          "id": "EOC_DEBUG_NO_ADULT",
+          "effect": { "u_message": "No adult Zombivice found to mega evolve.", "type": "bad" }
+        }
+      ]
+    }
+  ]
+},
+{
+  "type": "effect_on_condition",
+  "id": "EOC_DIGIVICE_DEBUG_FORCE_DEATH",
+  "effect": [
+    {
+      "u_run_inv_eocs": "random",
+      "search_data": [ { "flags": [ "DIGIVICE" ] } ],
+      "true_eocs": [
+        {
+          "id": "EOC_DEBUG_DEATH_INNER",
+          "effect": [
+            { "u_message": "Your digital pet has died... transforming back into an egg.", "type": "bad" },
+            { "math": [ "global_pet_has_died = 1" ] },
+            { "transform_item": "vpetmonster01_egg" }
+          ]
+        }
+      ],
+      "false_eocs": [
+        {
+          "id": "EOC_DEBUG_NO_DIGIVICE",
+          "effect": { "u_message": "No Zombivice found to kill.", "type": "bad" }
+        }
+      ]
+    }
+  ]
+},
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_INIT_ON_GAME_START",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [
+      { "run_eocs": "EOC_DIGIVICE_INIT_COUNTER" }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_CHECK_ACHIEVEMENTS",
+    "effect": [
+      { "math": [ "u_zpoints = global_zpoints" ] },
+      {
+        "if": { "math": [ "u_pet_age >= 720" ] },
+        "then": { "give_achievement": "achievement_digivice_30_days" }
+      },
+      {
+        "if": { "math": [ "u_pet_age >= 168" ] },
+        "then": { "give_achievement": "achievement_digivice_7_days" }
+      },
+      {
+        "if": { "math": [ "u_zpoints >= 10000" ] },
+        "then": { "give_achievement": "achievement_digivice_10000_zpoints" }
+      },
+      {
+        "if": { "math": [ "u_zpoints >= 1000" ] },
+        "then": { "give_achievement": "achievement_digivice_1000_zpoints" }
+      },
+      {
+        "if": { "math": [ "n_pet_happy >= 100" ] },
+        "then": { "give_achievement": "achievement_digivice_max_happy" }
+      },
+      {
+        "if": { "math": [ "global_infection_recovered == 1" ] },
+        "then": { "give_achievement": "achievement_digivice_virus_recovery" }
+      },
+      {
+        "if": {
+          "and": [
+            { "math": [ "global_comp_baby_sproutmon == 1" ] },
+            { "math": [ "global_comp_baby_crawlermon == 1" ] },
+            { "math": [ "global_comp_baby_grackenmon == 1" ] },
+            { "math": [ "global_comp_baby_kreckmon == 1" ] },
+            { "math": [ "global_comp_baby_survivormon == 1" ] },
+            { "math": [ "global_comp_baby_sporemon == 1" ] },
+            { "math": [ "global_comp_baby_eyemon == 1" ] },
+            { "math": [ "global_comp_baby_scrapmon == 1" ] },
+            { "math": [ "global_comp_baby_feralmon == 1" ] },
+            { "math": [ "global_comp_baby_microslimemon == 1" ] },
+            { "math": [ "global_comp_baby_manhackmon == 1" ] },
+            { "math": [ "global_comp_baby_scorchedmon == 1" ] },
+            { "math": [ "global_comp_baby_blankmon == 1" ] },
+            { "math": [ "global_comp_baby_fleshcocoonmon == 1" ] },
+            { "math": [ "global_comp_baby_pulmonarymon == 1" ] },
+            { "math": [ "global_comp_baby_anklebitermon == 1" ] },
+            { "math": [ "global_comp_baby_skelemon == 1" ] },
+            { "math": [ "global_comp_baby_shadowmon == 1" ] },
+            { "math": [ "global_comp_baby_polypmon == 1" ] },
+            { "math": [ "global_comp_baby_crayfishmon == 1" ] },
+            { "math": [ "global_comp_baby_marlossmon == 1" ] },
+            { "math": [ "global_comp_baby_brainlessmon == 1" ] },
+            { "math": [ "global_comp_baby_seweranhamon == 1" ] },
+            { "math": [ "global_comp_baby_zappermon == 1" ] },
+            { "math": [ "global_comp_baby_monolithmon == 1" ] },
+            { "math": [ "global_comp_baby_snotgobblermon == 1" ] },
+            { "math": [ "global_comp_baby_larvamon == 1" ] }
+          ]
+        },
+        "then": { "give_achievement": "achievement_digivice_completionist" }
+      }
+    ]
+  }
+]

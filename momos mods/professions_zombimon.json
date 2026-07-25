@@ -1,0 +1,46 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "digivice_starting_choice",
+    "entries": [
+      { "item": "vpetmonster01_egg" },
+      { "item": "vpetmonster01_red_and_black_egg" },
+      { "item": "vpetmonster01_blue_egg" },
+      { "item": "vpetmonster01_yellow_egg" },
+      { "item": "vpetmonster01_magenta_egg" }
+    ]
+  },
+  {
+    "type": "profession",
+    "id": "zombimon_tamer",
+    "name": "Virtual Pet Tamer",
+    "description": "You were never into guns or survival tactics. When the world ended, you grabbed the most important thing you owned: your Zombivice collection. Now you wander the wastes with your digital companion, raising it, battling other tamers, and hunting for rare eggs. The apocalypse can wait \u2014 your pet needs feeding.",
+    "npc_background": "BG_survival_story_EVACUEE",
+    "points": 2,
+    "skills": [
+      { "level": 2, "name": "speech" },
+      { "level": 1, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "pants" },
+          { "item": "longshirt" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "item": "hoodie" },
+          { "item": "backpack" },
+          { "item": "knife_folding" },
+          { "item": "water_clean", "container-item": "bottle_plastic" },
+          { "item": "zombimon_tshirt" },
+          { "group": "digivice_starting_choice" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_briefs" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    },
+    "flags": [ "SCEN_ONLY" ]
+  }
+]
