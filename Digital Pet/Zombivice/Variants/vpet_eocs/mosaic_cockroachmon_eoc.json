@@ -31,6 +31,11 @@
                 "type": "good"
               },
               {
+                "math": [
+                  "global_comp_adult_cockroachmon = 1"
+                ]
+              },
+              {
                 "run_eocs": "EOC_DIGIVICE_INIT_ADULT",
                 "beta_talker": "npc"
               }

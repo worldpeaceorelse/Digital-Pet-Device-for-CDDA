@@ -836,7 +836,7 @@
                   },
                   {
                     "math": [
-                      "global_comp_mega_abyssalterrormon = 1"
+                      "global_comp_mega_protoplasmon = 1"
                     ]
                   },
                   {
@@ -856,7 +856,7 @@
                   },
                   {
                     "math": [
-                      "global_comp_mega_jawedterrormon = 1"
+                      "global_comp_mega_oozebeastmon = 1"
                     ]
                   },
                   {
@@ -1782,7 +1782,7 @@
                 },
                 {
                   "math": [
-                    "global_comp_mega_bloatedzombiemon = 1"
+                    "global_comp_mega_gasbagmon = 1"
                   ]
                 },
                 {
@@ -1970,7 +1970,7 @@
                   },
                   {
                     "math": [
-                      "global_comp_mega_bioelectriczombiefrogmon = 1"
+                      "global_comp_mega_electrofrogmon = 1"
                     ]
                   },
                   {
@@ -1990,7 +1990,7 @@
                   },
                   {
                     "math": [
-                      "global_comp_mega_zapperzombiemon = 1"
+                      "global_comp_mega_overloadmon = 1"
                     ]
                   },
                   {
@@ -2132,7 +2132,7 @@
                   },
                   {
                     "math": [
-                      "global_comp_mega_spitterzombiemon = 1"
+                      "global_comp_mega_bombardiermon = 1"
                     ]
                   },
                   {
