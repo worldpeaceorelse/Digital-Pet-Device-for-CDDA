@@ -4043,7 +4043,7 @@
       {
         "if": {
           "math": [
-            "global_comp_adult_wretchmon == 1"
+            "global_comp_adult_pukermon == 1"
           ]
         },
         "then": {
