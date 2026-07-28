@@ -742,7 +742,7 @@
         "transform_item": "vpetmonster01_flesh"
       },
       {
-        "set_string_var": "fleshcocoonmon",
+        "set_string_var": "Fleshcocoonmon",
         "target_var": {
           "npc_val": "pet_name"
         }

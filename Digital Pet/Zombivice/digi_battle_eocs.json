@@ -41,7 +41,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -130,7 +130,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -219,7 +219,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -308,7 +308,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -397,7 +397,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -486,7 +486,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -575,7 +575,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -664,7 +664,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -753,7 +753,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -842,7 +842,7 @@
                   },
                   {
                     "open_dialogue": {
-                      "topic": "DIGIVICE_BATTLE_MENU"
+                      "topic": "TALK_DONE"
                     }
                   }
                 ],
@@ -1058,7 +1058,7 @@
                   },
                   {
                     "math": [
-                      "u_pet_happiness = n_pet_happiness"
+                      "u_pet_happy_num = n_pet_happiness"
                     ]
                   },
                   {
@@ -1155,7 +1155,7 @@
                   },
                   {
                     "math": [
-                      "u_pet_happiness = n_pet_happiness"
+                      "u_pet_happy_num = n_pet_happiness"
                     ]
                   }
                 ]

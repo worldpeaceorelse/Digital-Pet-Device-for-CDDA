@@ -99,55 +99,73 @@
                                 "run_eocs": "EOC_DIGIVICE_PRIMAL_RED_EVOLVE_TO_ADULT",
                                 "beta_talker": "npc"
                               },
+                    "else": {
+                      "if": {
+                        "npc_has_flag": "DIGIVICE_STRAWBERRY"
+                      },
+                      "then": {
+                        "run_eocs": "EOC_DIGIVICE_STRAWBERRY_EVOLVE_TO_ADULT",
+                        "beta_talker": "npc"
+                      },
+                      "else": {
+                        "if": {
+                          "npc_has_flag": "DIGIVICE_YELLOW"
+                        },
+                        "then": {
+                          "run_eocs": "EOC_DIGIVICE_YELLOW_EVOLVE_TO_ADULT",
+                          "beta_talker": "npc"
+                        },
+                        "else": {
+                          "if": {
+                            "npc_has_flag": "DIGIVICE_ZOMBIMON_EDITION"
+                          },
+                          "then": {
+                            "run_eocs": "EOC_DIGIVICE_ZOMBIMON_EDITION_EVOLVE_TO_ADULT",
+                            "beta_talker": "npc"
+                          },
+                          "else": {
+                            "if": {
+                              "npc_has_flag": "DIGIVICE_ZOMBIMON_MOVIE"
+                            },
+                            "then": {
+                              "run_eocs": "EOC_DIGIVICE_ZOMBIMON_MOVIE_EVOLVE_TO_ADULT",
+                              "beta_talker": "npc"
+                            },
+                            "else": {
+                              "if": {
+                                "npc_has_flag": "DIGIVICE_RED_AND_BLACK"
+                              },
+                              "then": {
+                                "run_eocs": "EOC_DIGIVICE_EVOLVE_TO_ADULT",
+                                "beta_talker": "npc"
+                              },
                               "else": {
                                 "if": {
-                                  "npc_has_flag": "DIGIVICE_STRAWBERRY"
+                                  "npc_has_flag": "DIGIVICE_SOLAR_FLARE"
                                 },
                                 "then": {
-                                  "run_eocs": "EOC_DIGIVICE_STRAWBERRY_EVOLVE_TO_ADULT",
+                                  "run_eocs": "EOC_DIGIVICE_EVOLVE_TO_ADULT",
                                   "beta_talker": "npc"
                                 },
                                 "else": {
                                   "if": {
-                                    "npc_has_flag": "DIGIVICE_YELLOW"
+                                    "npc_has_flag": "DIGIVICE_BASE"
                                   },
                                   "then": {
-                                    "run_eocs": "EOC_DIGIVICE_YELLOW_EVOLVE_TO_ADULT",
+                                    "run_eocs": "EOC_DIGIVICE_EVOLVE_TO_ADULT",
                                     "beta_talker": "npc"
                                   },
                                   "else": {
-                                    "if": {
-                                      "npc_has_flag": "DIGIVICE_ZOMBIMON_EDITION"
-                                    },
-                                    "then": {
-                                      "run_eocs": "EOC_DIGIVICE_ZOMBIMON_EDITION_EVOLVE_TO_ADULT",
-                                      "beta_talker": "npc"
-                                    },
-                                    "else": {
-                                      "if": {
-                                        "npc_has_flag": "DIGIVICE_ZOMBIMON_MOVIE"
-                                      },
-                                      "then": {
-                                        "run_eocs": "EOC_DIGIVICE_ZOMBIMON_MOVIE_EVOLVE_TO_ADULT",
-                                        "beta_talker": "npc"
-                                      },
-                                      "else": {
-                                        "if": {
-                                          "npc_has_flag": "DIGIVICE_BASE"
-                                        },
-                                        "then": {
-                                          "run_eocs": "EOC_DIGIVICE_EVOLVE_TO_ADULT",
-                                          "beta_talker": "npc"
-                                        },
-                                        "else": {
-                                          "u_message": "Unknown pet model, cannot evolve.",
-                                          "type": "bad"
-                                        }
-                                      }
-                                    }
+                                    "u_message": "Unknown pet model, cannot evolve.",
+                                    "type": "bad"
                                   }
                                 }
                               }
+                            }
+                          }
+                        }
+                      }
+                    }
                             }
                           }
                         }

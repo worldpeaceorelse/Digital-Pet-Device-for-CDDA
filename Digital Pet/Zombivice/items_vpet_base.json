@@ -416,7 +416,7 @@
     "name": {
       "str": "digital pet (Blankmon)"
     },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute doll-like monster with no eyes, it's nature calm and elusive.",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a cute doll-like monster with no eyes, its nature calm and elusive.",
     "symbol": "d",
     "color": "white",
     "flags": [
@@ -445,7 +445,7 @@
     "name": {
       "str": "digital pet (Fleshcocoonmon)"
     },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a dead-eyed, flesh-like monster baring it's jagged teeth!",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is a dead-eyed, flesh-like monster baring its jagged teeth!",
     "symbol": "d",
     "color": "dark_gray",
     "flags": [
@@ -590,7 +590,7 @@
     "name": {
       "str": "digital pet (Polypmon)"
     },
-    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an inexplicible monster that is covered with abnormal tissue growth.",
+    "description": "A small electronic toy containing a virtual pet that can be raised and battled. On the screen is an inexplicable monster that is covered with abnormal tissue growth.",
     "symbol": "d",
     "color": "cyan",
     "flags": [

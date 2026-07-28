@@ -179,6 +179,7 @@
                   { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
                   { "math": [ "u_pet_stamina = n_stamina" ] },
                   { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "math": [ "u_pet_weight = n_pet_weight" ] },
                   { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
                   {
                     "set_string_var": "Your monster's attack increased! (ATK: <u_val:pet_atk>)",
@@ -228,6 +229,7 @@
                   { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
                   { "math": [ "u_pet_stamina = n_stamina" ] },
                   { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "math": [ "u_pet_weight = n_pet_weight" ] },
                   { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
                   {
                     "set_string_var": "Your monster's defense increased! (DEF: <u_val:pet_def>)",
@@ -277,6 +279,7 @@
                   { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
                   { "math": [ "u_pet_stamina = n_stamina" ] },
                   { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "math": [ "u_pet_weight = n_pet_weight" ] },
                   { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
                   {
                     "set_string_var": "Your monster's intelligence increased! (INT: <u_val:pet_int>)",
@@ -326,6 +329,7 @@
                   { "math": [ "u_pet_agi = n_pet_agi" ] },
                   { "run_eocs": "EOC_DIGIVICE_UPDATE_STAT_TRACKING" },
                   { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "math": [ "u_pet_weight = n_pet_weight" ] },
                   { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
                   {
                     "set_string_var": "Your monster's agility increased! (AGI: <u_val:pet_agi>)",
@@ -375,6 +379,7 @@
                   { "math": [ "n_stamina = max(n_stamina - 10, 0)" ] },
                   { "math": [ "u_pet_stamina = n_stamina" ] },
                   { "math": [ "n_pet_weight = max(n_pet_weight - 1, 0)" ] },
+                  { "math": [ "u_pet_weight = n_pet_weight" ] },
                   { "run_eocs": "EOC_DIGIVICE_GET_HUNGER_STATUS" },
                   {
                     "set_string_var": "Your monster's luck increased! (LUCK: <u_val:pet_luck>)",
@@ -442,6 +447,11 @@
               {
                 "math": [
                   "n_pet_weight = n_pet_weight + 2"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_weight = n_pet_weight"
                 ]
               },
               {
@@ -621,6 +631,11 @@
               {
                 "math": [
                   "n_pet_weight = max(n_pet_weight - 1, 0)"
+                ]
+              },
+              {
+                "math": [
+                  "u_pet_weight = n_pet_weight"
                 ]
               },
               {
