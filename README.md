@@ -41,6 +41,9 @@ This is the where Data is located at the Refugee Center. The dining area specifi
 ### Followers
 - If you're holding a zPet then an option will appear in the dialogue window with any of your followers where you can ask them to raise your virtual pet for you!
 - Followers will maintain your pet for you and give it back to you once you're ready to care for it again.
+<img width="329" height="118" alt="followerinteractions" src="https://github.com/user-attachments/assets/13be9098-5b7e-4c6f-a1cd-2bc1d35038bc" />
+<img width="1287" height="734" alt="npcinteract2" src="https://github.com/user-attachments/assets/02b5209a-0fc2-4c1a-9c6a-765ae6a38488" />
+  
 - You can give any of your followers their own vPet. They will raise it on their own and battle you with it.
 
 ### Merch & Items
