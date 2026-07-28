@@ -98,7 +98,7 @@
         "S": "t_stairs_down",
         "d": "t_door_c",
         "|": "t_window"
-      },
+      }
       "furniture": {
         "B": "f_bed",
         "C": "f_chair",
