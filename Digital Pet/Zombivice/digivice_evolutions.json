@@ -1519,7 +1519,7 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTOMMON",
+    "id": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTORMON",
     "effect": [
       {
         "u_run_inv_eocs": "random",
@@ -1533,7 +1533,7 @@
         ],
         "true_eocs": [
           {
-            "id": "EOC_DO_RAPTOMMON_TRANSFORM",
+            "id": "EOC_DO_RAPTORMON_TRANSFORM",
             "effect": [
               {
                 "transform_item": "vpetmonster01_shadow_indigo"

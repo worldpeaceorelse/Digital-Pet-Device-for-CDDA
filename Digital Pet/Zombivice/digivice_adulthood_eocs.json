@@ -164,7 +164,7 @@
           "then": {
             "if": { "math": [ "n_pet_weight < 50" ] },
             "then": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_SHRIEKERMON", "beta_talker": "npc" },
-            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTOMMON", "beta_talker": "npc" }
+            "else": { "run_eocs": "EOC_DIGIVICE_EVOLVE_ADULT_RAPTORMON", "beta_talker": "npc" }
           }
         },
         {
