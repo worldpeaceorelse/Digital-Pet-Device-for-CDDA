@@ -1,6 +1,39 @@
 [
   {
     "type": "effect_on_condition",
+    "id": "EOC_DIGIVICE_SET_BABY_COMPENDIUM",
+    "effect": [
+      { "if": { "math": [ "n_egg_code == 1" ] }, "then": { "math": [ "global_comp_baby_sproutmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 2" ] }, "then": { "math": [ "global_comp_baby_crawlermon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 3" ] }, "then": { "math": [ "global_comp_baby_grackenmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 4" ] }, "then": { "math": [ "global_comp_baby_kreckmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 5" ] }, "then": { "math": [ "global_comp_baby_survivormon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 6" ] }, "then": { "math": [ "global_comp_baby_sporemon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 7" ] }, "then": { "math": [ "global_comp_baby_eyemon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 8" ] }, "then": { "math": [ "global_comp_baby_scrapmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 9" ] }, "then": { "math": [ "global_comp_baby_feralmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 10" ] }, "then": { "math": [ "global_comp_baby_microslimemon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 11" ] }, "then": { "math": [ "global_comp_baby_manhackmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 12" ] }, "then": { "math": [ "global_comp_baby_scorchedmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 13" ] }, "then": { "math": [ "global_comp_baby_blankmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 14" ] }, "then": { "math": [ "global_comp_baby_fleshcocoonmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 15" ] }, "then": { "math": [ "global_comp_baby_pulmonarymon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 16" ] }, "then": { "math": [ "global_comp_baby_anklebitermon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 17" ] }, "then": { "math": [ "global_comp_baby_skelemon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 18" ] }, "then": { "math": [ "global_comp_baby_shadowmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 19" ] }, "then": { "math": [ "global_comp_baby_polypmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 20" ] }, "then": { "math": [ "global_comp_baby_crayfishmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 21" ] }, "then": { "math": [ "global_comp_baby_marlossmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 22" ] }, "then": { "math": [ "global_comp_baby_brainlessmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 23" ] }, "then": { "math": [ "global_comp_baby_seweranhamon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 24" ] }, "then": { "math": [ "global_comp_baby_zappermon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 25" ] }, "then": { "math": [ "global_comp_baby_monolithmon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 26" ] }, "then": { "math": [ "global_comp_baby_snotgobblermon = 1" ] } },
+      { "if": { "math": [ "n_egg_code == 27" ] }, "then": { "math": [ "global_comp_baby_larvamon = 1" ] } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
     "id": "EOC_DIGIVICE_BLUE_HATCH",
     "effect": [
       {
@@ -566,7 +599,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -1137,7 +1170,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -1708,7 +1741,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -2279,7 +2312,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -2850,7 +2883,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -3421,7 +3454,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -3992,7 +4025,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -4563,7 +4596,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -5134,7 +5167,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -5705,7 +5738,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -6276,7 +6309,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -6847,7 +6880,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -7418,7 +7451,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -7989,7 +8022,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -8560,7 +8593,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -9131,7 +9164,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -9702,7 +9735,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -10273,7 +10306,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   },
@@ -10844,7 +10877,7 @@
         "type": "good"
       },
       {
-        "run_eocs": "EOC_DIGIVICE_INIT_ITEM"
+        "run_eocs": [ "EOC_DIGIVICE_SET_BABY_COMPENDIUM", "EOC_DIGIVICE_INIT_ITEM" ]
       }
     ]
   }
